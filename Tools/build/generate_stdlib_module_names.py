@@ -56,13 +56,14 @@ def list_builtin_modules(names):
 
 # Pure Python modules (Lib/*.py)
 def list_python_modules(names):
+    # TODO: only top level py files
     for filename in os.listdir(STDLIB_PATH):
         if not filename.endswith(".py"):
             continue
         name = filename.removesuffix(".py")
         names.add(name)
 
-
+# TODO: if you have a namespace package and it only has subpackages in it then it would be missed here
 # Packages in Lib/
 def list_packages(names):
     for name in os.listdir(STDLIB_PATH):
@@ -72,6 +73,7 @@ def list_packages(names):
         if not os.path.isdir(package_path):
             continue
         if any(package_file.endswith(".py")
+               # TODO:if there are any .py files at all in the tree
                for package_file in os.listdir(package_path)):
             names.add(name)
 
@@ -96,6 +98,7 @@ def list_frozen(names):
         else:
             names.add(name)
     # Make sure all frozen submodules have a known parent.
+    # TODO:
     for name in list(submodules):
         if name.partition('.')[0] in names:
             submodules.remove(name)
@@ -105,7 +108,6 @@ def list_frozen(names):
 
 def list_modules():
     names = set()
-
     list_builtin_modules(names)
     list_modules_setup_extensions(names)
     list_packages(names)

@@ -388,6 +388,3376 @@
       <IntFile>$(IntDir)frozen_only.g.h</IntFile>
       <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\frozen_only.h</OutFile>
     </None>
+    <None Include="..\Lib\annotationlib.py">
+      <ModName>annotationlib</ModName>
+      <IntFile>$(IntDir)annotationlib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\annotationlib.h</OutFile>
+    </None>
+    <None Include="..\Lib\antigravity.py">
+      <ModName>antigravity</ModName>
+      <IntFile>$(IntDir)antigravity.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\antigravity.h</OutFile>
+    </None>
+    <None Include="..\Lib\argparse.py">
+      <ModName>argparse</ModName>
+      <IntFile>$(IntDir)argparse.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\argparse.h</OutFile>
+    </None>
+    <None Include="..\Lib\ast.py">
+      <ModName>ast</ModName>
+      <IntFile>$(IntDir)ast.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ast.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\__init__.py">
+      <ModName>asyncio</ModName>
+      <IntFile>$(IntDir)asyncio.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\__main__.py">
+      <ModName>asyncio.__main__</ModName>
+      <IntFile>$(IntDir)asyncio.__main__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.__main__.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\base_events.py">
+      <ModName>asyncio.base_events</ModName>
+      <IntFile>$(IntDir)asyncio.base_events.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.base_events.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\base_futures.py">
+      <ModName>asyncio.base_futures</ModName>
+      <IntFile>$(IntDir)asyncio.base_futures.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.base_futures.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\base_subprocess.py">
+      <ModName>asyncio.base_subprocess</ModName>
+      <IntFile>$(IntDir)asyncio.base_subprocess.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.base_subprocess.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\base_tasks.py">
+      <ModName>asyncio.base_tasks</ModName>
+      <IntFile>$(IntDir)asyncio.base_tasks.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.base_tasks.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\constants.py">
+      <ModName>asyncio.constants</ModName>
+      <IntFile>$(IntDir)asyncio.constants.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.constants.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\coroutines.py">
+      <ModName>asyncio.coroutines</ModName>
+      <IntFile>$(IntDir)asyncio.coroutines.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.coroutines.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\events.py">
+      <ModName>asyncio.events</ModName>
+      <IntFile>$(IntDir)asyncio.events.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.events.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\exceptions.py">
+      <ModName>asyncio.exceptions</ModName>
+      <IntFile>$(IntDir)asyncio.exceptions.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.exceptions.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\format_helpers.py">
+      <ModName>asyncio.format_helpers</ModName>
+      <IntFile>$(IntDir)asyncio.format_helpers.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.format_helpers.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\futures.py">
+      <ModName>asyncio.futures</ModName>
+      <IntFile>$(IntDir)asyncio.futures.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.futures.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\locks.py">
+      <ModName>asyncio.locks</ModName>
+      <IntFile>$(IntDir)asyncio.locks.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.locks.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\log.py">
+      <ModName>asyncio.log</ModName>
+      <IntFile>$(IntDir)asyncio.log.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.log.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\mixins.py">
+      <ModName>asyncio.mixins</ModName>
+      <IntFile>$(IntDir)asyncio.mixins.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.mixins.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\proactor_events.py">
+      <ModName>asyncio.proactor_events</ModName>
+      <IntFile>$(IntDir)asyncio.proactor_events.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.proactor_events.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\protocols.py">
+      <ModName>asyncio.protocols</ModName>
+      <IntFile>$(IntDir)asyncio.protocols.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.protocols.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\queues.py">
+      <ModName>asyncio.queues</ModName>
+      <IntFile>$(IntDir)asyncio.queues.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.queues.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\runners.py">
+      <ModName>asyncio.runners</ModName>
+      <IntFile>$(IntDir)asyncio.runners.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.runners.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\selector_events.py">
+      <ModName>asyncio.selector_events</ModName>
+      <IntFile>$(IntDir)asyncio.selector_events.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.selector_events.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\sslproto.py">
+      <ModName>asyncio.sslproto</ModName>
+      <IntFile>$(IntDir)asyncio.sslproto.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.sslproto.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\staggered.py">
+      <ModName>asyncio.staggered</ModName>
+      <IntFile>$(IntDir)asyncio.staggered.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.staggered.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\streams.py">
+      <ModName>asyncio.streams</ModName>
+      <IntFile>$(IntDir)asyncio.streams.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.streams.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\subprocess.py">
+      <ModName>asyncio.subprocess</ModName>
+      <IntFile>$(IntDir)asyncio.subprocess.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.subprocess.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\taskgroups.py">
+      <ModName>asyncio.taskgroups</ModName>
+      <IntFile>$(IntDir)asyncio.taskgroups.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.taskgroups.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\tasks.py">
+      <ModName>asyncio.tasks</ModName>
+      <IntFile>$(IntDir)asyncio.tasks.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.tasks.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\threads.py">
+      <ModName>asyncio.threads</ModName>
+      <IntFile>$(IntDir)asyncio.threads.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.threads.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\timeouts.py">
+      <ModName>asyncio.timeouts</ModName>
+      <IntFile>$(IntDir)asyncio.timeouts.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.timeouts.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\transports.py">
+      <ModName>asyncio.transports</ModName>
+      <IntFile>$(IntDir)asyncio.transports.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.transports.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\trsock.py">
+      <ModName>asyncio.trsock</ModName>
+      <IntFile>$(IntDir)asyncio.trsock.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.trsock.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\unix_events.py">
+      <ModName>asyncio.unix_events</ModName>
+      <IntFile>$(IntDir)asyncio.unix_events.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.unix_events.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\windows_events.py">
+      <ModName>asyncio.windows_events</ModName>
+      <IntFile>$(IntDir)asyncio.windows_events.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.windows_events.h</OutFile>
+    </None>
+    <None Include="..\Lib\asyncio\windows_utils.py">
+      <ModName>asyncio.windows_utils</ModName>
+      <IntFile>$(IntDir)asyncio.windows_utils.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\asyncio.windows_utils.h</OutFile>
+    </None>
+    <None Include="..\Lib\base64.py">
+      <ModName>base64</ModName>
+      <IntFile>$(IntDir)base64.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\base64.h</OutFile>
+    </None>
+    <None Include="..\Lib\bdb.py">
+      <ModName>bdb</ModName>
+      <IntFile>$(IntDir)bdb.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\bdb.h</OutFile>
+    </None>
+    <None Include="..\Lib\bisect.py">
+      <ModName>bisect</ModName>
+      <IntFile>$(IntDir)bisect.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\bisect.h</OutFile>
+    </None>
+    <None Include="..\Lib\bz2.py">
+      <ModName>bz2</ModName>
+      <IntFile>$(IntDir)bz2.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\bz2.h</OutFile>
+    </None>
+    <None Include="..\Lib\calendar.py">
+      <ModName>calendar</ModName>
+      <IntFile>$(IntDir)calendar.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\calendar.h</OutFile>
+    </None>
+    <None Include="..\Lib\cmd.py">
+      <ModName>cmd</ModName>
+      <IntFile>$(IntDir)cmd.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\cmd.h</OutFile>
+    </None>
+    <None Include="..\Lib\code.py">
+      <ModName>code</ModName>
+      <IntFile>$(IntDir)code.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\code.h</OutFile>
+    </None>
+    <None Include="..\Lib\codeop.py">
+      <ModName>codeop</ModName>
+      <IntFile>$(IntDir)codeop.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\codeop.h</OutFile>
+    </None>
+    <None Include="..\Lib\collections\__init__.py">
+      <ModName>collections</ModName>
+      <IntFile>$(IntDir)collections.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\collections.h</OutFile>
+    </None>
+    <None Include="..\Lib\collections\abc.py">
+      <ModName>collections.abc</ModName>
+      <IntFile>$(IntDir)collections.abc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\collections.abc.h</OutFile>
+    </None>
+    <None Include="..\Lib\colorsys.py">
+      <ModName>colorsys</ModName>
+      <IntFile>$(IntDir)colorsys.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\colorsys.h</OutFile>
+    </None>
+    <None Include="..\Lib\compileall.py">
+      <ModName>compileall</ModName>
+      <IntFile>$(IntDir)compileall.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\compileall.h</OutFile>
+    </None>
+    <None Include="..\Lib\concurrent\__init__.py">
+      <ModName>concurrent</ModName>
+      <IntFile>$(IntDir)concurrent.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\concurrent.h</OutFile>
+    </None>
+    <None Include="..\Lib\concurrent\futures\__init__.py">
+      <ModName>concurrent.futures</ModName>
+      <IntFile>$(IntDir)concurrent.futures.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\concurrent.futures.h</OutFile>
+    </None>
+    <None Include="..\Lib\concurrent\futures\_base.py">
+      <ModName>concurrent.futures._base</ModName>
+      <IntFile>$(IntDir)concurrent.futures._base.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\concurrent.futures._base.h</OutFile>
+    </None>
+    <None Include="..\Lib\concurrent\futures\process.py">
+      <ModName>concurrent.futures.process</ModName>
+      <IntFile>$(IntDir)concurrent.futures.process.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\concurrent.futures.process.h</OutFile>
+    </None>
+    <None Include="..\Lib\concurrent\futures\thread.py">
+      <ModName>concurrent.futures.thread</ModName>
+      <IntFile>$(IntDir)concurrent.futures.thread.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\concurrent.futures.thread.h</OutFile>
+    </None>
+    <None Include="..\Lib\configparser.py">
+      <ModName>configparser</ModName>
+      <IntFile>$(IntDir)configparser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\configparser.h</OutFile>
+    </None>
+    <None Include="..\Lib\contextlib.py">
+      <ModName>contextlib</ModName>
+      <IntFile>$(IntDir)contextlib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\contextlib.h</OutFile>
+    </None>
+    <None Include="..\Lib\contextvars.py">
+      <ModName>contextvars</ModName>
+      <IntFile>$(IntDir)contextvars.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\contextvars.h</OutFile>
+    </None>
+    <None Include="..\Lib\copy.py">
+      <ModName>copy</ModName>
+      <IntFile>$(IntDir)copy.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\copy.h</OutFile>
+    </None>
+    <None Include="..\Lib\copyreg.py">
+      <ModName>copyreg</ModName>
+      <IntFile>$(IntDir)copyreg.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\copyreg.h</OutFile>
+    </None>
+    <None Include="..\Lib\cProfile.py">
+      <ModName>cProfile</ModName>
+      <IntFile>$(IntDir)cProfile.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\cProfile.h</OutFile>
+    </None>
+    <None Include="..\Lib\csv.py">
+      <ModName>csv</ModName>
+      <IntFile>$(IntDir)csv.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\csv.h</OutFile>
+    </None>
+    <None Include="..\Lib\ctypes\__init__.py">
+      <ModName>ctypes</ModName>
+      <IntFile>$(IntDir)ctypes.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ctypes.h</OutFile>
+    </None>
+    <None Include="..\Lib\ctypes\_aix.py">
+      <ModName>ctypes._aix</ModName>
+      <IntFile>$(IntDir)ctypes._aix.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ctypes._aix.h</OutFile>
+    </None>
+    <None Include="..\Lib\ctypes\_endian.py">
+      <ModName>ctypes._endian</ModName>
+      <IntFile>$(IntDir)ctypes._endian.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ctypes._endian.h</OutFile>
+    </None>
+    <None Include="..\Lib\ctypes\macholib\__init__.py">
+      <ModName>ctypes.macholib</ModName>
+      <IntFile>$(IntDir)ctypes.macholib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ctypes.macholib.h</OutFile>
+    </None>
+    <None Include="..\Lib\ctypes\macholib\dyld.py">
+      <ModName>ctypes.macholib.dyld</ModName>
+      <IntFile>$(IntDir)ctypes.macholib.dyld.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ctypes.macholib.dyld.h</OutFile>
+    </None>
+    <None Include="..\Lib\ctypes\macholib\dylib.py">
+      <ModName>ctypes.macholib.dylib</ModName>
+      <IntFile>$(IntDir)ctypes.macholib.dylib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ctypes.macholib.dylib.h</OutFile>
+    </None>
+    <None Include="..\Lib\ctypes\macholib\framework.py">
+      <ModName>ctypes.macholib.framework</ModName>
+      <IntFile>$(IntDir)ctypes.macholib.framework.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ctypes.macholib.framework.h</OutFile>
+    </None>
+    <None Include="..\Lib\ctypes\util.py">
+      <ModName>ctypes.util</ModName>
+      <IntFile>$(IntDir)ctypes.util.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ctypes.util.h</OutFile>
+    </None>
+    <None Include="..\Lib\ctypes\wintypes.py">
+      <ModName>ctypes.wintypes</ModName>
+      <IntFile>$(IntDir)ctypes.wintypes.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ctypes.wintypes.h</OutFile>
+    </None>
+    <None Include="..\Lib\curses\__init__.py">
+      <ModName>curses</ModName>
+      <IntFile>$(IntDir)curses.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\curses.h</OutFile>
+    </None>
+    <None Include="..\Lib\curses\ascii.py">
+      <ModName>curses.ascii</ModName>
+      <IntFile>$(IntDir)curses.ascii.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\curses.ascii.h</OutFile>
+    </None>
+    <None Include="..\Lib\curses\has_key.py">
+      <ModName>curses.has_key</ModName>
+      <IntFile>$(IntDir)curses.has_key.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\curses.has_key.h</OutFile>
+    </None>
+    <None Include="..\Lib\curses\panel.py">
+      <ModName>curses.panel</ModName>
+      <IntFile>$(IntDir)curses.panel.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\curses.panel.h</OutFile>
+    </None>
+    <None Include="..\Lib\curses\textpad.py">
+      <ModName>curses.textpad</ModName>
+      <IntFile>$(IntDir)curses.textpad.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\curses.textpad.h</OutFile>
+    </None>
+    <None Include="..\Lib\dataclasses.py">
+      <ModName>dataclasses</ModName>
+      <IntFile>$(IntDir)dataclasses.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\dataclasses.h</OutFile>
+    </None>
+    <None Include="..\Lib\datetime.py">
+      <ModName>datetime</ModName>
+      <IntFile>$(IntDir)datetime.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\datetime.h</OutFile>
+    </None>
+    <None Include="..\Lib\dbm\__init__.py">
+      <ModName>dbm</ModName>
+      <IntFile>$(IntDir)dbm.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\dbm.h</OutFile>
+    </None>
+    <None Include="..\Lib\dbm\dumb.py">
+      <ModName>dbm.dumb</ModName>
+      <IntFile>$(IntDir)dbm.dumb.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\dbm.dumb.h</OutFile>
+    </None>
+    <None Include="..\Lib\dbm\gnu.py">
+      <ModName>dbm.gnu</ModName>
+      <IntFile>$(IntDir)dbm.gnu.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\dbm.gnu.h</OutFile>
+    </None>
+    <None Include="..\Lib\dbm\ndbm.py">
+      <ModName>dbm.ndbm</ModName>
+      <IntFile>$(IntDir)dbm.ndbm.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\dbm.ndbm.h</OutFile>
+    </None>
+    <None Include="..\Lib\dbm\sqlite3.py">
+      <ModName>dbm.sqlite3</ModName>
+      <IntFile>$(IntDir)dbm.sqlite3.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\dbm.sqlite3.h</OutFile>
+    </None>
+    <None Include="..\Lib\decimal.py">
+      <ModName>decimal</ModName>
+      <IntFile>$(IntDir)decimal.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\decimal.h</OutFile>
+    </None>
+    <None Include="..\Lib\difflib.py">
+      <ModName>difflib</ModName>
+      <IntFile>$(IntDir)difflib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\difflib.h</OutFile>
+    </None>
+    <None Include="..\Lib\dis.py">
+      <ModName>dis</ModName>
+      <IntFile>$(IntDir)dis.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\dis.h</OutFile>
+    </None>
+    <None Include="..\Lib\doctest.py">
+      <ModName>doctest</ModName>
+      <IntFile>$(IntDir)doctest.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\doctest.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\__init__.py">
+      <ModName>email</ModName>
+      <IntFile>$(IntDir)email.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\_encoded_words.py">
+      <ModName>email._encoded_words</ModName>
+      <IntFile>$(IntDir)email._encoded_words.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email._encoded_words.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\_header_value_parser.py">
+      <ModName>email._header_value_parser</ModName>
+      <IntFile>$(IntDir)email._header_value_parser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email._header_value_parser.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\_parseaddr.py">
+      <ModName>email._parseaddr</ModName>
+      <IntFile>$(IntDir)email._parseaddr.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email._parseaddr.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\_policybase.py">
+      <ModName>email._policybase</ModName>
+      <IntFile>$(IntDir)email._policybase.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email._policybase.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\base64mime.py">
+      <ModName>email.base64mime</ModName>
+      <IntFile>$(IntDir)email.base64mime.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.base64mime.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\charset.py">
+      <ModName>email.charset</ModName>
+      <IntFile>$(IntDir)email.charset.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.charset.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\contentmanager.py">
+      <ModName>email.contentmanager</ModName>
+      <IntFile>$(IntDir)email.contentmanager.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.contentmanager.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\encoders.py">
+      <ModName>email.encoders</ModName>
+      <IntFile>$(IntDir)email.encoders.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.encoders.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\errors.py">
+      <ModName>email.errors</ModName>
+      <IntFile>$(IntDir)email.errors.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.errors.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\feedparser.py">
+      <ModName>email.feedparser</ModName>
+      <IntFile>$(IntDir)email.feedparser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.feedparser.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\generator.py">
+      <ModName>email.generator</ModName>
+      <IntFile>$(IntDir)email.generator.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.generator.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\header.py">
+      <ModName>email.header</ModName>
+      <IntFile>$(IntDir)email.header.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.header.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\headerregistry.py">
+      <ModName>email.headerregistry</ModName>
+      <IntFile>$(IntDir)email.headerregistry.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.headerregistry.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\iterators.py">
+      <ModName>email.iterators</ModName>
+      <IntFile>$(IntDir)email.iterators.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.iterators.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\message.py">
+      <ModName>email.message</ModName>
+      <IntFile>$(IntDir)email.message.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.message.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\mime\__init__.py">
+      <ModName>email.mime</ModName>
+      <IntFile>$(IntDir)email.mime.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.mime.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\mime\application.py">
+      <ModName>email.mime.application</ModName>
+      <IntFile>$(IntDir)email.mime.application.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.mime.application.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\mime\audio.py">
+      <ModName>email.mime.audio</ModName>
+      <IntFile>$(IntDir)email.mime.audio.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.mime.audio.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\mime\base.py">
+      <ModName>email.mime.base</ModName>
+      <IntFile>$(IntDir)email.mime.base.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.mime.base.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\mime\image.py">
+      <ModName>email.mime.image</ModName>
+      <IntFile>$(IntDir)email.mime.image.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.mime.image.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\mime\message.py">
+      <ModName>email.mime.message</ModName>
+      <IntFile>$(IntDir)email.mime.message.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.mime.message.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\mime\multipart.py">
+      <ModName>email.mime.multipart</ModName>
+      <IntFile>$(IntDir)email.mime.multipart.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.mime.multipart.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\mime\nonmultipart.py">
+      <ModName>email.mime.nonmultipart</ModName>
+      <IntFile>$(IntDir)email.mime.nonmultipart.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.mime.nonmultipart.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\mime\text.py">
+      <ModName>email.mime.text</ModName>
+      <IntFile>$(IntDir)email.mime.text.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.mime.text.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\parser.py">
+      <ModName>email.parser</ModName>
+      <IntFile>$(IntDir)email.parser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.parser.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\policy.py">
+      <ModName>email.policy</ModName>
+      <IntFile>$(IntDir)email.policy.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.policy.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\quoprimime.py">
+      <ModName>email.quoprimime</ModName>
+      <IntFile>$(IntDir)email.quoprimime.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.quoprimime.h</OutFile>
+    </None>
+    <None Include="..\Lib\email\utils.py">
+      <ModName>email.utils</ModName>
+      <IntFile>$(IntDir)email.utils.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\email.utils.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\__init__.py">
+      <ModName>encodings</ModName>
+      <IntFile>$(IntDir)encodings.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\aliases.py">
+      <ModName>encodings.aliases</ModName>
+      <IntFile>$(IntDir)encodings.aliases.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.aliases.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\ascii.py">
+      <ModName>encodings.ascii</ModName>
+      <IntFile>$(IntDir)encodings.ascii.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.ascii.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\base64_codec.py">
+      <ModName>encodings.base64_codec</ModName>
+      <IntFile>$(IntDir)encodings.base64_codec.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.base64_codec.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\big5.py">
+      <ModName>encodings.big5</ModName>
+      <IntFile>$(IntDir)encodings.big5.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.big5.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\big5hkscs.py">
+      <ModName>encodings.big5hkscs</ModName>
+      <IntFile>$(IntDir)encodings.big5hkscs.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.big5hkscs.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\bz2_codec.py">
+      <ModName>encodings.bz2_codec</ModName>
+      <IntFile>$(IntDir)encodings.bz2_codec.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.bz2_codec.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\charmap.py">
+      <ModName>encodings.charmap</ModName>
+      <IntFile>$(IntDir)encodings.charmap.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.charmap.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp037.py">
+      <ModName>encodings.cp037</ModName>
+      <IntFile>$(IntDir)encodings.cp037.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp037.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1006.py">
+      <ModName>encodings.cp1006</ModName>
+      <IntFile>$(IntDir)encodings.cp1006.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1006.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1026.py">
+      <ModName>encodings.cp1026</ModName>
+      <IntFile>$(IntDir)encodings.cp1026.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1026.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1125.py">
+      <ModName>encodings.cp1125</ModName>
+      <IntFile>$(IntDir)encodings.cp1125.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1125.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1140.py">
+      <ModName>encodings.cp1140</ModName>
+      <IntFile>$(IntDir)encodings.cp1140.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1140.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1250.py">
+      <ModName>encodings.cp1250</ModName>
+      <IntFile>$(IntDir)encodings.cp1250.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1250.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1251.py">
+      <ModName>encodings.cp1251</ModName>
+      <IntFile>$(IntDir)encodings.cp1251.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1251.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1252.py">
+      <ModName>encodings.cp1252</ModName>
+      <IntFile>$(IntDir)encodings.cp1252.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1252.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1253.py">
+      <ModName>encodings.cp1253</ModName>
+      <IntFile>$(IntDir)encodings.cp1253.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1253.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1254.py">
+      <ModName>encodings.cp1254</ModName>
+      <IntFile>$(IntDir)encodings.cp1254.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1254.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1255.py">
+      <ModName>encodings.cp1255</ModName>
+      <IntFile>$(IntDir)encodings.cp1255.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1255.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1256.py">
+      <ModName>encodings.cp1256</ModName>
+      <IntFile>$(IntDir)encodings.cp1256.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1256.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1257.py">
+      <ModName>encodings.cp1257</ModName>
+      <IntFile>$(IntDir)encodings.cp1257.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1257.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp1258.py">
+      <ModName>encodings.cp1258</ModName>
+      <IntFile>$(IntDir)encodings.cp1258.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp1258.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp273.py">
+      <ModName>encodings.cp273</ModName>
+      <IntFile>$(IntDir)encodings.cp273.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp273.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp424.py">
+      <ModName>encodings.cp424</ModName>
+      <IntFile>$(IntDir)encodings.cp424.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp424.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp437.py">
+      <ModName>encodings.cp437</ModName>
+      <IntFile>$(IntDir)encodings.cp437.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp437.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp500.py">
+      <ModName>encodings.cp500</ModName>
+      <IntFile>$(IntDir)encodings.cp500.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp500.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp720.py">
+      <ModName>encodings.cp720</ModName>
+      <IntFile>$(IntDir)encodings.cp720.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp720.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp737.py">
+      <ModName>encodings.cp737</ModName>
+      <IntFile>$(IntDir)encodings.cp737.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp737.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp775.py">
+      <ModName>encodings.cp775</ModName>
+      <IntFile>$(IntDir)encodings.cp775.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp775.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp850.py">
+      <ModName>encodings.cp850</ModName>
+      <IntFile>$(IntDir)encodings.cp850.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp850.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp852.py">
+      <ModName>encodings.cp852</ModName>
+      <IntFile>$(IntDir)encodings.cp852.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp852.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp855.py">
+      <ModName>encodings.cp855</ModName>
+      <IntFile>$(IntDir)encodings.cp855.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp855.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp856.py">
+      <ModName>encodings.cp856</ModName>
+      <IntFile>$(IntDir)encodings.cp856.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp856.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp857.py">
+      <ModName>encodings.cp857</ModName>
+      <IntFile>$(IntDir)encodings.cp857.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp857.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp858.py">
+      <ModName>encodings.cp858</ModName>
+      <IntFile>$(IntDir)encodings.cp858.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp858.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp860.py">
+      <ModName>encodings.cp860</ModName>
+      <IntFile>$(IntDir)encodings.cp860.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp860.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp861.py">
+      <ModName>encodings.cp861</ModName>
+      <IntFile>$(IntDir)encodings.cp861.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp861.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp862.py">
+      <ModName>encodings.cp862</ModName>
+      <IntFile>$(IntDir)encodings.cp862.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp862.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp863.py">
+      <ModName>encodings.cp863</ModName>
+      <IntFile>$(IntDir)encodings.cp863.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp863.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp864.py">
+      <ModName>encodings.cp864</ModName>
+      <IntFile>$(IntDir)encodings.cp864.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp864.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp865.py">
+      <ModName>encodings.cp865</ModName>
+      <IntFile>$(IntDir)encodings.cp865.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp865.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp866.py">
+      <ModName>encodings.cp866</ModName>
+      <IntFile>$(IntDir)encodings.cp866.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp866.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp869.py">
+      <ModName>encodings.cp869</ModName>
+      <IntFile>$(IntDir)encodings.cp869.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp869.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp874.py">
+      <ModName>encodings.cp874</ModName>
+      <IntFile>$(IntDir)encodings.cp874.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp874.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp875.py">
+      <ModName>encodings.cp875</ModName>
+      <IntFile>$(IntDir)encodings.cp875.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp875.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp932.py">
+      <ModName>encodings.cp932</ModName>
+      <IntFile>$(IntDir)encodings.cp932.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp932.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp949.py">
+      <ModName>encodings.cp949</ModName>
+      <IntFile>$(IntDir)encodings.cp949.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp949.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\cp950.py">
+      <ModName>encodings.cp950</ModName>
+      <IntFile>$(IntDir)encodings.cp950.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.cp950.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\euc_jis_2004.py">
+      <ModName>encodings.euc_jis_2004</ModName>
+      <IntFile>$(IntDir)encodings.euc_jis_2004.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.euc_jis_2004.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\euc_jisx0213.py">
+      <ModName>encodings.euc_jisx0213</ModName>
+      <IntFile>$(IntDir)encodings.euc_jisx0213.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.euc_jisx0213.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\euc_jp.py">
+      <ModName>encodings.euc_jp</ModName>
+      <IntFile>$(IntDir)encodings.euc_jp.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.euc_jp.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\euc_kr.py">
+      <ModName>encodings.euc_kr</ModName>
+      <IntFile>$(IntDir)encodings.euc_kr.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.euc_kr.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\gb18030.py">
+      <ModName>encodings.gb18030</ModName>
+      <IntFile>$(IntDir)encodings.gb18030.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.gb18030.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\gb2312.py">
+      <ModName>encodings.gb2312</ModName>
+      <IntFile>$(IntDir)encodings.gb2312.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.gb2312.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\gbk.py">
+      <ModName>encodings.gbk</ModName>
+      <IntFile>$(IntDir)encodings.gbk.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.gbk.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\hex_codec.py">
+      <ModName>encodings.hex_codec</ModName>
+      <IntFile>$(IntDir)encodings.hex_codec.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.hex_codec.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\hp_roman8.py">
+      <ModName>encodings.hp_roman8</ModName>
+      <IntFile>$(IntDir)encodings.hp_roman8.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.hp_roman8.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\hz.py">
+      <ModName>encodings.hz</ModName>
+      <IntFile>$(IntDir)encodings.hz.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.hz.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\idna.py">
+      <ModName>encodings.idna</ModName>
+      <IntFile>$(IntDir)encodings.idna.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.idna.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso2022_jp.py">
+      <ModName>encodings.iso2022_jp</ModName>
+      <IntFile>$(IntDir)encodings.iso2022_jp.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso2022_jp.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso2022_jp_1.py">
+      <ModName>encodings.iso2022_jp_1</ModName>
+      <IntFile>$(IntDir)encodings.iso2022_jp_1.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso2022_jp_1.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso2022_jp_2.py">
+      <ModName>encodings.iso2022_jp_2</ModName>
+      <IntFile>$(IntDir)encodings.iso2022_jp_2.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso2022_jp_2.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso2022_jp_2004.py">
+      <ModName>encodings.iso2022_jp_2004</ModName>
+      <IntFile>$(IntDir)encodings.iso2022_jp_2004.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso2022_jp_2004.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso2022_jp_3.py">
+      <ModName>encodings.iso2022_jp_3</ModName>
+      <IntFile>$(IntDir)encodings.iso2022_jp_3.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso2022_jp_3.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso2022_jp_ext.py">
+      <ModName>encodings.iso2022_jp_ext</ModName>
+      <IntFile>$(IntDir)encodings.iso2022_jp_ext.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso2022_jp_ext.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso2022_kr.py">
+      <ModName>encodings.iso2022_kr</ModName>
+      <IntFile>$(IntDir)encodings.iso2022_kr.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso2022_kr.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_1.py">
+      <ModName>encodings.iso8859_1</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_1.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_1.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_10.py">
+      <ModName>encodings.iso8859_10</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_10.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_10.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_11.py">
+      <ModName>encodings.iso8859_11</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_11.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_11.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_13.py">
+      <ModName>encodings.iso8859_13</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_13.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_13.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_14.py">
+      <ModName>encodings.iso8859_14</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_14.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_14.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_15.py">
+      <ModName>encodings.iso8859_15</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_15.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_15.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_16.py">
+      <ModName>encodings.iso8859_16</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_16.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_16.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_2.py">
+      <ModName>encodings.iso8859_2</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_2.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_2.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_3.py">
+      <ModName>encodings.iso8859_3</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_3.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_3.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_4.py">
+      <ModName>encodings.iso8859_4</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_4.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_4.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_5.py">
+      <ModName>encodings.iso8859_5</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_5.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_5.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_6.py">
+      <ModName>encodings.iso8859_6</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_6.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_6.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_7.py">
+      <ModName>encodings.iso8859_7</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_7.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_7.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_8.py">
+      <ModName>encodings.iso8859_8</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_8.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_8.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\iso8859_9.py">
+      <ModName>encodings.iso8859_9</ModName>
+      <IntFile>$(IntDir)encodings.iso8859_9.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.iso8859_9.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\johab.py">
+      <ModName>encodings.johab</ModName>
+      <IntFile>$(IntDir)encodings.johab.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.johab.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\koi8_r.py">
+      <ModName>encodings.koi8_r</ModName>
+      <IntFile>$(IntDir)encodings.koi8_r.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.koi8_r.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\koi8_t.py">
+      <ModName>encodings.koi8_t</ModName>
+      <IntFile>$(IntDir)encodings.koi8_t.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.koi8_t.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\koi8_u.py">
+      <ModName>encodings.koi8_u</ModName>
+      <IntFile>$(IntDir)encodings.koi8_u.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.koi8_u.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\kz1048.py">
+      <ModName>encodings.kz1048</ModName>
+      <IntFile>$(IntDir)encodings.kz1048.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.kz1048.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\latin_1.py">
+      <ModName>encodings.latin_1</ModName>
+      <IntFile>$(IntDir)encodings.latin_1.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.latin_1.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\mac_arabic.py">
+      <ModName>encodings.mac_arabic</ModName>
+      <IntFile>$(IntDir)encodings.mac_arabic.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.mac_arabic.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\mac_croatian.py">
+      <ModName>encodings.mac_croatian</ModName>
+      <IntFile>$(IntDir)encodings.mac_croatian.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.mac_croatian.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\mac_cyrillic.py">
+      <ModName>encodings.mac_cyrillic</ModName>
+      <IntFile>$(IntDir)encodings.mac_cyrillic.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.mac_cyrillic.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\mac_farsi.py">
+      <ModName>encodings.mac_farsi</ModName>
+      <IntFile>$(IntDir)encodings.mac_farsi.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.mac_farsi.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\mac_greek.py">
+      <ModName>encodings.mac_greek</ModName>
+      <IntFile>$(IntDir)encodings.mac_greek.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.mac_greek.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\mac_iceland.py">
+      <ModName>encodings.mac_iceland</ModName>
+      <IntFile>$(IntDir)encodings.mac_iceland.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.mac_iceland.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\mac_latin2.py">
+      <ModName>encodings.mac_latin2</ModName>
+      <IntFile>$(IntDir)encodings.mac_latin2.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.mac_latin2.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\mac_roman.py">
+      <ModName>encodings.mac_roman</ModName>
+      <IntFile>$(IntDir)encodings.mac_roman.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.mac_roman.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\mac_romanian.py">
+      <ModName>encodings.mac_romanian</ModName>
+      <IntFile>$(IntDir)encodings.mac_romanian.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.mac_romanian.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\mac_turkish.py">
+      <ModName>encodings.mac_turkish</ModName>
+      <IntFile>$(IntDir)encodings.mac_turkish.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.mac_turkish.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\mbcs.py">
+      <ModName>encodings.mbcs</ModName>
+      <IntFile>$(IntDir)encodings.mbcs.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.mbcs.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\oem.py">
+      <ModName>encodings.oem</ModName>
+      <IntFile>$(IntDir)encodings.oem.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.oem.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\palmos.py">
+      <ModName>encodings.palmos</ModName>
+      <IntFile>$(IntDir)encodings.palmos.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.palmos.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\ptcp154.py">
+      <ModName>encodings.ptcp154</ModName>
+      <IntFile>$(IntDir)encodings.ptcp154.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.ptcp154.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\punycode.py">
+      <ModName>encodings.punycode</ModName>
+      <IntFile>$(IntDir)encodings.punycode.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.punycode.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\quopri_codec.py">
+      <ModName>encodings.quopri_codec</ModName>
+      <IntFile>$(IntDir)encodings.quopri_codec.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.quopri_codec.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\raw_unicode_escape.py">
+      <ModName>encodings.raw_unicode_escape</ModName>
+      <IntFile>$(IntDir)encodings.raw_unicode_escape.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.raw_unicode_escape.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\rot_13.py">
+      <ModName>encodings.rot_13</ModName>
+      <IntFile>$(IntDir)encodings.rot_13.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.rot_13.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\shift_jis.py">
+      <ModName>encodings.shift_jis</ModName>
+      <IntFile>$(IntDir)encodings.shift_jis.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.shift_jis.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\shift_jis_2004.py">
+      <ModName>encodings.shift_jis_2004</ModName>
+      <IntFile>$(IntDir)encodings.shift_jis_2004.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.shift_jis_2004.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\shift_jisx0213.py">
+      <ModName>encodings.shift_jisx0213</ModName>
+      <IntFile>$(IntDir)encodings.shift_jisx0213.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.shift_jisx0213.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\tis_620.py">
+      <ModName>encodings.tis_620</ModName>
+      <IntFile>$(IntDir)encodings.tis_620.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.tis_620.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\undefined.py">
+      <ModName>encodings.undefined</ModName>
+      <IntFile>$(IntDir)encodings.undefined.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.undefined.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\unicode_escape.py">
+      <ModName>encodings.unicode_escape</ModName>
+      <IntFile>$(IntDir)encodings.unicode_escape.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.unicode_escape.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\utf_16.py">
+      <ModName>encodings.utf_16</ModName>
+      <IntFile>$(IntDir)encodings.utf_16.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.utf_16.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\utf_16_be.py">
+      <ModName>encodings.utf_16_be</ModName>
+      <IntFile>$(IntDir)encodings.utf_16_be.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.utf_16_be.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\utf_16_le.py">
+      <ModName>encodings.utf_16_le</ModName>
+      <IntFile>$(IntDir)encodings.utf_16_le.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.utf_16_le.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\utf_32.py">
+      <ModName>encodings.utf_32</ModName>
+      <IntFile>$(IntDir)encodings.utf_32.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.utf_32.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\utf_32_be.py">
+      <ModName>encodings.utf_32_be</ModName>
+      <IntFile>$(IntDir)encodings.utf_32_be.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.utf_32_be.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\utf_32_le.py">
+      <ModName>encodings.utf_32_le</ModName>
+      <IntFile>$(IntDir)encodings.utf_32_le.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.utf_32_le.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\utf_7.py">
+      <ModName>encodings.utf_7</ModName>
+      <IntFile>$(IntDir)encodings.utf_7.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.utf_7.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\utf_8.py">
+      <ModName>encodings.utf_8</ModName>
+      <IntFile>$(IntDir)encodings.utf_8.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.utf_8.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\utf_8_sig.py">
+      <ModName>encodings.utf_8_sig</ModName>
+      <IntFile>$(IntDir)encodings.utf_8_sig.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.utf_8_sig.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\uu_codec.py">
+      <ModName>encodings.uu_codec</ModName>
+      <IntFile>$(IntDir)encodings.uu_codec.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.uu_codec.h</OutFile>
+    </None>
+    <None Include="..\Lib\encodings\zlib_codec.py">
+      <ModName>encodings.zlib_codec</ModName>
+      <IntFile>$(IntDir)encodings.zlib_codec.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\encodings.zlib_codec.h</OutFile>
+    </None>
+    <None Include="..\Lib\ensurepip\__init__.py">
+      <ModName>ensurepip</ModName>
+      <IntFile>$(IntDir)ensurepip.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ensurepip.h</OutFile>
+    </None>
+    <None Include="..\Lib\ensurepip\__main__.py">
+      <ModName>ensurepip.__main__</ModName>
+      <IntFile>$(IntDir)ensurepip.__main__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ensurepip.__main__.h</OutFile>
+    </None>
+    <None Include="..\Lib\ensurepip\_uninstall.py">
+      <ModName>ensurepip._uninstall</ModName>
+      <IntFile>$(IntDir)ensurepip._uninstall.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ensurepip._uninstall.h</OutFile>
+    </None>
+    <None Include="..\Lib\enum.py">
+      <ModName>enum</ModName>
+      <IntFile>$(IntDir)enum.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\enum.h</OutFile>
+    </None>
+    <None Include="..\Lib\filecmp.py">
+      <ModName>filecmp</ModName>
+      <IntFile>$(IntDir)filecmp.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\filecmp.h</OutFile>
+    </None>
+    <None Include="..\Lib\fileinput.py">
+      <ModName>fileinput</ModName>
+      <IntFile>$(IntDir)fileinput.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\fileinput.h</OutFile>
+    </None>
+    <None Include="..\Lib\fnmatch.py">
+      <ModName>fnmatch</ModName>
+      <IntFile>$(IntDir)fnmatch.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\fnmatch.h</OutFile>
+    </None>
+    <None Include="..\Lib\fractions.py">
+      <ModName>fractions</ModName>
+      <IntFile>$(IntDir)fractions.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\fractions.h</OutFile>
+    </None>
+    <None Include="..\Lib\ftplib.py">
+      <ModName>ftplib</ModName>
+      <IntFile>$(IntDir)ftplib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ftplib.h</OutFile>
+    </None>
+    <None Include="..\Lib\functools.py">
+      <ModName>functools</ModName>
+      <IntFile>$(IntDir)functools.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\functools.h</OutFile>
+    </None>
+    <None Include="..\Lib\getopt.py">
+      <ModName>getopt</ModName>
+      <IntFile>$(IntDir)getopt.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\getopt.h</OutFile>
+    </None>
+    <None Include="..\Lib\getpass.py">
+      <ModName>getpass</ModName>
+      <IntFile>$(IntDir)getpass.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\getpass.h</OutFile>
+    </None>
+    <None Include="..\Lib\gettext.py">
+      <ModName>gettext</ModName>
+      <IntFile>$(IntDir)gettext.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\gettext.h</OutFile>
+    </None>
+    <None Include="..\Lib\glob.py">
+      <ModName>glob</ModName>
+      <IntFile>$(IntDir)glob.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\glob.h</OutFile>
+    </None>
+    <None Include="..\Lib\graphlib.py">
+      <ModName>graphlib</ModName>
+      <IntFile>$(IntDir)graphlib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\graphlib.h</OutFile>
+    </None>
+    <None Include="..\Lib\gzip.py">
+      <ModName>gzip</ModName>
+      <IntFile>$(IntDir)gzip.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\gzip.h</OutFile>
+    </None>
+    <None Include="..\Lib\hashlib.py">
+      <ModName>hashlib</ModName>
+      <IntFile>$(IntDir)hashlib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\hashlib.h</OutFile>
+    </None>
+    <None Include="..\Lib\heapq.py">
+      <ModName>heapq</ModName>
+      <IntFile>$(IntDir)heapq.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\heapq.h</OutFile>
+    </None>
+    <None Include="..\Lib\hmac.py">
+      <ModName>hmac</ModName>
+      <IntFile>$(IntDir)hmac.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\hmac.h</OutFile>
+    </None>
+    <None Include="..\Lib\html\__init__.py">
+      <ModName>html</ModName>
+      <IntFile>$(IntDir)html.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\html.h</OutFile>
+    </None>
+    <None Include="..\Lib\html\entities.py">
+      <ModName>html.entities</ModName>
+      <IntFile>$(IntDir)html.entities.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\html.entities.h</OutFile>
+    </None>
+    <None Include="..\Lib\html\parser.py">
+      <ModName>html.parser</ModName>
+      <IntFile>$(IntDir)html.parser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\html.parser.h</OutFile>
+    </None>
+    <None Include="..\Lib\http\__init__.py">
+      <ModName>http</ModName>
+      <IntFile>$(IntDir)http.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\http.h</OutFile>
+    </None>
+    <None Include="..\Lib\http\client.py">
+      <ModName>http.client</ModName>
+      <IntFile>$(IntDir)http.client.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\http.client.h</OutFile>
+    </None>
+    <None Include="..\Lib\http\cookiejar.py">
+      <ModName>http.cookiejar</ModName>
+      <IntFile>$(IntDir)http.cookiejar.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\http.cookiejar.h</OutFile>
+    </None>
+    <None Include="..\Lib\http\cookies.py">
+      <ModName>http.cookies</ModName>
+      <IntFile>$(IntDir)http.cookies.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\http.cookies.h</OutFile>
+    </None>
+    <None Include="..\Lib\http\server.py">
+      <ModName>http.server</ModName>
+      <IntFile>$(IntDir)http.server.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\http.server.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\__init__.py">
+      <ModName>idlelib</ModName>
+      <IntFile>$(IntDir)idlelib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\__main__.py">
+      <ModName>idlelib.__main__</ModName>
+      <IntFile>$(IntDir)idlelib.__main__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.__main__.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\autocomplete.py">
+      <ModName>idlelib.autocomplete</ModName>
+      <IntFile>$(IntDir)idlelib.autocomplete.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.autocomplete.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\autocomplete_w.py">
+      <ModName>idlelib.autocomplete_w</ModName>
+      <IntFile>$(IntDir)idlelib.autocomplete_w.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.autocomplete_w.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\autoexpand.py">
+      <ModName>idlelib.autoexpand</ModName>
+      <IntFile>$(IntDir)idlelib.autoexpand.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.autoexpand.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\browser.py">
+      <ModName>idlelib.browser</ModName>
+      <IntFile>$(IntDir)idlelib.browser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.browser.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\calltip.py">
+      <ModName>idlelib.calltip</ModName>
+      <IntFile>$(IntDir)idlelib.calltip.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.calltip.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\calltip_w.py">
+      <ModName>idlelib.calltip_w</ModName>
+      <IntFile>$(IntDir)idlelib.calltip_w.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.calltip_w.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\codecontext.py">
+      <ModName>idlelib.codecontext</ModName>
+      <IntFile>$(IntDir)idlelib.codecontext.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.codecontext.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\colorizer.py">
+      <ModName>idlelib.colorizer</ModName>
+      <IntFile>$(IntDir)idlelib.colorizer.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.colorizer.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\config.py">
+      <ModName>idlelib.config</ModName>
+      <IntFile>$(IntDir)idlelib.config.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.config.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\config_key.py">
+      <ModName>idlelib.config_key</ModName>
+      <IntFile>$(IntDir)idlelib.config_key.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.config_key.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\configdialog.py">
+      <ModName>idlelib.configdialog</ModName>
+      <IntFile>$(IntDir)idlelib.configdialog.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.configdialog.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\debugger.py">
+      <ModName>idlelib.debugger</ModName>
+      <IntFile>$(IntDir)idlelib.debugger.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.debugger.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\debugger_r.py">
+      <ModName>idlelib.debugger_r</ModName>
+      <IntFile>$(IntDir)idlelib.debugger_r.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.debugger_r.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\debugobj.py">
+      <ModName>idlelib.debugobj</ModName>
+      <IntFile>$(IntDir)idlelib.debugobj.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.debugobj.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\debugobj_r.py">
+      <ModName>idlelib.debugobj_r</ModName>
+      <IntFile>$(IntDir)idlelib.debugobj_r.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.debugobj_r.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\delegator.py">
+      <ModName>idlelib.delegator</ModName>
+      <IntFile>$(IntDir)idlelib.delegator.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.delegator.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\dynoption.py">
+      <ModName>idlelib.dynoption</ModName>
+      <IntFile>$(IntDir)idlelib.dynoption.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.dynoption.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\editor.py">
+      <ModName>idlelib.editor</ModName>
+      <IntFile>$(IntDir)idlelib.editor.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.editor.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\filelist.py">
+      <ModName>idlelib.filelist</ModName>
+      <IntFile>$(IntDir)idlelib.filelist.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.filelist.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\format.py">
+      <ModName>idlelib.format</ModName>
+      <IntFile>$(IntDir)idlelib.format.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.format.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\grep.py">
+      <ModName>idlelib.grep</ModName>
+      <IntFile>$(IntDir)idlelib.grep.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.grep.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\help.py">
+      <ModName>idlelib.help</ModName>
+      <IntFile>$(IntDir)idlelib.help.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.help.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\help_about.py">
+      <ModName>idlelib.help_about</ModName>
+      <IntFile>$(IntDir)idlelib.help_about.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.help_about.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\history.py">
+      <ModName>idlelib.history</ModName>
+      <IntFile>$(IntDir)idlelib.history.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.history.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\hyperparser.py">
+      <ModName>idlelib.hyperparser</ModName>
+      <IntFile>$(IntDir)idlelib.hyperparser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.hyperparser.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle.py">
+      <ModName>idlelib.idle</ModName>
+      <IntFile>$(IntDir)idlelib.idle.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\__init__.py">
+      <ModName>idlelib.idle_test</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\htest.py">
+      <ModName>idlelib.idle_test.htest</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.htest.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.htest.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\mock_idle.py">
+      <ModName>idlelib.idle_test.mock_idle</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.mock_idle.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.mock_idle.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\mock_tk.py">
+      <ModName>idlelib.idle_test.mock_tk</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.mock_tk.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.mock_tk.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\template.py">
+      <ModName>idlelib.idle_test.template</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.template.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.template.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_autocomplete.py">
+      <ModName>idlelib.idle_test.test_autocomplete</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_autocomplete.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_autocomplete.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_autocomplete_w.py">
+      <ModName>idlelib.idle_test.test_autocomplete_w</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_autocomplete_w.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_autocomplete_w.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_autoexpand.py">
+      <ModName>idlelib.idle_test.test_autoexpand</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_autoexpand.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_autoexpand.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_browser.py">
+      <ModName>idlelib.idle_test.test_browser</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_browser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_browser.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_calltip.py">
+      <ModName>idlelib.idle_test.test_calltip</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_calltip.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_calltip.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_calltip_w.py">
+      <ModName>idlelib.idle_test.test_calltip_w</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_calltip_w.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_calltip_w.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_codecontext.py">
+      <ModName>idlelib.idle_test.test_codecontext</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_codecontext.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_codecontext.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_colorizer.py">
+      <ModName>idlelib.idle_test.test_colorizer</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_colorizer.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_colorizer.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_config.py">
+      <ModName>idlelib.idle_test.test_config</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_config.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_config.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_config_key.py">
+      <ModName>idlelib.idle_test.test_config_key</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_config_key.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_config_key.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_configdialog.py">
+      <ModName>idlelib.idle_test.test_configdialog</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_configdialog.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_configdialog.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_debugger.py">
+      <ModName>idlelib.idle_test.test_debugger</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_debugger.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_debugger.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_debugger_r.py">
+      <ModName>idlelib.idle_test.test_debugger_r</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_debugger_r.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_debugger_r.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_debugobj.py">
+      <ModName>idlelib.idle_test.test_debugobj</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_debugobj.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_debugobj.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_debugobj_r.py">
+      <ModName>idlelib.idle_test.test_debugobj_r</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_debugobj_r.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_debugobj_r.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_delegator.py">
+      <ModName>idlelib.idle_test.test_delegator</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_delegator.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_delegator.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_editmenu.py">
+      <ModName>idlelib.idle_test.test_editmenu</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_editmenu.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_editmenu.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_editor.py">
+      <ModName>idlelib.idle_test.test_editor</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_editor.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_editor.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_filelist.py">
+      <ModName>idlelib.idle_test.test_filelist</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_filelist.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_filelist.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_format.py">
+      <ModName>idlelib.idle_test.test_format</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_format.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_format.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_grep.py">
+      <ModName>idlelib.idle_test.test_grep</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_grep.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_grep.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_help.py">
+      <ModName>idlelib.idle_test.test_help</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_help.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_help.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_help_about.py">
+      <ModName>idlelib.idle_test.test_help_about</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_help_about.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_help_about.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_history.py">
+      <ModName>idlelib.idle_test.test_history</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_history.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_history.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_hyperparser.py">
+      <ModName>idlelib.idle_test.test_hyperparser</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_hyperparser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_hyperparser.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_iomenu.py">
+      <ModName>idlelib.idle_test.test_iomenu</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_iomenu.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_iomenu.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_macosx.py">
+      <ModName>idlelib.idle_test.test_macosx</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_macosx.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_macosx.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_mainmenu.py">
+      <ModName>idlelib.idle_test.test_mainmenu</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_mainmenu.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_mainmenu.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_multicall.py">
+      <ModName>idlelib.idle_test.test_multicall</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_multicall.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_multicall.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_outwin.py">
+      <ModName>idlelib.idle_test.test_outwin</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_outwin.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_outwin.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_parenmatch.py">
+      <ModName>idlelib.idle_test.test_parenmatch</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_parenmatch.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_parenmatch.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_pathbrowser.py">
+      <ModName>idlelib.idle_test.test_pathbrowser</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_pathbrowser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_pathbrowser.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_percolator.py">
+      <ModName>idlelib.idle_test.test_percolator</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_percolator.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_percolator.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_pyparse.py">
+      <ModName>idlelib.idle_test.test_pyparse</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_pyparse.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_pyparse.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_pyshell.py">
+      <ModName>idlelib.idle_test.test_pyshell</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_pyshell.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_pyshell.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_query.py">
+      <ModName>idlelib.idle_test.test_query</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_query.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_query.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_redirector.py">
+      <ModName>idlelib.idle_test.test_redirector</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_redirector.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_redirector.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_replace.py">
+      <ModName>idlelib.idle_test.test_replace</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_replace.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_replace.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_rpc.py">
+      <ModName>idlelib.idle_test.test_rpc</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_rpc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_rpc.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_run.py">
+      <ModName>idlelib.idle_test.test_run</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_run.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_run.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_runscript.py">
+      <ModName>idlelib.idle_test.test_runscript</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_runscript.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_runscript.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_scrolledlist.py">
+      <ModName>idlelib.idle_test.test_scrolledlist</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_scrolledlist.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_scrolledlist.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_search.py">
+      <ModName>idlelib.idle_test.test_search</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_search.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_search.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_searchbase.py">
+      <ModName>idlelib.idle_test.test_searchbase</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_searchbase.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_searchbase.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_searchengine.py">
+      <ModName>idlelib.idle_test.test_searchengine</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_searchengine.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_searchengine.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_sidebar.py">
+      <ModName>idlelib.idle_test.test_sidebar</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_sidebar.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_sidebar.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_squeezer.py">
+      <ModName>idlelib.idle_test.test_squeezer</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_squeezer.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_squeezer.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_stackviewer.py">
+      <ModName>idlelib.idle_test.test_stackviewer</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_stackviewer.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_stackviewer.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_statusbar.py">
+      <ModName>idlelib.idle_test.test_statusbar</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_statusbar.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_statusbar.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_text.py">
+      <ModName>idlelib.idle_test.test_text</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_text.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_text.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_textview.py">
+      <ModName>idlelib.idle_test.test_textview</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_textview.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_textview.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_tooltip.py">
+      <ModName>idlelib.idle_test.test_tooltip</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_tooltip.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_tooltip.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_tree.py">
+      <ModName>idlelib.idle_test.test_tree</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_tree.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_tree.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_undo.py">
+      <ModName>idlelib.idle_test.test_undo</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_undo.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_undo.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_util.py">
+      <ModName>idlelib.idle_test.test_util</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_util.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_util.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_warning.py">
+      <ModName>idlelib.idle_test.test_warning</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_warning.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_warning.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_window.py">
+      <ModName>idlelib.idle_test.test_window</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_window.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_window.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_zoomheight.py">
+      <ModName>idlelib.idle_test.test_zoomheight</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_zoomheight.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_zoomheight.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\test_zzdummy.py">
+      <ModName>idlelib.idle_test.test_zzdummy</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.test_zzdummy.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.test_zzdummy.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\idle_test\tkinter_testing_utils.py">
+      <ModName>idlelib.idle_test.tkinter_testing_utils</ModName>
+      <IntFile>$(IntDir)idlelib.idle_test.tkinter_testing_utils.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.idle_test.tkinter_testing_utils.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\iomenu.py">
+      <ModName>idlelib.iomenu</ModName>
+      <IntFile>$(IntDir)idlelib.iomenu.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.iomenu.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\macosx.py">
+      <ModName>idlelib.macosx</ModName>
+      <IntFile>$(IntDir)idlelib.macosx.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.macosx.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\mainmenu.py">
+      <ModName>idlelib.mainmenu</ModName>
+      <IntFile>$(IntDir)idlelib.mainmenu.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.mainmenu.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\multicall.py">
+      <ModName>idlelib.multicall</ModName>
+      <IntFile>$(IntDir)idlelib.multicall.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.multicall.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\outwin.py">
+      <ModName>idlelib.outwin</ModName>
+      <IntFile>$(IntDir)idlelib.outwin.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.outwin.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\parenmatch.py">
+      <ModName>idlelib.parenmatch</ModName>
+      <IntFile>$(IntDir)idlelib.parenmatch.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.parenmatch.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\pathbrowser.py">
+      <ModName>idlelib.pathbrowser</ModName>
+      <IntFile>$(IntDir)idlelib.pathbrowser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.pathbrowser.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\percolator.py">
+      <ModName>idlelib.percolator</ModName>
+      <IntFile>$(IntDir)idlelib.percolator.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.percolator.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\pyparse.py">
+      <ModName>idlelib.pyparse</ModName>
+      <IntFile>$(IntDir)idlelib.pyparse.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.pyparse.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\pyshell.py">
+      <ModName>idlelib.pyshell</ModName>
+      <IntFile>$(IntDir)idlelib.pyshell.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.pyshell.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\query.py">
+      <ModName>idlelib.query</ModName>
+      <IntFile>$(IntDir)idlelib.query.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.query.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\redirector.py">
+      <ModName>idlelib.redirector</ModName>
+      <IntFile>$(IntDir)idlelib.redirector.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.redirector.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\replace.py">
+      <ModName>idlelib.replace</ModName>
+      <IntFile>$(IntDir)idlelib.replace.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.replace.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\rpc.py">
+      <ModName>idlelib.rpc</ModName>
+      <IntFile>$(IntDir)idlelib.rpc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.rpc.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\run.py">
+      <ModName>idlelib.run</ModName>
+      <IntFile>$(IntDir)idlelib.run.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.run.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\runscript.py">
+      <ModName>idlelib.runscript</ModName>
+      <IntFile>$(IntDir)idlelib.runscript.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.runscript.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\scrolledlist.py">
+      <ModName>idlelib.scrolledlist</ModName>
+      <IntFile>$(IntDir)idlelib.scrolledlist.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.scrolledlist.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\search.py">
+      <ModName>idlelib.search</ModName>
+      <IntFile>$(IntDir)idlelib.search.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.search.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\searchbase.py">
+      <ModName>idlelib.searchbase</ModName>
+      <IntFile>$(IntDir)idlelib.searchbase.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.searchbase.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\searchengine.py">
+      <ModName>idlelib.searchengine</ModName>
+      <IntFile>$(IntDir)idlelib.searchengine.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.searchengine.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\sidebar.py">
+      <ModName>idlelib.sidebar</ModName>
+      <IntFile>$(IntDir)idlelib.sidebar.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.sidebar.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\squeezer.py">
+      <ModName>idlelib.squeezer</ModName>
+      <IntFile>$(IntDir)idlelib.squeezer.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.squeezer.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\stackviewer.py">
+      <ModName>idlelib.stackviewer</ModName>
+      <IntFile>$(IntDir)idlelib.stackviewer.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.stackviewer.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\statusbar.py">
+      <ModName>idlelib.statusbar</ModName>
+      <IntFile>$(IntDir)idlelib.statusbar.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.statusbar.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\textview.py">
+      <ModName>idlelib.textview</ModName>
+      <IntFile>$(IntDir)idlelib.textview.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.textview.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\tooltip.py">
+      <ModName>idlelib.tooltip</ModName>
+      <IntFile>$(IntDir)idlelib.tooltip.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.tooltip.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\tree.py">
+      <ModName>idlelib.tree</ModName>
+      <IntFile>$(IntDir)idlelib.tree.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.tree.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\undo.py">
+      <ModName>idlelib.undo</ModName>
+      <IntFile>$(IntDir)idlelib.undo.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.undo.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\util.py">
+      <ModName>idlelib.util</ModName>
+      <IntFile>$(IntDir)idlelib.util.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.util.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\window.py">
+      <ModName>idlelib.window</ModName>
+      <IntFile>$(IntDir)idlelib.window.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.window.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\zoomheight.py">
+      <ModName>idlelib.zoomheight</ModName>
+      <IntFile>$(IntDir)idlelib.zoomheight.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.zoomheight.h</OutFile>
+    </None>
+    <None Include="..\Lib\idlelib\zzdummy.py">
+      <ModName>idlelib.zzdummy</ModName>
+      <IntFile>$(IntDir)idlelib.zzdummy.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\idlelib.zzdummy.h</OutFile>
+    </None>
+    <None Include="..\Lib\imaplib.py">
+      <ModName>imaplib</ModName>
+      <IntFile>$(IntDir)imaplib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\imaplib.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\__init__.py">
+      <ModName>importlib</ModName>
+      <IntFile>$(IntDir)importlib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\_abc.py">
+      <ModName>importlib._abc</ModName>
+      <IntFile>$(IntDir)importlib._abc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib._abc.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\abc.py">
+      <ModName>importlib.abc</ModName>
+      <IntFile>$(IntDir)importlib.abc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.abc.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\metadata\__init__.py">
+      <ModName>importlib.metadata</ModName>
+      <IntFile>$(IntDir)importlib.metadata.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.metadata.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\metadata\_adapters.py">
+      <ModName>importlib.metadata._adapters</ModName>
+      <IntFile>$(IntDir)importlib.metadata._adapters.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.metadata._adapters.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\metadata\_collections.py">
+      <ModName>importlib.metadata._collections</ModName>
+      <IntFile>$(IntDir)importlib.metadata._collections.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.metadata._collections.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\metadata\_functools.py">
+      <ModName>importlib.metadata._functools</ModName>
+      <IntFile>$(IntDir)importlib.metadata._functools.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.metadata._functools.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\metadata\_itertools.py">
+      <ModName>importlib.metadata._itertools</ModName>
+      <IntFile>$(IntDir)importlib.metadata._itertools.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.metadata._itertools.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\metadata\_meta.py">
+      <ModName>importlib.metadata._meta</ModName>
+      <IntFile>$(IntDir)importlib.metadata._meta.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.metadata._meta.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\metadata\_text.py">
+      <ModName>importlib.metadata._text</ModName>
+      <IntFile>$(IntDir)importlib.metadata._text.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.metadata._text.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\metadata\diagnose.py">
+      <ModName>importlib.metadata.diagnose</ModName>
+      <IntFile>$(IntDir)importlib.metadata.diagnose.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.metadata.diagnose.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\readers.py">
+      <ModName>importlib.readers</ModName>
+      <IntFile>$(IntDir)importlib.readers.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.readers.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\resources\__init__.py">
+      <ModName>importlib.resources</ModName>
+      <IntFile>$(IntDir)importlib.resources.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.resources.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\resources\_adapters.py">
+      <ModName>importlib.resources._adapters</ModName>
+      <IntFile>$(IntDir)importlib.resources._adapters.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.resources._adapters.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\resources\_common.py">
+      <ModName>importlib.resources._common</ModName>
+      <IntFile>$(IntDir)importlib.resources._common.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.resources._common.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\resources\_functional.py">
+      <ModName>importlib.resources._functional</ModName>
+      <IntFile>$(IntDir)importlib.resources._functional.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.resources._functional.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\resources\_itertools.py">
+      <ModName>importlib.resources._itertools</ModName>
+      <IntFile>$(IntDir)importlib.resources._itertools.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.resources._itertools.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\resources\abc.py">
+      <ModName>importlib.resources.abc</ModName>
+      <IntFile>$(IntDir)importlib.resources.abc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.resources.abc.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\resources\readers.py">
+      <ModName>importlib.resources.readers</ModName>
+      <IntFile>$(IntDir)importlib.resources.readers.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.resources.readers.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\resources\simple.py">
+      <ModName>importlib.resources.simple</ModName>
+      <IntFile>$(IntDir)importlib.resources.simple.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.resources.simple.h</OutFile>
+    </None>
+    <None Include="..\Lib\importlib\simple.py">
+      <ModName>importlib.simple</ModName>
+      <IntFile>$(IntDir)importlib.simple.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\importlib.simple.h</OutFile>
+    </None>
+    <None Include="..\Lib\inspect.py">
+      <ModName>inspect</ModName>
+      <IntFile>$(IntDir)inspect.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\inspect.h</OutFile>
+    </None>
+    <None Include="..\Lib\ipaddress.py">
+      <ModName>ipaddress</ModName>
+      <IntFile>$(IntDir)ipaddress.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ipaddress.h</OutFile>
+    </None>
+    <None Include="..\Lib\json\__init__.py">
+      <ModName>json</ModName>
+      <IntFile>$(IntDir)json.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\json.h</OutFile>
+    </None>
+    <None Include="..\Lib\json\decoder.py">
+      <ModName>json.decoder</ModName>
+      <IntFile>$(IntDir)json.decoder.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\json.decoder.h</OutFile>
+    </None>
+    <None Include="..\Lib\json\encoder.py">
+      <ModName>json.encoder</ModName>
+      <IntFile>$(IntDir)json.encoder.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\json.encoder.h</OutFile>
+    </None>
+    <None Include="..\Lib\json\scanner.py">
+      <ModName>json.scanner</ModName>
+      <IntFile>$(IntDir)json.scanner.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\json.scanner.h</OutFile>
+    </None>
+    <None Include="..\Lib\json\tool.py">
+      <ModName>json.tool</ModName>
+      <IntFile>$(IntDir)json.tool.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\json.tool.h</OutFile>
+    </None>
+    <None Include="..\Lib\keyword.py">
+      <ModName>keyword</ModName>
+      <IntFile>$(IntDir)keyword.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\keyword.h</OutFile>
+    </None>
+    <None Include="..\Lib\linecache.py">
+      <ModName>linecache</ModName>
+      <IntFile>$(IntDir)linecache.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\linecache.h</OutFile>
+    </None>
+    <None Include="..\Lib\locale.py">
+      <ModName>locale</ModName>
+      <IntFile>$(IntDir)locale.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\locale.h</OutFile>
+    </None>
+    <None Include="..\Lib\logging\__init__.py">
+      <ModName>logging</ModName>
+      <IntFile>$(IntDir)logging.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\logging.h</OutFile>
+    </None>
+    <None Include="..\Lib\logging\config.py">
+      <ModName>logging.config</ModName>
+      <IntFile>$(IntDir)logging.config.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\logging.config.h</OutFile>
+    </None>
+    <None Include="..\Lib\logging\handlers.py">
+      <ModName>logging.handlers</ModName>
+      <IntFile>$(IntDir)logging.handlers.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\logging.handlers.h</OutFile>
+    </None>
+    <None Include="..\Lib\lzma.py">
+      <ModName>lzma</ModName>
+      <IntFile>$(IntDir)lzma.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\lzma.h</OutFile>
+    </None>
+    <None Include="..\Lib\mailbox.py">
+      <ModName>mailbox</ModName>
+      <IntFile>$(IntDir)mailbox.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\mailbox.h</OutFile>
+    </None>
+    <None Include="..\Lib\mimetypes.py">
+      <ModName>mimetypes</ModName>
+      <IntFile>$(IntDir)mimetypes.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\mimetypes.h</OutFile>
+    </None>
+    <None Include="..\Lib\modulefinder.py">
+      <ModName>modulefinder</ModName>
+      <IntFile>$(IntDir)modulefinder.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\modulefinder.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\__init__.py">
+      <ModName>multiprocessing</ModName>
+      <IntFile>$(IntDir)multiprocessing.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\connection.py">
+      <ModName>multiprocessing.connection</ModName>
+      <IntFile>$(IntDir)multiprocessing.connection.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.connection.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\context.py">
+      <ModName>multiprocessing.context</ModName>
+      <IntFile>$(IntDir)multiprocessing.context.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.context.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\dummy\__init__.py">
+      <ModName>multiprocessing.dummy</ModName>
+      <IntFile>$(IntDir)multiprocessing.dummy.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.dummy.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\dummy\connection.py">
+      <ModName>multiprocessing.dummy.connection</ModName>
+      <IntFile>$(IntDir)multiprocessing.dummy.connection.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.dummy.connection.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\forkserver.py">
+      <ModName>multiprocessing.forkserver</ModName>
+      <IntFile>$(IntDir)multiprocessing.forkserver.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.forkserver.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\heap.py">
+      <ModName>multiprocessing.heap</ModName>
+      <IntFile>$(IntDir)multiprocessing.heap.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.heap.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\managers.py">
+      <ModName>multiprocessing.managers</ModName>
+      <IntFile>$(IntDir)multiprocessing.managers.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.managers.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\pool.py">
+      <ModName>multiprocessing.pool</ModName>
+      <IntFile>$(IntDir)multiprocessing.pool.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.pool.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\popen_fork.py">
+      <ModName>multiprocessing.popen_fork</ModName>
+      <IntFile>$(IntDir)multiprocessing.popen_fork.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.popen_fork.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\popen_forkserver.py">
+      <ModName>multiprocessing.popen_forkserver</ModName>
+      <IntFile>$(IntDir)multiprocessing.popen_forkserver.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.popen_forkserver.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\popen_spawn_posix.py">
+      <ModName>multiprocessing.popen_spawn_posix</ModName>
+      <IntFile>$(IntDir)multiprocessing.popen_spawn_posix.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.popen_spawn_posix.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\popen_spawn_win32.py">
+      <ModName>multiprocessing.popen_spawn_win32</ModName>
+      <IntFile>$(IntDir)multiprocessing.popen_spawn_win32.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.popen_spawn_win32.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\process.py">
+      <ModName>multiprocessing.process</ModName>
+      <IntFile>$(IntDir)multiprocessing.process.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.process.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\queues.py">
+      <ModName>multiprocessing.queues</ModName>
+      <IntFile>$(IntDir)multiprocessing.queues.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.queues.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\reduction.py">
+      <ModName>multiprocessing.reduction</ModName>
+      <IntFile>$(IntDir)multiprocessing.reduction.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.reduction.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\resource_sharer.py">
+      <ModName>multiprocessing.resource_sharer</ModName>
+      <IntFile>$(IntDir)multiprocessing.resource_sharer.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.resource_sharer.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\resource_tracker.py">
+      <ModName>multiprocessing.resource_tracker</ModName>
+      <IntFile>$(IntDir)multiprocessing.resource_tracker.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.resource_tracker.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\shared_memory.py">
+      <ModName>multiprocessing.shared_memory</ModName>
+      <IntFile>$(IntDir)multiprocessing.shared_memory.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.shared_memory.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\sharedctypes.py">
+      <ModName>multiprocessing.sharedctypes</ModName>
+      <IntFile>$(IntDir)multiprocessing.sharedctypes.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.sharedctypes.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\spawn.py">
+      <ModName>multiprocessing.spawn</ModName>
+      <IntFile>$(IntDir)multiprocessing.spawn.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.spawn.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\synchronize.py">
+      <ModName>multiprocessing.synchronize</ModName>
+      <IntFile>$(IntDir)multiprocessing.synchronize.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.synchronize.h</OutFile>
+    </None>
+    <None Include="..\Lib\multiprocessing\util.py">
+      <ModName>multiprocessing.util</ModName>
+      <IntFile>$(IntDir)multiprocessing.util.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\multiprocessing.util.h</OutFile>
+    </None>
+    <None Include="..\Lib\netrc.py">
+      <ModName>netrc</ModName>
+      <IntFile>$(IntDir)netrc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\netrc.h</OutFile>
+    </None>
+    <None Include="..\Lib\nturl2path.py">
+      <ModName>nturl2path</ModName>
+      <IntFile>$(IntDir)nturl2path.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\nturl2path.h</OutFile>
+    </None>
+    <None Include="..\Lib\numbers.py">
+      <ModName>numbers</ModName>
+      <IntFile>$(IntDir)numbers.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\numbers.h</OutFile>
+    </None>
+    <None Include="..\Lib\opcode.py">
+      <ModName>opcode</ModName>
+      <IntFile>$(IntDir)opcode.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\opcode.h</OutFile>
+    </None>
+    <None Include="..\Lib\operator.py">
+      <ModName>operator</ModName>
+      <IntFile>$(IntDir)operator.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\operator.h</OutFile>
+    </None>
+    <None Include="..\Lib\optparse.py">
+      <ModName>optparse</ModName>
+      <IntFile>$(IntDir)optparse.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\optparse.h</OutFile>
+    </None>
+    <None Include="..\Lib\pathlib\__init__.py">
+      <ModName>pathlib</ModName>
+      <IntFile>$(IntDir)pathlib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pathlib.h</OutFile>
+    </None>
+    <None Include="..\Lib\pathlib\_abc.py">
+      <ModName>pathlib._abc</ModName>
+      <IntFile>$(IntDir)pathlib._abc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pathlib._abc.h</OutFile>
+    </None>
+    <None Include="..\Lib\pathlib\_local.py">
+      <ModName>pathlib._local</ModName>
+      <IntFile>$(IntDir)pathlib._local.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pathlib._local.h</OutFile>
+    </None>
+    <None Include="..\Lib\pathlib\_os.py">
+      <ModName>pathlib._os</ModName>
+      <IntFile>$(IntDir)pathlib._os.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pathlib._os.h</OutFile>
+    </None>
+    <None Include="..\Lib\pdb.py">
+      <ModName>pdb</ModName>
+      <IntFile>$(IntDir)pdb.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pdb.h</OutFile>
+    </None>
+    <None Include="..\Lib\pickle.py">
+      <ModName>pickle</ModName>
+      <IntFile>$(IntDir)pickle.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pickle.h</OutFile>
+    </None>
+    <None Include="..\Lib\pickletools.py">
+      <ModName>pickletools</ModName>
+      <IntFile>$(IntDir)pickletools.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pickletools.h</OutFile>
+    </None>
+    <None Include="..\Lib\pkgutil.py">
+      <ModName>pkgutil</ModName>
+      <IntFile>$(IntDir)pkgutil.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pkgutil.h</OutFile>
+    </None>
+    <None Include="..\Lib\platform.py">
+      <ModName>platform</ModName>
+      <IntFile>$(IntDir)platform.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\platform.h</OutFile>
+    </None>
+    <None Include="..\Lib\plistlib.py">
+      <ModName>plistlib</ModName>
+      <IntFile>$(IntDir)plistlib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\plistlib.h</OutFile>
+    </None>
+    <None Include="..\Lib\poplib.py">
+      <ModName>poplib</ModName>
+      <IntFile>$(IntDir)poplib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\poplib.h</OutFile>
+    </None>
+    <None Include="..\Lib\pprint.py">
+      <ModName>pprint</ModName>
+      <IntFile>$(IntDir)pprint.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pprint.h</OutFile>
+    </None>
+    <None Include="..\Lib\profile.py">
+      <ModName>profile</ModName>
+      <IntFile>$(IntDir)profile.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\profile.h</OutFile>
+    </None>
+    <None Include="..\Lib\pstats.py">
+      <ModName>pstats</ModName>
+      <IntFile>$(IntDir)pstats.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pstats.h</OutFile>
+    </None>
+    <None Include="..\Lib\pty.py">
+      <ModName>pty</ModName>
+      <IntFile>$(IntDir)pty.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pty.h</OutFile>
+    </None>
+    <None Include="..\Lib\pyclbr.py">
+      <ModName>pyclbr</ModName>
+      <IntFile>$(IntDir)pyclbr.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pyclbr.h</OutFile>
+    </None>
+    <None Include="..\Lib\pydoc.py">
+      <ModName>pydoc</ModName>
+      <IntFile>$(IntDir)pydoc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pydoc.h</OutFile>
+    </None>
+    <None Include="..\Lib\pydoc_data\__init__.py">
+      <ModName>pydoc_data</ModName>
+      <IntFile>$(IntDir)pydoc_data.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pydoc_data.h</OutFile>
+    </None>
+    <None Include="..\Lib\pydoc_data\topics.py">
+      <ModName>pydoc_data.topics</ModName>
+      <IntFile>$(IntDir)pydoc_data.topics.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\pydoc_data.topics.h</OutFile>
+    </None>
+    <None Include="..\Lib\py_compile.py">
+      <ModName>py_compile</ModName>
+      <IntFile>$(IntDir)py_compile.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\py_compile.h</OutFile>
+    </None>
+    <None Include="..\Lib\queue.py">
+      <ModName>queue</ModName>
+      <IntFile>$(IntDir)queue.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\queue.h</OutFile>
+    </None>
+    <None Include="..\Lib\quopri.py">
+      <ModName>quopri</ModName>
+      <IntFile>$(IntDir)quopri.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\quopri.h</OutFile>
+    </None>
+    <None Include="..\Lib\random.py">
+      <ModName>random</ModName>
+      <IntFile>$(IntDir)random.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\random.h</OutFile>
+    </None>
+    <None Include="..\Lib\re\__init__.py">
+      <ModName>re</ModName>
+      <IntFile>$(IntDir)re.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\re.h</OutFile>
+    </None>
+    <None Include="..\Lib\re\_casefix.py">
+      <ModName>re._casefix</ModName>
+      <IntFile>$(IntDir)re._casefix.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\re._casefix.h</OutFile>
+    </None>
+    <None Include="..\Lib\re\_compiler.py">
+      <ModName>re._compiler</ModName>
+      <IntFile>$(IntDir)re._compiler.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\re._compiler.h</OutFile>
+    </None>
+    <None Include="..\Lib\re\_constants.py">
+      <ModName>re._constants</ModName>
+      <IntFile>$(IntDir)re._constants.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\re._constants.h</OutFile>
+    </None>
+    <None Include="..\Lib\re\_parser.py">
+      <ModName>re._parser</ModName>
+      <IntFile>$(IntDir)re._parser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\re._parser.h</OutFile>
+    </None>
+    <None Include="..\Lib\reprlib.py">
+      <ModName>reprlib</ModName>
+      <IntFile>$(IntDir)reprlib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\reprlib.h</OutFile>
+    </None>
+    <None Include="..\Lib\rlcompleter.py">
+      <ModName>rlcompleter</ModName>
+      <IntFile>$(IntDir)rlcompleter.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\rlcompleter.h</OutFile>
+    </None>
+    <None Include="..\Lib\sched.py">
+      <ModName>sched</ModName>
+      <IntFile>$(IntDir)sched.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\sched.h</OutFile>
+    </None>
+    <None Include="..\Lib\secrets.py">
+      <ModName>secrets</ModName>
+      <IntFile>$(IntDir)secrets.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\secrets.h</OutFile>
+    </None>
+    <None Include="..\Lib\selectors.py">
+      <ModName>selectors</ModName>
+      <IntFile>$(IntDir)selectors.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\selectors.h</OutFile>
+    </None>
+    <None Include="..\Lib\shelve.py">
+      <ModName>shelve</ModName>
+      <IntFile>$(IntDir)shelve.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\shelve.h</OutFile>
+    </None>
+    <None Include="..\Lib\shlex.py">
+      <ModName>shlex</ModName>
+      <IntFile>$(IntDir)shlex.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\shlex.h</OutFile>
+    </None>
+    <None Include="..\Lib\shutil.py">
+      <ModName>shutil</ModName>
+      <IntFile>$(IntDir)shutil.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\shutil.h</OutFile>
+    </None>
+    <None Include="..\Lib\signal.py">
+      <ModName>signal</ModName>
+      <IntFile>$(IntDir)signal.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\signal.h</OutFile>
+    </None>
+    <None Include="..\Lib\smtplib.py">
+      <ModName>smtplib</ModName>
+      <IntFile>$(IntDir)smtplib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\smtplib.h</OutFile>
+    </None>
+    <None Include="..\Lib\socket.py">
+      <ModName>socket</ModName>
+      <IntFile>$(IntDir)socket.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\socket.h</OutFile>
+    </None>
+    <None Include="..\Lib\socketserver.py">
+      <ModName>socketserver</ModName>
+      <IntFile>$(IntDir)socketserver.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\socketserver.h</OutFile>
+    </None>
+    <None Include="..\Lib\sqlite3\__init__.py">
+      <ModName>sqlite3</ModName>
+      <IntFile>$(IntDir)sqlite3.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\sqlite3.h</OutFile>
+    </None>
+    <None Include="..\Lib\sqlite3\__main__.py">
+      <ModName>sqlite3.__main__</ModName>
+      <IntFile>$(IntDir)sqlite3.__main__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\sqlite3.__main__.h</OutFile>
+    </None>
+    <None Include="..\Lib\sqlite3\dbapi2.py">
+      <ModName>sqlite3.dbapi2</ModName>
+      <IntFile>$(IntDir)sqlite3.dbapi2.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\sqlite3.dbapi2.h</OutFile>
+    </None>
+    <None Include="..\Lib\sqlite3\dump.py">
+      <ModName>sqlite3.dump</ModName>
+      <IntFile>$(IntDir)sqlite3.dump.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\sqlite3.dump.h</OutFile>
+    </None>
+    <None Include="..\Lib\sre_compile.py">
+      <ModName>sre_compile</ModName>
+      <IntFile>$(IntDir)sre_compile.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\sre_compile.h</OutFile>
+    </None>
+    <None Include="..\Lib\sre_constants.py">
+      <ModName>sre_constants</ModName>
+      <IntFile>$(IntDir)sre_constants.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\sre_constants.h</OutFile>
+    </None>
+    <None Include="..\Lib\sre_parse.py">
+      <ModName>sre_parse</ModName>
+      <IntFile>$(IntDir)sre_parse.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\sre_parse.h</OutFile>
+    </None>
+    <None Include="..\Lib\ssl.py">
+      <ModName>ssl</ModName>
+      <IntFile>$(IntDir)ssl.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\ssl.h</OutFile>
+    </None>
+    <None Include="..\Lib\statistics.py">
+      <ModName>statistics</ModName>
+      <IntFile>$(IntDir)statistics.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\statistics.h</OutFile>
+    </None>
+    <None Include="..\Lib\string.py">
+      <ModName>string</ModName>
+      <IntFile>$(IntDir)string.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\string.h</OutFile>
+    </None>
+    <None Include="..\Lib\stringprep.py">
+      <ModName>stringprep</ModName>
+      <IntFile>$(IntDir)stringprep.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\stringprep.h</OutFile>
+    </None>
+    <None Include="..\Lib\struct.py">
+      <ModName>struct</ModName>
+      <IntFile>$(IntDir)struct.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\struct.h</OutFile>
+    </None>
+    <None Include="..\Lib\subprocess.py">
+      <ModName>subprocess</ModName>
+      <IntFile>$(IntDir)subprocess.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\subprocess.h</OutFile>
+    </None>
+    <None Include="..\Lib\symtable.py">
+      <ModName>symtable</ModName>
+      <IntFile>$(IntDir)symtable.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\symtable.h</OutFile>
+    </None>
+    <None Include="..\Lib\sysconfig\__init__.py">
+      <ModName>sysconfig</ModName>
+      <IntFile>$(IntDir)sysconfig.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\sysconfig.h</OutFile>
+    </None>
+    <None Include="..\Lib\sysconfig\__main__.py">
+      <ModName>sysconfig.__main__</ModName>
+      <IntFile>$(IntDir)sysconfig.__main__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\sysconfig.__main__.h</OutFile>
+    </None>
+    <None Include="..\Lib\tabnanny.py">
+      <ModName>tabnanny</ModName>
+      <IntFile>$(IntDir)tabnanny.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tabnanny.h</OutFile>
+    </None>
+    <None Include="..\Lib\tarfile.py">
+      <ModName>tarfile</ModName>
+      <IntFile>$(IntDir)tarfile.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tarfile.h</OutFile>
+    </None>
+    <None Include="..\Lib\tempfile.py">
+      <ModName>tempfile</ModName>
+      <IntFile>$(IntDir)tempfile.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tempfile.h</OutFile>
+    </None>
+    <None Include="..\Lib\textwrap.py">
+      <ModName>textwrap</ModName>
+      <IntFile>$(IntDir)textwrap.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\textwrap.h</OutFile>
+    </None>
+    <None Include="..\Lib\this.py">
+      <ModName>this</ModName>
+      <IntFile>$(IntDir)this.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\this.h</OutFile>
+    </None>
+    <None Include="..\Lib\threading.py">
+      <ModName>threading</ModName>
+      <IntFile>$(IntDir)threading.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\threading.h</OutFile>
+    </None>
+    <None Include="..\Lib\timeit.py">
+      <ModName>timeit</ModName>
+      <IntFile>$(IntDir)timeit.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\timeit.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\__init__.py">
+      <ModName>tkinter</ModName>
+      <IntFile>$(IntDir)tkinter.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\__main__.py">
+      <ModName>tkinter.__main__</ModName>
+      <IntFile>$(IntDir)tkinter.__main__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.__main__.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\colorchooser.py">
+      <ModName>tkinter.colorchooser</ModName>
+      <IntFile>$(IntDir)tkinter.colorchooser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.colorchooser.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\commondialog.py">
+      <ModName>tkinter.commondialog</ModName>
+      <IntFile>$(IntDir)tkinter.commondialog.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.commondialog.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\constants.py">
+      <ModName>tkinter.constants</ModName>
+      <IntFile>$(IntDir)tkinter.constants.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.constants.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\dialog.py">
+      <ModName>tkinter.dialog</ModName>
+      <IntFile>$(IntDir)tkinter.dialog.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.dialog.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\dnd.py">
+      <ModName>tkinter.dnd</ModName>
+      <IntFile>$(IntDir)tkinter.dnd.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.dnd.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\filedialog.py">
+      <ModName>tkinter.filedialog</ModName>
+      <IntFile>$(IntDir)tkinter.filedialog.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.filedialog.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\font.py">
+      <ModName>tkinter.font</ModName>
+      <IntFile>$(IntDir)tkinter.font.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.font.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\messagebox.py">
+      <ModName>tkinter.messagebox</ModName>
+      <IntFile>$(IntDir)tkinter.messagebox.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.messagebox.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\scrolledtext.py">
+      <ModName>tkinter.scrolledtext</ModName>
+      <IntFile>$(IntDir)tkinter.scrolledtext.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.scrolledtext.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\simpledialog.py">
+      <ModName>tkinter.simpledialog</ModName>
+      <IntFile>$(IntDir)tkinter.simpledialog.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.simpledialog.h</OutFile>
+    </None>
+    <None Include="..\Lib\tkinter\ttk.py">
+      <ModName>tkinter.ttk</ModName>
+      <IntFile>$(IntDir)tkinter.ttk.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tkinter.ttk.h</OutFile>
+    </None>
+    <None Include="..\Lib\token.py">
+      <ModName>token</ModName>
+      <IntFile>$(IntDir)token.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\token.h</OutFile>
+    </None>
+    <None Include="..\Lib\tokenize.py">
+      <ModName>tokenize</ModName>
+      <IntFile>$(IntDir)tokenize.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tokenize.h</OutFile>
+    </None>
+    <None Include="..\Lib\tomllib\__init__.py">
+      <ModName>tomllib</ModName>
+      <IntFile>$(IntDir)tomllib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tomllib.h</OutFile>
+    </None>
+    <None Include="..\Lib\tomllib\_parser.py">
+      <ModName>tomllib._parser</ModName>
+      <IntFile>$(IntDir)tomllib._parser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tomllib._parser.h</OutFile>
+    </None>
+    <None Include="..\Lib\tomllib\_re.py">
+      <ModName>tomllib._re</ModName>
+      <IntFile>$(IntDir)tomllib._re.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tomllib._re.h</OutFile>
+    </None>
+    <None Include="..\Lib\tomllib\_types.py">
+      <ModName>tomllib._types</ModName>
+      <IntFile>$(IntDir)tomllib._types.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tomllib._types.h</OutFile>
+    </None>
+    <None Include="..\Lib\trace.py">
+      <ModName>trace</ModName>
+      <IntFile>$(IntDir)trace.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\trace.h</OutFile>
+    </None>
+    <None Include="..\Lib\traceback.py">
+      <ModName>traceback</ModName>
+      <IntFile>$(IntDir)traceback.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\traceback.h</OutFile>
+    </None>
+    <None Include="..\Lib\tracemalloc.py">
+      <ModName>tracemalloc</ModName>
+      <IntFile>$(IntDir)tracemalloc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tracemalloc.h</OutFile>
+    </None>
+    <None Include="..\Lib\tty.py">
+      <ModName>tty</ModName>
+      <IntFile>$(IntDir)tty.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\tty.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtle.py">
+      <ModName>turtle</ModName>
+      <IntFile>$(IntDir)turtle.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtle.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\__init__.py">
+      <ModName>turtledemo</ModName>
+      <IntFile>$(IntDir)turtledemo.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\__main__.py">
+      <ModName>turtledemo.__main__</ModName>
+      <IntFile>$(IntDir)turtledemo.__main__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.__main__.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\bytedesign.py">
+      <ModName>turtledemo.bytedesign</ModName>
+      <IntFile>$(IntDir)turtledemo.bytedesign.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.bytedesign.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\chaos.py">
+      <ModName>turtledemo.chaos</ModName>
+      <IntFile>$(IntDir)turtledemo.chaos.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.chaos.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\clock.py">
+      <ModName>turtledemo.clock</ModName>
+      <IntFile>$(IntDir)turtledemo.clock.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.clock.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\colormixer.py">
+      <ModName>turtledemo.colormixer</ModName>
+      <IntFile>$(IntDir)turtledemo.colormixer.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.colormixer.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\forest.py">
+      <ModName>turtledemo.forest</ModName>
+      <IntFile>$(IntDir)turtledemo.forest.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.forest.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\fractalcurves.py">
+      <ModName>turtledemo.fractalcurves</ModName>
+      <IntFile>$(IntDir)turtledemo.fractalcurves.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.fractalcurves.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\lindenmayer.py">
+      <ModName>turtledemo.lindenmayer</ModName>
+      <IntFile>$(IntDir)turtledemo.lindenmayer.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.lindenmayer.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\minimal_hanoi.py">
+      <ModName>turtledemo.minimal_hanoi</ModName>
+      <IntFile>$(IntDir)turtledemo.minimal_hanoi.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.minimal_hanoi.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\nim.py">
+      <ModName>turtledemo.nim</ModName>
+      <IntFile>$(IntDir)turtledemo.nim.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.nim.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\paint.py">
+      <ModName>turtledemo.paint</ModName>
+      <IntFile>$(IntDir)turtledemo.paint.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.paint.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\peace.py">
+      <ModName>turtledemo.peace</ModName>
+      <IntFile>$(IntDir)turtledemo.peace.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.peace.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\penrose.py">
+      <ModName>turtledemo.penrose</ModName>
+      <IntFile>$(IntDir)turtledemo.penrose.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.penrose.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\planet_and_moon.py">
+      <ModName>turtledemo.planet_and_moon</ModName>
+      <IntFile>$(IntDir)turtledemo.planet_and_moon.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.planet_and_moon.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\rosette.py">
+      <ModName>turtledemo.rosette</ModName>
+      <IntFile>$(IntDir)turtledemo.rosette.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.rosette.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\round_dance.py">
+      <ModName>turtledemo.round_dance</ModName>
+      <IntFile>$(IntDir)turtledemo.round_dance.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.round_dance.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\sorting_animate.py">
+      <ModName>turtledemo.sorting_animate</ModName>
+      <IntFile>$(IntDir)turtledemo.sorting_animate.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.sorting_animate.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\tree.py">
+      <ModName>turtledemo.tree</ModName>
+      <IntFile>$(IntDir)turtledemo.tree.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.tree.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\two_canvases.py">
+      <ModName>turtledemo.two_canvases</ModName>
+      <IntFile>$(IntDir)turtledemo.two_canvases.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.two_canvases.h</OutFile>
+    </None>
+    <None Include="..\Lib\turtledemo\yinyang.py">
+      <ModName>turtledemo.yinyang</ModName>
+      <IntFile>$(IntDir)turtledemo.yinyang.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\turtledemo.yinyang.h</OutFile>
+    </None>
+    <None Include="..\Lib\types.py">
+      <ModName>types</ModName>
+      <IntFile>$(IntDir)types.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\types.h</OutFile>
+    </None>
+    <None Include="..\Lib\typing.py">
+      <ModName>typing</ModName>
+      <IntFile>$(IntDir)typing.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\typing.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\__init__.py">
+      <ModName>unittest</ModName>
+      <IntFile>$(IntDir)unittest.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\__main__.py">
+      <ModName>unittest.__main__</ModName>
+      <IntFile>$(IntDir)unittest.__main__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.__main__.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\_log.py">
+      <ModName>unittest._log</ModName>
+      <IntFile>$(IntDir)unittest._log.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest._log.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\async_case.py">
+      <ModName>unittest.async_case</ModName>
+      <IntFile>$(IntDir)unittest.async_case.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.async_case.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\case.py">
+      <ModName>unittest.case</ModName>
+      <IntFile>$(IntDir)unittest.case.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.case.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\loader.py">
+      <ModName>unittest.loader</ModName>
+      <IntFile>$(IntDir)unittest.loader.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.loader.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\main.py">
+      <ModName>unittest.main</ModName>
+      <IntFile>$(IntDir)unittest.main.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.main.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\mock.py">
+      <ModName>unittest.mock</ModName>
+      <IntFile>$(IntDir)unittest.mock.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.mock.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\result.py">
+      <ModName>unittest.result</ModName>
+      <IntFile>$(IntDir)unittest.result.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.result.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\runner.py">
+      <ModName>unittest.runner</ModName>
+      <IntFile>$(IntDir)unittest.runner.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.runner.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\signals.py">
+      <ModName>unittest.signals</ModName>
+      <IntFile>$(IntDir)unittest.signals.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.signals.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\suite.py">
+      <ModName>unittest.suite</ModName>
+      <IntFile>$(IntDir)unittest.suite.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.suite.h</OutFile>
+    </None>
+    <None Include="..\Lib\unittest\util.py">
+      <ModName>unittest.util</ModName>
+      <IntFile>$(IntDir)unittest.util.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\unittest.util.h</OutFile>
+    </None>
+    <None Include="..\Lib\urllib\__init__.py">
+      <ModName>urllib</ModName>
+      <IntFile>$(IntDir)urllib.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\urllib.h</OutFile>
+    </None>
+    <None Include="..\Lib\urllib\error.py">
+      <ModName>urllib.error</ModName>
+      <IntFile>$(IntDir)urllib.error.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\urllib.error.h</OutFile>
+    </None>
+    <None Include="..\Lib\urllib\parse.py">
+      <ModName>urllib.parse</ModName>
+      <IntFile>$(IntDir)urllib.parse.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\urllib.parse.h</OutFile>
+    </None>
+    <None Include="..\Lib\urllib\request.py">
+      <ModName>urllib.request</ModName>
+      <IntFile>$(IntDir)urllib.request.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\urllib.request.h</OutFile>
+    </None>
+    <None Include="..\Lib\urllib\response.py">
+      <ModName>urllib.response</ModName>
+      <IntFile>$(IntDir)urllib.response.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\urllib.response.h</OutFile>
+    </None>
+    <None Include="..\Lib\urllib\robotparser.py">
+      <ModName>urllib.robotparser</ModName>
+      <IntFile>$(IntDir)urllib.robotparser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\urllib.robotparser.h</OutFile>
+    </None>
+    <None Include="..\Lib\uuid.py">
+      <ModName>uuid</ModName>
+      <IntFile>$(IntDir)uuid.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\uuid.h</OutFile>
+    </None>
+    <None Include="..\Lib\venv\__init__.py">
+      <ModName>venv</ModName>
+      <IntFile>$(IntDir)venv.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\venv.h</OutFile>
+    </None>
+    <None Include="..\Lib\venv\__main__.py">
+      <ModName>venv.__main__</ModName>
+      <IntFile>$(IntDir)venv.__main__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\venv.__main__.h</OutFile>
+    </None>
+    <None Include="..\Lib\warnings.py">
+      <ModName>warnings</ModName>
+      <IntFile>$(IntDir)warnings.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\warnings.h</OutFile>
+    </None>
+    <None Include="..\Lib\wave.py">
+      <ModName>wave</ModName>
+      <IntFile>$(IntDir)wave.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\wave.h</OutFile>
+    </None>
+    <None Include="..\Lib\weakref.py">
+      <ModName>weakref</ModName>
+      <IntFile>$(IntDir)weakref.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\weakref.h</OutFile>
+    </None>
+    <None Include="..\Lib\webbrowser.py">
+      <ModName>webbrowser</ModName>
+      <IntFile>$(IntDir)webbrowser.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\webbrowser.h</OutFile>
+    </None>
+    <None Include="..\Lib\wsgiref\__init__.py">
+      <ModName>wsgiref</ModName>
+      <IntFile>$(IntDir)wsgiref.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\wsgiref.h</OutFile>
+    </None>
+    <None Include="..\Lib\wsgiref\handlers.py">
+      <ModName>wsgiref.handlers</ModName>
+      <IntFile>$(IntDir)wsgiref.handlers.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\wsgiref.handlers.h</OutFile>
+    </None>
+    <None Include="..\Lib\wsgiref\headers.py">
+      <ModName>wsgiref.headers</ModName>
+      <IntFile>$(IntDir)wsgiref.headers.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\wsgiref.headers.h</OutFile>
+    </None>
+    <None Include="..\Lib\wsgiref\simple_server.py">
+      <ModName>wsgiref.simple_server</ModName>
+      <IntFile>$(IntDir)wsgiref.simple_server.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\wsgiref.simple_server.h</OutFile>
+    </None>
+    <None Include="..\Lib\wsgiref\types.py">
+      <ModName>wsgiref.types</ModName>
+      <IntFile>$(IntDir)wsgiref.types.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\wsgiref.types.h</OutFile>
+    </None>
+    <None Include="..\Lib\wsgiref\util.py">
+      <ModName>wsgiref.util</ModName>
+      <IntFile>$(IntDir)wsgiref.util.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\wsgiref.util.h</OutFile>
+    </None>
+    <None Include="..\Lib\wsgiref\validate.py">
+      <ModName>wsgiref.validate</ModName>
+      <IntFile>$(IntDir)wsgiref.validate.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\wsgiref.validate.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\__init__.py">
+      <ModName>xml</ModName>
+      <IntFile>$(IntDir)xml.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\dom\__init__.py">
+      <ModName>xml.dom</ModName>
+      <IntFile>$(IntDir)xml.dom.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.dom.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\dom\NodeFilter.py">
+      <ModName>xml.dom.NodeFilter</ModName>
+      <IntFile>$(IntDir)xml.dom.NodeFilter.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.dom.NodeFilter.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\dom\domreg.py">
+      <ModName>xml.dom.domreg</ModName>
+      <IntFile>$(IntDir)xml.dom.domreg.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.dom.domreg.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\dom\expatbuilder.py">
+      <ModName>xml.dom.expatbuilder</ModName>
+      <IntFile>$(IntDir)xml.dom.expatbuilder.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.dom.expatbuilder.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\dom\minicompat.py">
+      <ModName>xml.dom.minicompat</ModName>
+      <IntFile>$(IntDir)xml.dom.minicompat.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.dom.minicompat.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\dom\minidom.py">
+      <ModName>xml.dom.minidom</ModName>
+      <IntFile>$(IntDir)xml.dom.minidom.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.dom.minidom.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\dom\pulldom.py">
+      <ModName>xml.dom.pulldom</ModName>
+      <IntFile>$(IntDir)xml.dom.pulldom.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.dom.pulldom.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\dom\xmlbuilder.py">
+      <ModName>xml.dom.xmlbuilder</ModName>
+      <IntFile>$(IntDir)xml.dom.xmlbuilder.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.dom.xmlbuilder.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\etree\__init__.py">
+      <ModName>xml.etree</ModName>
+      <IntFile>$(IntDir)xml.etree.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.etree.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\etree\ElementInclude.py">
+      <ModName>xml.etree.ElementInclude</ModName>
+      <IntFile>$(IntDir)xml.etree.ElementInclude.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.etree.ElementInclude.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\etree\ElementPath.py">
+      <ModName>xml.etree.ElementPath</ModName>
+      <IntFile>$(IntDir)xml.etree.ElementPath.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.etree.ElementPath.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\etree\ElementTree.py">
+      <ModName>xml.etree.ElementTree</ModName>
+      <IntFile>$(IntDir)xml.etree.ElementTree.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.etree.ElementTree.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\etree\cElementTree.py">
+      <ModName>xml.etree.cElementTree</ModName>
+      <IntFile>$(IntDir)xml.etree.cElementTree.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.etree.cElementTree.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\parsers\__init__.py">
+      <ModName>xml.parsers</ModName>
+      <IntFile>$(IntDir)xml.parsers.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.parsers.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\parsers\expat.py">
+      <ModName>xml.parsers.expat</ModName>
+      <IntFile>$(IntDir)xml.parsers.expat.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.parsers.expat.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\sax\__init__.py">
+      <ModName>xml.sax</ModName>
+      <IntFile>$(IntDir)xml.sax.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.sax.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\sax\_exceptions.py">
+      <ModName>xml.sax._exceptions</ModName>
+      <IntFile>$(IntDir)xml.sax._exceptions.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.sax._exceptions.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\sax\expatreader.py">
+      <ModName>xml.sax.expatreader</ModName>
+      <IntFile>$(IntDir)xml.sax.expatreader.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.sax.expatreader.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\sax\handler.py">
+      <ModName>xml.sax.handler</ModName>
+      <IntFile>$(IntDir)xml.sax.handler.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.sax.handler.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\sax\saxutils.py">
+      <ModName>xml.sax.saxutils</ModName>
+      <IntFile>$(IntDir)xml.sax.saxutils.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.sax.saxutils.h</OutFile>
+    </None>
+    <None Include="..\Lib\xml\sax\xmlreader.py">
+      <ModName>xml.sax.xmlreader</ModName>
+      <IntFile>$(IntDir)xml.sax.xmlreader.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xml.sax.xmlreader.h</OutFile>
+    </None>
+    <None Include="..\Lib\xmlrpc\__init__.py">
+      <ModName>xmlrpc</ModName>
+      <IntFile>$(IntDir)xmlrpc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xmlrpc.h</OutFile>
+    </None>
+    <None Include="..\Lib\xmlrpc\client.py">
+      <ModName>xmlrpc.client</ModName>
+      <IntFile>$(IntDir)xmlrpc.client.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xmlrpc.client.h</OutFile>
+    </None>
+    <None Include="..\Lib\xmlrpc\server.py">
+      <ModName>xmlrpc.server</ModName>
+      <IntFile>$(IntDir)xmlrpc.server.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\xmlrpc.server.h</OutFile>
+    </None>
+    <None Include="..\Lib\zipapp.py">
+      <ModName>zipapp</ModName>
+      <IntFile>$(IntDir)zipapp.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\zipapp.h</OutFile>
+    </None>
+    <None Include="..\Lib\zipfile\__init__.py">
+      <ModName>zipfile</ModName>
+      <IntFile>$(IntDir)zipfile.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\zipfile.h</OutFile>
+    </None>
+    <None Include="..\Lib\zipfile\__main__.py">
+      <ModName>zipfile.__main__</ModName>
+      <IntFile>$(IntDir)zipfile.__main__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\zipfile.__main__.h</OutFile>
+    </None>
+    <None Include="..\Lib\zipfile\_path\__init__.py">
+      <ModName>zipfile._path</ModName>
+      <IntFile>$(IntDir)zipfile._path.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\zipfile._path.h</OutFile>
+    </None>
+    <None Include="..\Lib\zipfile\_path\glob.py">
+      <ModName>zipfile._path.glob</ModName>
+      <IntFile>$(IntDir)zipfile._path.glob.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\zipfile._path.glob.h</OutFile>
+    </None>
+    <None Include="..\Lib\zoneinfo\__init__.py">
+      <ModName>zoneinfo</ModName>
+      <IntFile>$(IntDir)zoneinfo.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\zoneinfo.h</OutFile>
+    </None>
+    <None Include="..\Lib\zoneinfo\_common.py">
+      <ModName>zoneinfo._common</ModName>
+      <IntFile>$(IntDir)zoneinfo._common.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\zoneinfo._common.h</OutFile>
+    </None>
+    <None Include="..\Lib\zoneinfo\_tzpath.py">
+      <ModName>zoneinfo._tzpath</ModName>
+      <IntFile>$(IntDir)zoneinfo._tzpath.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\zoneinfo._tzpath.h</OutFile>
+    </None>
+    <None Include="..\Lib\zoneinfo\_zoneinfo.py">
+      <ModName>zoneinfo._zoneinfo</ModName>
+      <IntFile>$(IntDir)zoneinfo._zoneinfo.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\zoneinfo._zoneinfo.h</OutFile>
+    </None>
+    <None Include="..\Lib\_aix_support.py">
+      <ModName>_aix_support</ModName>
+      <IntFile>$(IntDir)_aix_support.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_aix_support.h</OutFile>
+    </None>
+    <None Include="..\Lib\_android_support.py">
+      <ModName>_android_support</ModName>
+      <IntFile>$(IntDir)_android_support.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_android_support.h</OutFile>
+    </None>
+    <None Include="..\Lib\_colorize.py">
+      <ModName>_colorize</ModName>
+      <IntFile>$(IntDir)_colorize.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_colorize.h</OutFile>
+    </None>
+    <None Include="..\Lib\_compat_pickle.py">
+      <ModName>_compat_pickle</ModName>
+      <IntFile>$(IntDir)_compat_pickle.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_compat_pickle.h</OutFile>
+    </None>
+    <None Include="..\Lib\_compression.py">
+      <ModName>_compression</ModName>
+      <IntFile>$(IntDir)_compression.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_compression.h</OutFile>
+    </None>
+    <None Include="..\Lib\_ios_support.py">
+      <ModName>_ios_support</ModName>
+      <IntFile>$(IntDir)_ios_support.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_ios_support.h</OutFile>
+    </None>
+    <None Include="..\Lib\_markupbase.py">
+      <ModName>_markupbase</ModName>
+      <IntFile>$(IntDir)_markupbase.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_markupbase.h</OutFile>
+    </None>
+    <None Include="..\Lib\_opcode_metadata.py">
+      <ModName>_opcode_metadata</ModName>
+      <IntFile>$(IntDir)_opcode_metadata.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_opcode_metadata.h</OutFile>
+    </None>
+    <None Include="..\Lib\_osx_support.py">
+      <ModName>_osx_support</ModName>
+      <IntFile>$(IntDir)_osx_support.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_osx_support.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pydatetime.py">
+      <ModName>_pydatetime</ModName>
+      <IntFile>$(IntDir)_pydatetime.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pydatetime.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pydecimal.py">
+      <ModName>_pydecimal</ModName>
+      <IntFile>$(IntDir)_pydecimal.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pydecimal.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyio.py">
+      <ModName>_pyio</ModName>
+      <IntFile>$(IntDir)_pyio.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyio.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pylong.py">
+      <ModName>_pylong</ModName>
+      <IntFile>$(IntDir)_pylong.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pylong.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\__init__.py">
+      <ModName>_pyrepl</ModName>
+      <IntFile>$(IntDir)_pyrepl.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\__main__.py">
+      <ModName>_pyrepl.__main__</ModName>
+      <IntFile>$(IntDir)_pyrepl.__main__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.__main__.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\_minimal_curses.py">
+      <ModName>_pyrepl._minimal_curses</ModName>
+      <IntFile>$(IntDir)_pyrepl._minimal_curses.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl._minimal_curses.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\commands.py">
+      <ModName>_pyrepl.commands</ModName>
+      <IntFile>$(IntDir)_pyrepl.commands.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.commands.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\completing_reader.py">
+      <ModName>_pyrepl.completing_reader</ModName>
+      <IntFile>$(IntDir)_pyrepl.completing_reader.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.completing_reader.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\console.py">
+      <ModName>_pyrepl.console</ModName>
+      <IntFile>$(IntDir)_pyrepl.console.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.console.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\curses.py">
+      <ModName>_pyrepl.curses</ModName>
+      <IntFile>$(IntDir)_pyrepl.curses.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.curses.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\fancy_termios.py">
+      <ModName>_pyrepl.fancy_termios</ModName>
+      <IntFile>$(IntDir)_pyrepl.fancy_termios.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.fancy_termios.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\historical_reader.py">
+      <ModName>_pyrepl.historical_reader</ModName>
+      <IntFile>$(IntDir)_pyrepl.historical_reader.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.historical_reader.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\input.py">
+      <ModName>_pyrepl.input</ModName>
+      <IntFile>$(IntDir)_pyrepl.input.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.input.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\keymap.py">
+      <ModName>_pyrepl.keymap</ModName>
+      <IntFile>$(IntDir)_pyrepl.keymap.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.keymap.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\main.py">
+      <ModName>_pyrepl.main</ModName>
+      <IntFile>$(IntDir)_pyrepl.main.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.main.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\pager.py">
+      <ModName>_pyrepl.pager</ModName>
+      <IntFile>$(IntDir)_pyrepl.pager.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.pager.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\reader.py">
+      <ModName>_pyrepl.reader</ModName>
+      <IntFile>$(IntDir)_pyrepl.reader.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.reader.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\readline.py">
+      <ModName>_pyrepl.readline</ModName>
+      <IntFile>$(IntDir)_pyrepl.readline.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.readline.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\simple_interact.py">
+      <ModName>_pyrepl.simple_interact</ModName>
+      <IntFile>$(IntDir)_pyrepl.simple_interact.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.simple_interact.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\trace.py">
+      <ModName>_pyrepl.trace</ModName>
+      <IntFile>$(IntDir)_pyrepl.trace.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.trace.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\types.py">
+      <ModName>_pyrepl.types</ModName>
+      <IntFile>$(IntDir)_pyrepl.types.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.types.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\unix_console.py">
+      <ModName>_pyrepl.unix_console</ModName>
+      <IntFile>$(IntDir)_pyrepl.unix_console.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.unix_console.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\unix_eventqueue.py">
+      <ModName>_pyrepl.unix_eventqueue</ModName>
+      <IntFile>$(IntDir)_pyrepl.unix_eventqueue.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.unix_eventqueue.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\utils.py">
+      <ModName>_pyrepl.utils</ModName>
+      <IntFile>$(IntDir)_pyrepl.utils.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.utils.h</OutFile>
+    </None>
+    <None Include="..\Lib\_pyrepl\windows_console.py">
+      <ModName>_pyrepl.windows_console</ModName>
+      <IntFile>$(IntDir)_pyrepl.windows_console.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_pyrepl.windows_console.h</OutFile>
+    </None>
+    <None Include="..\Lib\_py_abc.py">
+      <ModName>_py_abc</ModName>
+      <IntFile>$(IntDir)_py_abc.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_py_abc.h</OutFile>
+    </None>
+    <None Include="..\Lib\_strptime.py">
+      <ModName>_strptime</ModName>
+      <IntFile>$(IntDir)_strptime.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_strptime.h</OutFile>
+    </None>
+    <None Include="..\Lib\_threading_local.py">
+      <ModName>_threading_local</ModName>
+      <IntFile>$(IntDir)_threading_local.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_threading_local.h</OutFile>
+    </None>
+    <None Include="..\Lib\_weakrefset.py">
+      <ModName>_weakrefset</ModName>
+      <IntFile>$(IntDir)_weakrefset.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\_weakrefset.h</OutFile>
+    </None>
+    <None Include="..\Lib\__future__.py">
+      <ModName>__future__</ModName>
+      <IntFile>$(IntDir)__future__.g.h</IntFile>
+      <OutFile>$(GeneratedFrozenModulesDir)Python\frozen_modules\__future__.h</OutFile>
+    </None>
     <!-- END frozen modules -->
   </ItemGroup>
   <ItemGroup>

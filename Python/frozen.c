@@ -64,12 +64,689 @@
 #include "frozen_modules/__phello__.ham.eggs.h"
 #include "frozen_modules/__phello__.spam.h"
 #include "frozen_modules/frozen_only.h"
+#include "frozen_modules/annotationlib.h"
+#include "frozen_modules/antigravity.h"
+#include "frozen_modules/argparse.h"
+#include "frozen_modules/ast.h"
+#include "frozen_modules/asyncio.h"
+#include "frozen_modules/asyncio.__main__.h"
+#include "frozen_modules/asyncio.base_events.h"
+#include "frozen_modules/asyncio.base_futures.h"
+#include "frozen_modules/asyncio.base_subprocess.h"
+#include "frozen_modules/asyncio.base_tasks.h"
+#include "frozen_modules/asyncio.constants.h"
+#include "frozen_modules/asyncio.coroutines.h"
+#include "frozen_modules/asyncio.events.h"
+#include "frozen_modules/asyncio.exceptions.h"
+#include "frozen_modules/asyncio.format_helpers.h"
+#include "frozen_modules/asyncio.futures.h"
+#include "frozen_modules/asyncio.locks.h"
+#include "frozen_modules/asyncio.log.h"
+#include "frozen_modules/asyncio.mixins.h"
+#include "frozen_modules/asyncio.proactor_events.h"
+#include "frozen_modules/asyncio.protocols.h"
+#include "frozen_modules/asyncio.queues.h"
+#include "frozen_modules/asyncio.runners.h"
+#include "frozen_modules/asyncio.selector_events.h"
+#include "frozen_modules/asyncio.sslproto.h"
+#include "frozen_modules/asyncio.staggered.h"
+#include "frozen_modules/asyncio.streams.h"
+#include "frozen_modules/asyncio.subprocess.h"
+#include "frozen_modules/asyncio.taskgroups.h"
+#include "frozen_modules/asyncio.tasks.h"
+#include "frozen_modules/asyncio.threads.h"
+#include "frozen_modules/asyncio.timeouts.h"
+#include "frozen_modules/asyncio.transports.h"
+#include "frozen_modules/asyncio.trsock.h"
+#include "frozen_modules/asyncio.unix_events.h"
+#include "frozen_modules/asyncio.windows_events.h"
+#include "frozen_modules/asyncio.windows_utils.h"
+#include "frozen_modules/base64.h"
+#include "frozen_modules/bdb.h"
+#include "frozen_modules/bisect.h"
+#include "frozen_modules/bz2.h"
+#include "frozen_modules/calendar.h"
+#include "frozen_modules/cmd.h"
+#include "frozen_modules/code.h"
+#include "frozen_modules/codeop.h"
+#include "frozen_modules/collections.h"
+#include "frozen_modules/collections.abc.h"
+#include "frozen_modules/colorsys.h"
+#include "frozen_modules/compileall.h"
+#include "frozen_modules/concurrent.h"
+#include "frozen_modules/concurrent.futures.h"
+#include "frozen_modules/concurrent.futures._base.h"
+#include "frozen_modules/concurrent.futures.process.h"
+#include "frozen_modules/concurrent.futures.thread.h"
+#include "frozen_modules/configparser.h"
+#include "frozen_modules/contextlib.h"
+#include "frozen_modules/contextvars.h"
+#include "frozen_modules/copy.h"
+#include "frozen_modules/copyreg.h"
+#include "frozen_modules/cProfile.h"
+#include "frozen_modules/csv.h"
+#include "frozen_modules/ctypes.h"
+#include "frozen_modules/ctypes._aix.h"
+#include "frozen_modules/ctypes._endian.h"
+#include "frozen_modules/ctypes.macholib.h"
+#include "frozen_modules/ctypes.macholib.dyld.h"
+#include "frozen_modules/ctypes.macholib.dylib.h"
+#include "frozen_modules/ctypes.macholib.framework.h"
+#include "frozen_modules/ctypes.util.h"
+#include "frozen_modules/ctypes.wintypes.h"
+#include "frozen_modules/curses.h"
+#include "frozen_modules/curses.ascii.h"
+#include "frozen_modules/curses.has_key.h"
+#include "frozen_modules/curses.panel.h"
+#include "frozen_modules/curses.textpad.h"
+#include "frozen_modules/dataclasses.h"
+#include "frozen_modules/datetime.h"
+#include "frozen_modules/dbm.h"
+#include "frozen_modules/dbm.dumb.h"
+#include "frozen_modules/dbm.gnu.h"
+#include "frozen_modules/dbm.ndbm.h"
+#include "frozen_modules/dbm.sqlite3.h"
+#include "frozen_modules/decimal.h"
+#include "frozen_modules/difflib.h"
+#include "frozen_modules/dis.h"
+#include "frozen_modules/doctest.h"
+#include "frozen_modules/email.h"
+#include "frozen_modules/email._encoded_words.h"
+#include "frozen_modules/email._header_value_parser.h"
+#include "frozen_modules/email._parseaddr.h"
+#include "frozen_modules/email._policybase.h"
+#include "frozen_modules/email.base64mime.h"
+#include "frozen_modules/email.charset.h"
+#include "frozen_modules/email.contentmanager.h"
+#include "frozen_modules/email.encoders.h"
+#include "frozen_modules/email.errors.h"
+#include "frozen_modules/email.feedparser.h"
+#include "frozen_modules/email.generator.h"
+#include "frozen_modules/email.header.h"
+#include "frozen_modules/email.headerregistry.h"
+#include "frozen_modules/email.iterators.h"
+#include "frozen_modules/email.message.h"
+#include "frozen_modules/email.mime.h"
+#include "frozen_modules/email.mime.application.h"
+#include "frozen_modules/email.mime.audio.h"
+#include "frozen_modules/email.mime.base.h"
+#include "frozen_modules/email.mime.image.h"
+#include "frozen_modules/email.mime.message.h"
+#include "frozen_modules/email.mime.multipart.h"
+#include "frozen_modules/email.mime.nonmultipart.h"
+#include "frozen_modules/email.mime.text.h"
+#include "frozen_modules/email.parser.h"
+#include "frozen_modules/email.policy.h"
+#include "frozen_modules/email.quoprimime.h"
+#include "frozen_modules/email.utils.h"
+#include "frozen_modules/encodings.h"
+#include "frozen_modules/encodings.aliases.h"
+#include "frozen_modules/encodings.ascii.h"
+#include "frozen_modules/encodings.base64_codec.h"
+#include "frozen_modules/encodings.big5.h"
+#include "frozen_modules/encodings.big5hkscs.h"
+#include "frozen_modules/encodings.bz2_codec.h"
+#include "frozen_modules/encodings.charmap.h"
+#include "frozen_modules/encodings.cp037.h"
+#include "frozen_modules/encodings.cp1006.h"
+#include "frozen_modules/encodings.cp1026.h"
+#include "frozen_modules/encodings.cp1125.h"
+#include "frozen_modules/encodings.cp1140.h"
+#include "frozen_modules/encodings.cp1250.h"
+#include "frozen_modules/encodings.cp1251.h"
+#include "frozen_modules/encodings.cp1252.h"
+#include "frozen_modules/encodings.cp1253.h"
+#include "frozen_modules/encodings.cp1254.h"
+#include "frozen_modules/encodings.cp1255.h"
+#include "frozen_modules/encodings.cp1256.h"
+#include "frozen_modules/encodings.cp1257.h"
+#include "frozen_modules/encodings.cp1258.h"
+#include "frozen_modules/encodings.cp273.h"
+#include "frozen_modules/encodings.cp424.h"
+#include "frozen_modules/encodings.cp437.h"
+#include "frozen_modules/encodings.cp500.h"
+#include "frozen_modules/encodings.cp720.h"
+#include "frozen_modules/encodings.cp737.h"
+#include "frozen_modules/encodings.cp775.h"
+#include "frozen_modules/encodings.cp850.h"
+#include "frozen_modules/encodings.cp852.h"
+#include "frozen_modules/encodings.cp855.h"
+#include "frozen_modules/encodings.cp856.h"
+#include "frozen_modules/encodings.cp857.h"
+#include "frozen_modules/encodings.cp858.h"
+#include "frozen_modules/encodings.cp860.h"
+#include "frozen_modules/encodings.cp861.h"
+#include "frozen_modules/encodings.cp862.h"
+#include "frozen_modules/encodings.cp863.h"
+#include "frozen_modules/encodings.cp864.h"
+#include "frozen_modules/encodings.cp865.h"
+#include "frozen_modules/encodings.cp866.h"
+#include "frozen_modules/encodings.cp869.h"
+#include "frozen_modules/encodings.cp874.h"
+#include "frozen_modules/encodings.cp875.h"
+#include "frozen_modules/encodings.cp932.h"
+#include "frozen_modules/encodings.cp949.h"
+#include "frozen_modules/encodings.cp950.h"
+#include "frozen_modules/encodings.euc_jis_2004.h"
+#include "frozen_modules/encodings.euc_jisx0213.h"
+#include "frozen_modules/encodings.euc_jp.h"
+#include "frozen_modules/encodings.euc_kr.h"
+#include "frozen_modules/encodings.gb18030.h"
+#include "frozen_modules/encodings.gb2312.h"
+#include "frozen_modules/encodings.gbk.h"
+#include "frozen_modules/encodings.hex_codec.h"
+#include "frozen_modules/encodings.hp_roman8.h"
+#include "frozen_modules/encodings.hz.h"
+#include "frozen_modules/encodings.idna.h"
+#include "frozen_modules/encodings.iso2022_jp.h"
+#include "frozen_modules/encodings.iso2022_jp_1.h"
+#include "frozen_modules/encodings.iso2022_jp_2.h"
+#include "frozen_modules/encodings.iso2022_jp_2004.h"
+#include "frozen_modules/encodings.iso2022_jp_3.h"
+#include "frozen_modules/encodings.iso2022_jp_ext.h"
+#include "frozen_modules/encodings.iso2022_kr.h"
+#include "frozen_modules/encodings.iso8859_1.h"
+#include "frozen_modules/encodings.iso8859_10.h"
+#include "frozen_modules/encodings.iso8859_11.h"
+#include "frozen_modules/encodings.iso8859_13.h"
+#include "frozen_modules/encodings.iso8859_14.h"
+#include "frozen_modules/encodings.iso8859_15.h"
+#include "frozen_modules/encodings.iso8859_16.h"
+#include "frozen_modules/encodings.iso8859_2.h"
+#include "frozen_modules/encodings.iso8859_3.h"
+#include "frozen_modules/encodings.iso8859_4.h"
+#include "frozen_modules/encodings.iso8859_5.h"
+#include "frozen_modules/encodings.iso8859_6.h"
+#include "frozen_modules/encodings.iso8859_7.h"
+#include "frozen_modules/encodings.iso8859_8.h"
+#include "frozen_modules/encodings.iso8859_9.h"
+#include "frozen_modules/encodings.johab.h"
+#include "frozen_modules/encodings.koi8_r.h"
+#include "frozen_modules/encodings.koi8_t.h"
+#include "frozen_modules/encodings.koi8_u.h"
+#include "frozen_modules/encodings.kz1048.h"
+#include "frozen_modules/encodings.latin_1.h"
+#include "frozen_modules/encodings.mac_arabic.h"
+#include "frozen_modules/encodings.mac_croatian.h"
+#include "frozen_modules/encodings.mac_cyrillic.h"
+#include "frozen_modules/encodings.mac_farsi.h"
+#include "frozen_modules/encodings.mac_greek.h"
+#include "frozen_modules/encodings.mac_iceland.h"
+#include "frozen_modules/encodings.mac_latin2.h"
+#include "frozen_modules/encodings.mac_roman.h"
+#include "frozen_modules/encodings.mac_romanian.h"
+#include "frozen_modules/encodings.mac_turkish.h"
+#include "frozen_modules/encodings.mbcs.h"
+#include "frozen_modules/encodings.oem.h"
+#include "frozen_modules/encodings.palmos.h"
+#include "frozen_modules/encodings.ptcp154.h"
+#include "frozen_modules/encodings.punycode.h"
+#include "frozen_modules/encodings.quopri_codec.h"
+#include "frozen_modules/encodings.raw_unicode_escape.h"
+#include "frozen_modules/encodings.rot_13.h"
+#include "frozen_modules/encodings.shift_jis.h"
+#include "frozen_modules/encodings.shift_jis_2004.h"
+#include "frozen_modules/encodings.shift_jisx0213.h"
+#include "frozen_modules/encodings.tis_620.h"
+#include "frozen_modules/encodings.undefined.h"
+#include "frozen_modules/encodings.unicode_escape.h"
+#include "frozen_modules/encodings.utf_16.h"
+#include "frozen_modules/encodings.utf_16_be.h"
+#include "frozen_modules/encodings.utf_16_le.h"
+#include "frozen_modules/encodings.utf_32.h"
+#include "frozen_modules/encodings.utf_32_be.h"
+#include "frozen_modules/encodings.utf_32_le.h"
+#include "frozen_modules/encodings.utf_7.h"
+#include "frozen_modules/encodings.utf_8.h"
+#include "frozen_modules/encodings.utf_8_sig.h"
+#include "frozen_modules/encodings.uu_codec.h"
+#include "frozen_modules/encodings.zlib_codec.h"
+#include "frozen_modules/ensurepip.h"
+#include "frozen_modules/ensurepip.__main__.h"
+#include "frozen_modules/ensurepip._uninstall.h"
+#include "frozen_modules/enum.h"
+#include "frozen_modules/filecmp.h"
+#include "frozen_modules/fileinput.h"
+#include "frozen_modules/fnmatch.h"
+#include "frozen_modules/fractions.h"
+#include "frozen_modules/ftplib.h"
+#include "frozen_modules/functools.h"
+#include "frozen_modules/getopt.h"
+#include "frozen_modules/getpass.h"
+#include "frozen_modules/gettext.h"
+#include "frozen_modules/glob.h"
+#include "frozen_modules/graphlib.h"
+#include "frozen_modules/gzip.h"
+#include "frozen_modules/hashlib.h"
+#include "frozen_modules/heapq.h"
+#include "frozen_modules/hmac.h"
+#include "frozen_modules/html.h"
+#include "frozen_modules/html.entities.h"
+#include "frozen_modules/html.parser.h"
+#include "frozen_modules/http.h"
+#include "frozen_modules/http.client.h"
+#include "frozen_modules/http.cookiejar.h"
+#include "frozen_modules/http.cookies.h"
+#include "frozen_modules/http.server.h"
+#include "frozen_modules/idlelib.h"
+#include "frozen_modules/idlelib.__main__.h"
+#include "frozen_modules/idlelib.autocomplete.h"
+#include "frozen_modules/idlelib.autocomplete_w.h"
+#include "frozen_modules/idlelib.autoexpand.h"
+#include "frozen_modules/idlelib.browser.h"
+#include "frozen_modules/idlelib.calltip.h"
+#include "frozen_modules/idlelib.calltip_w.h"
+#include "frozen_modules/idlelib.codecontext.h"
+#include "frozen_modules/idlelib.colorizer.h"
+#include "frozen_modules/idlelib.config.h"
+#include "frozen_modules/idlelib.config_key.h"
+#include "frozen_modules/idlelib.configdialog.h"
+#include "frozen_modules/idlelib.debugger.h"
+#include "frozen_modules/idlelib.debugger_r.h"
+#include "frozen_modules/idlelib.debugobj.h"
+#include "frozen_modules/idlelib.debugobj_r.h"
+#include "frozen_modules/idlelib.delegator.h"
+#include "frozen_modules/idlelib.dynoption.h"
+#include "frozen_modules/idlelib.editor.h"
+#include "frozen_modules/idlelib.filelist.h"
+#include "frozen_modules/idlelib.format.h"
+#include "frozen_modules/idlelib.grep.h"
+#include "frozen_modules/idlelib.help.h"
+#include "frozen_modules/idlelib.help_about.h"
+#include "frozen_modules/idlelib.history.h"
+#include "frozen_modules/idlelib.hyperparser.h"
+#include "frozen_modules/idlelib.idle.h"
+#include "frozen_modules/idlelib.idle_test.h"
+#include "frozen_modules/idlelib.idle_test.htest.h"
+#include "frozen_modules/idlelib.idle_test.mock_idle.h"
+#include "frozen_modules/idlelib.idle_test.mock_tk.h"
+#include "frozen_modules/idlelib.idle_test.template.h"
+#include "frozen_modules/idlelib.idle_test.test_autocomplete.h"
+#include "frozen_modules/idlelib.idle_test.test_autocomplete_w.h"
+#include "frozen_modules/idlelib.idle_test.test_autoexpand.h"
+#include "frozen_modules/idlelib.idle_test.test_browser.h"
+#include "frozen_modules/idlelib.idle_test.test_calltip.h"
+#include "frozen_modules/idlelib.idle_test.test_calltip_w.h"
+#include "frozen_modules/idlelib.idle_test.test_codecontext.h"
+#include "frozen_modules/idlelib.idle_test.test_colorizer.h"
+#include "frozen_modules/idlelib.idle_test.test_config.h"
+#include "frozen_modules/idlelib.idle_test.test_config_key.h"
+#include "frozen_modules/idlelib.idle_test.test_configdialog.h"
+#include "frozen_modules/idlelib.idle_test.test_debugger.h"
+#include "frozen_modules/idlelib.idle_test.test_debugger_r.h"
+#include "frozen_modules/idlelib.idle_test.test_debugobj.h"
+#include "frozen_modules/idlelib.idle_test.test_debugobj_r.h"
+#include "frozen_modules/idlelib.idle_test.test_delegator.h"
+#include "frozen_modules/idlelib.idle_test.test_editmenu.h"
+#include "frozen_modules/idlelib.idle_test.test_editor.h"
+#include "frozen_modules/idlelib.idle_test.test_filelist.h"
+#include "frozen_modules/idlelib.idle_test.test_format.h"
+#include "frozen_modules/idlelib.idle_test.test_grep.h"
+#include "frozen_modules/idlelib.idle_test.test_help.h"
+#include "frozen_modules/idlelib.idle_test.test_help_about.h"
+#include "frozen_modules/idlelib.idle_test.test_history.h"
+#include "frozen_modules/idlelib.idle_test.test_hyperparser.h"
+#include "frozen_modules/idlelib.idle_test.test_iomenu.h"
+#include "frozen_modules/idlelib.idle_test.test_macosx.h"
+#include "frozen_modules/idlelib.idle_test.test_mainmenu.h"
+#include "frozen_modules/idlelib.idle_test.test_multicall.h"
+#include "frozen_modules/idlelib.idle_test.test_outwin.h"
+#include "frozen_modules/idlelib.idle_test.test_parenmatch.h"
+#include "frozen_modules/idlelib.idle_test.test_pathbrowser.h"
+#include "frozen_modules/idlelib.idle_test.test_percolator.h"
+#include "frozen_modules/idlelib.idle_test.test_pyparse.h"
+#include "frozen_modules/idlelib.idle_test.test_pyshell.h"
+#include "frozen_modules/idlelib.idle_test.test_query.h"
+#include "frozen_modules/idlelib.idle_test.test_redirector.h"
+#include "frozen_modules/idlelib.idle_test.test_replace.h"
+#include "frozen_modules/idlelib.idle_test.test_rpc.h"
+#include "frozen_modules/idlelib.idle_test.test_run.h"
+#include "frozen_modules/idlelib.idle_test.test_runscript.h"
+#include "frozen_modules/idlelib.idle_test.test_scrolledlist.h"
+#include "frozen_modules/idlelib.idle_test.test_search.h"
+#include "frozen_modules/idlelib.idle_test.test_searchbase.h"
+#include "frozen_modules/idlelib.idle_test.test_searchengine.h"
+#include "frozen_modules/idlelib.idle_test.test_sidebar.h"
+#include "frozen_modules/idlelib.idle_test.test_squeezer.h"
+#include "frozen_modules/idlelib.idle_test.test_stackviewer.h"
+#include "frozen_modules/idlelib.idle_test.test_statusbar.h"
+#include "frozen_modules/idlelib.idle_test.test_text.h"
+#include "frozen_modules/idlelib.idle_test.test_textview.h"
+#include "frozen_modules/idlelib.idle_test.test_tooltip.h"
+#include "frozen_modules/idlelib.idle_test.test_tree.h"
+#include "frozen_modules/idlelib.idle_test.test_undo.h"
+#include "frozen_modules/idlelib.idle_test.test_util.h"
+#include "frozen_modules/idlelib.idle_test.test_warning.h"
+#include "frozen_modules/idlelib.idle_test.test_window.h"
+#include "frozen_modules/idlelib.idle_test.test_zoomheight.h"
+#include "frozen_modules/idlelib.idle_test.test_zzdummy.h"
+#include "frozen_modules/idlelib.idle_test.tkinter_testing_utils.h"
+#include "frozen_modules/idlelib.iomenu.h"
+#include "frozen_modules/idlelib.macosx.h"
+#include "frozen_modules/idlelib.mainmenu.h"
+#include "frozen_modules/idlelib.multicall.h"
+#include "frozen_modules/idlelib.outwin.h"
+#include "frozen_modules/idlelib.parenmatch.h"
+#include "frozen_modules/idlelib.pathbrowser.h"
+#include "frozen_modules/idlelib.percolator.h"
+#include "frozen_modules/idlelib.pyparse.h"
+#include "frozen_modules/idlelib.pyshell.h"
+#include "frozen_modules/idlelib.query.h"
+#include "frozen_modules/idlelib.redirector.h"
+#include "frozen_modules/idlelib.replace.h"
+#include "frozen_modules/idlelib.rpc.h"
+#include "frozen_modules/idlelib.run.h"
+#include "frozen_modules/idlelib.runscript.h"
+#include "frozen_modules/idlelib.scrolledlist.h"
+#include "frozen_modules/idlelib.search.h"
+#include "frozen_modules/idlelib.searchbase.h"
+#include "frozen_modules/idlelib.searchengine.h"
+#include "frozen_modules/idlelib.sidebar.h"
+#include "frozen_modules/idlelib.squeezer.h"
+#include "frozen_modules/idlelib.stackviewer.h"
+#include "frozen_modules/idlelib.statusbar.h"
+#include "frozen_modules/idlelib.textview.h"
+#include "frozen_modules/idlelib.tooltip.h"
+#include "frozen_modules/idlelib.tree.h"
+#include "frozen_modules/idlelib.undo.h"
+#include "frozen_modules/idlelib.util.h"
+#include "frozen_modules/idlelib.window.h"
+#include "frozen_modules/idlelib.zoomheight.h"
+#include "frozen_modules/idlelib.zzdummy.h"
+#include "frozen_modules/imaplib.h"
+#include "frozen_modules/importlib.h"
+#include "frozen_modules/importlib._abc.h"
+#include "frozen_modules/importlib.abc.h"
+#include "frozen_modules/importlib.metadata.h"
+#include "frozen_modules/importlib.metadata._adapters.h"
+#include "frozen_modules/importlib.metadata._collections.h"
+#include "frozen_modules/importlib.metadata._functools.h"
+#include "frozen_modules/importlib.metadata._itertools.h"
+#include "frozen_modules/importlib.metadata._meta.h"
+#include "frozen_modules/importlib.metadata._text.h"
+#include "frozen_modules/importlib.metadata.diagnose.h"
+#include "frozen_modules/importlib.readers.h"
+#include "frozen_modules/importlib.resources.h"
+#include "frozen_modules/importlib.resources._adapters.h"
+#include "frozen_modules/importlib.resources._common.h"
+#include "frozen_modules/importlib.resources._functional.h"
+#include "frozen_modules/importlib.resources._itertools.h"
+#include "frozen_modules/importlib.resources.abc.h"
+#include "frozen_modules/importlib.resources.readers.h"
+#include "frozen_modules/importlib.resources.simple.h"
+#include "frozen_modules/importlib.simple.h"
+#include "frozen_modules/inspect.h"
+#include "frozen_modules/ipaddress.h"
+#include "frozen_modules/json.h"
+#include "frozen_modules/json.decoder.h"
+#include "frozen_modules/json.encoder.h"
+#include "frozen_modules/json.scanner.h"
+#include "frozen_modules/json.tool.h"
+#include "frozen_modules/keyword.h"
+#include "frozen_modules/linecache.h"
+#include "frozen_modules/locale.h"
+#include "frozen_modules/logging.h"
+#include "frozen_modules/logging.config.h"
+#include "frozen_modules/logging.handlers.h"
+#include "frozen_modules/lzma.h"
+#include "frozen_modules/mailbox.h"
+#include "frozen_modules/mimetypes.h"
+#include "frozen_modules/modulefinder.h"
+#include "frozen_modules/multiprocessing.h"
+#include "frozen_modules/multiprocessing.connection.h"
+#include "frozen_modules/multiprocessing.context.h"
+#include "frozen_modules/multiprocessing.dummy.h"
+#include "frozen_modules/multiprocessing.dummy.connection.h"
+#include "frozen_modules/multiprocessing.forkserver.h"
+#include "frozen_modules/multiprocessing.heap.h"
+#include "frozen_modules/multiprocessing.managers.h"
+#include "frozen_modules/multiprocessing.pool.h"
+#include "frozen_modules/multiprocessing.popen_fork.h"
+#include "frozen_modules/multiprocessing.popen_forkserver.h"
+#include "frozen_modules/multiprocessing.popen_spawn_posix.h"
+#include "frozen_modules/multiprocessing.popen_spawn_win32.h"
+#include "frozen_modules/multiprocessing.process.h"
+#include "frozen_modules/multiprocessing.queues.h"
+#include "frozen_modules/multiprocessing.reduction.h"
+#include "frozen_modules/multiprocessing.resource_sharer.h"
+#include "frozen_modules/multiprocessing.resource_tracker.h"
+#include "frozen_modules/multiprocessing.shared_memory.h"
+#include "frozen_modules/multiprocessing.sharedctypes.h"
+#include "frozen_modules/multiprocessing.spawn.h"
+#include "frozen_modules/multiprocessing.synchronize.h"
+#include "frozen_modules/multiprocessing.util.h"
+#include "frozen_modules/netrc.h"
+#include "frozen_modules/nturl2path.h"
+#include "frozen_modules/numbers.h"
+#include "frozen_modules/opcode.h"
+#include "frozen_modules/operator.h"
+#include "frozen_modules/optparse.h"
+#include "frozen_modules/pathlib.h"
+#include "frozen_modules/pathlib._abc.h"
+#include "frozen_modules/pathlib._local.h"
+#include "frozen_modules/pathlib._os.h"
+#include "frozen_modules/pdb.h"
+#include "frozen_modules/pickle.h"
+#include "frozen_modules/pickletools.h"
+#include "frozen_modules/pkgutil.h"
+#include "frozen_modules/platform.h"
+#include "frozen_modules/plistlib.h"
+#include "frozen_modules/poplib.h"
+#include "frozen_modules/pprint.h"
+#include "frozen_modules/profile.h"
+#include "frozen_modules/pstats.h"
+#include "frozen_modules/pty.h"
+#include "frozen_modules/pyclbr.h"
+#include "frozen_modules/pydoc.h"
+#include "frozen_modules/pydoc_data.h"
+#include "frozen_modules/pydoc_data.topics.h"
+#include "frozen_modules/py_compile.h"
+#include "frozen_modules/queue.h"
+#include "frozen_modules/quopri.h"
+#include "frozen_modules/random.h"
+#include "frozen_modules/re.h"
+#include "frozen_modules/re._casefix.h"
+#include "frozen_modules/re._compiler.h"
+#include "frozen_modules/re._constants.h"
+#include "frozen_modules/re._parser.h"
+#include "frozen_modules/reprlib.h"
+#include "frozen_modules/rlcompleter.h"
+#include "frozen_modules/sched.h"
+#include "frozen_modules/secrets.h"
+#include "frozen_modules/selectors.h"
+#include "frozen_modules/shelve.h"
+#include "frozen_modules/shlex.h"
+#include "frozen_modules/shutil.h"
+#include "frozen_modules/signal.h"
+#include "frozen_modules/smtplib.h"
+#include "frozen_modules/socket.h"
+#include "frozen_modules/socketserver.h"
+#include "frozen_modules/sqlite3.h"
+#include "frozen_modules/sqlite3.__main__.h"
+#include "frozen_modules/sqlite3.dbapi2.h"
+#include "frozen_modules/sqlite3.dump.h"
+#include "frozen_modules/sre_compile.h"
+#include "frozen_modules/sre_constants.h"
+#include "frozen_modules/sre_parse.h"
+#include "frozen_modules/ssl.h"
+#include "frozen_modules/statistics.h"
+#include "frozen_modules/string.h"
+#include "frozen_modules/stringprep.h"
+#include "frozen_modules/struct.h"
+#include "frozen_modules/subprocess.h"
+#include "frozen_modules/symtable.h"
+#include "frozen_modules/sysconfig.h"
+#include "frozen_modules/sysconfig.__main__.h"
+#include "frozen_modules/tabnanny.h"
+#include "frozen_modules/tarfile.h"
+#include "frozen_modules/tempfile.h"
+#include "frozen_modules/textwrap.h"
+#include "frozen_modules/this.h"
+#include "frozen_modules/threading.h"
+#include "frozen_modules/timeit.h"
+#include "frozen_modules/tkinter.h"
+#include "frozen_modules/tkinter.__main__.h"
+#include "frozen_modules/tkinter.colorchooser.h"
+#include "frozen_modules/tkinter.commondialog.h"
+#include "frozen_modules/tkinter.constants.h"
+#include "frozen_modules/tkinter.dialog.h"
+#include "frozen_modules/tkinter.dnd.h"
+#include "frozen_modules/tkinter.filedialog.h"
+#include "frozen_modules/tkinter.font.h"
+#include "frozen_modules/tkinter.messagebox.h"
+#include "frozen_modules/tkinter.scrolledtext.h"
+#include "frozen_modules/tkinter.simpledialog.h"
+#include "frozen_modules/tkinter.ttk.h"
+#include "frozen_modules/token.h"
+#include "frozen_modules/tokenize.h"
+#include "frozen_modules/tomllib.h"
+#include "frozen_modules/tomllib._parser.h"
+#include "frozen_modules/tomllib._re.h"
+#include "frozen_modules/tomllib._types.h"
+#include "frozen_modules/trace.h"
+#include "frozen_modules/traceback.h"
+#include "frozen_modules/tracemalloc.h"
+#include "frozen_modules/tty.h"
+#include "frozen_modules/turtle.h"
+#include "frozen_modules/turtledemo.h"
+#include "frozen_modules/turtledemo.__main__.h"
+#include "frozen_modules/turtledemo.bytedesign.h"
+#include "frozen_modules/turtledemo.chaos.h"
+#include "frozen_modules/turtledemo.clock.h"
+#include "frozen_modules/turtledemo.colormixer.h"
+#include "frozen_modules/turtledemo.forest.h"
+#include "frozen_modules/turtledemo.fractalcurves.h"
+#include "frozen_modules/turtledemo.lindenmayer.h"
+#include "frozen_modules/turtledemo.minimal_hanoi.h"
+#include "frozen_modules/turtledemo.nim.h"
+#include "frozen_modules/turtledemo.paint.h"
+#include "frozen_modules/turtledemo.peace.h"
+#include "frozen_modules/turtledemo.penrose.h"
+#include "frozen_modules/turtledemo.planet_and_moon.h"
+#include "frozen_modules/turtledemo.rosette.h"
+#include "frozen_modules/turtledemo.round_dance.h"
+#include "frozen_modules/turtledemo.sorting_animate.h"
+#include "frozen_modules/turtledemo.tree.h"
+#include "frozen_modules/turtledemo.two_canvases.h"
+#include "frozen_modules/turtledemo.yinyang.h"
+#include "frozen_modules/types.h"
+#include "frozen_modules/typing.h"
+#include "frozen_modules/unittest.h"
+#include "frozen_modules/unittest.__main__.h"
+#include "frozen_modules/unittest._log.h"
+#include "frozen_modules/unittest.async_case.h"
+#include "frozen_modules/unittest.case.h"
+#include "frozen_modules/unittest.loader.h"
+#include "frozen_modules/unittest.main.h"
+#include "frozen_modules/unittest.mock.h"
+#include "frozen_modules/unittest.result.h"
+#include "frozen_modules/unittest.runner.h"
+#include "frozen_modules/unittest.signals.h"
+#include "frozen_modules/unittest.suite.h"
+#include "frozen_modules/unittest.util.h"
+#include "frozen_modules/urllib.h"
+#include "frozen_modules/urllib.error.h"
+#include "frozen_modules/urllib.parse.h"
+#include "frozen_modules/urllib.request.h"
+#include "frozen_modules/urllib.response.h"
+#include "frozen_modules/urllib.robotparser.h"
+#include "frozen_modules/uuid.h"
+#include "frozen_modules/venv.h"
+#include "frozen_modules/venv.__main__.h"
+#include "frozen_modules/warnings.h"
+#include "frozen_modules/wave.h"
+#include "frozen_modules/weakref.h"
+#include "frozen_modules/webbrowser.h"
+#include "frozen_modules/wsgiref.h"
+#include "frozen_modules/wsgiref.handlers.h"
+#include "frozen_modules/wsgiref.headers.h"
+#include "frozen_modules/wsgiref.simple_server.h"
+#include "frozen_modules/wsgiref.types.h"
+#include "frozen_modules/wsgiref.util.h"
+#include "frozen_modules/wsgiref.validate.h"
+#include "frozen_modules/xml.h"
+#include "frozen_modules/xml.dom.h"
+#include "frozen_modules/xml.dom.NodeFilter.h"
+#include "frozen_modules/xml.dom.domreg.h"
+#include "frozen_modules/xml.dom.expatbuilder.h"
+#include "frozen_modules/xml.dom.minicompat.h"
+#include "frozen_modules/xml.dom.minidom.h"
+#include "frozen_modules/xml.dom.pulldom.h"
+#include "frozen_modules/xml.dom.xmlbuilder.h"
+#include "frozen_modules/xml.etree.h"
+#include "frozen_modules/xml.etree.ElementInclude.h"
+#include "frozen_modules/xml.etree.ElementPath.h"
+#include "frozen_modules/xml.etree.ElementTree.h"
+#include "frozen_modules/xml.etree.cElementTree.h"
+#include "frozen_modules/xml.parsers.h"
+#include "frozen_modules/xml.parsers.expat.h"
+#include "frozen_modules/xml.sax.h"
+#include "frozen_modules/xml.sax._exceptions.h"
+#include "frozen_modules/xml.sax.expatreader.h"
+#include "frozen_modules/xml.sax.handler.h"
+#include "frozen_modules/xml.sax.saxutils.h"
+#include "frozen_modules/xml.sax.xmlreader.h"
+#include "frozen_modules/xmlrpc.h"
+#include "frozen_modules/xmlrpc.client.h"
+#include "frozen_modules/xmlrpc.server.h"
+#include "frozen_modules/zipapp.h"
+#include "frozen_modules/zipfile.h"
+#include "frozen_modules/zipfile.__main__.h"
+#include "frozen_modules/zipfile._path.h"
+#include "frozen_modules/zipfile._path.glob.h"
+#include "frozen_modules/zoneinfo.h"
+#include "frozen_modules/zoneinfo._common.h"
+#include "frozen_modules/zoneinfo._tzpath.h"
+#include "frozen_modules/zoneinfo._zoneinfo.h"
+#include "frozen_modules/_aix_support.h"
+#include "frozen_modules/_android_support.h"
+#include "frozen_modules/_colorize.h"
+#include "frozen_modules/_compat_pickle.h"
+#include "frozen_modules/_compression.h"
+#include "frozen_modules/_ios_support.h"
+#include "frozen_modules/_markupbase.h"
+#include "frozen_modules/_opcode_metadata.h"
+#include "frozen_modules/_osx_support.h"
+#include "frozen_modules/_pydatetime.h"
+#include "frozen_modules/_pydecimal.h"
+#include "frozen_modules/_pyio.h"
+#include "frozen_modules/_pylong.h"
+#include "frozen_modules/_pyrepl.h"
+#include "frozen_modules/_pyrepl.__main__.h"
+#include "frozen_modules/_pyrepl._minimal_curses.h"
+#include "frozen_modules/_pyrepl.commands.h"
+#include "frozen_modules/_pyrepl.completing_reader.h"
+#include "frozen_modules/_pyrepl.console.h"
+#include "frozen_modules/_pyrepl.curses.h"
+#include "frozen_modules/_pyrepl.fancy_termios.h"
+#include "frozen_modules/_pyrepl.historical_reader.h"
+#include "frozen_modules/_pyrepl.input.h"
+#include "frozen_modules/_pyrepl.keymap.h"
+#include "frozen_modules/_pyrepl.main.h"
+#include "frozen_modules/_pyrepl.pager.h"
+#include "frozen_modules/_pyrepl.reader.h"
+#include "frozen_modules/_pyrepl.readline.h"
+#include "frozen_modules/_pyrepl.simple_interact.h"
+#include "frozen_modules/_pyrepl.trace.h"
+#include "frozen_modules/_pyrepl.types.h"
+#include "frozen_modules/_pyrepl.unix_console.h"
+#include "frozen_modules/_pyrepl.unix_eventqueue.h"
+#include "frozen_modules/_pyrepl.utils.h"
+#include "frozen_modules/_pyrepl.windows_console.h"
+#include "frozen_modules/_py_abc.h"
+#include "frozen_modules/_strptime.h"
+#include "frozen_modules/_threading_local.h"
+#include "frozen_modules/_weakrefset.h"
+#include "frozen_modules/__future__.h"
 /* End includes */
 
 static const struct _frozen bootstrap_modules[] = {
     {"_frozen_importlib", _Py_M__importlib__bootstrap, (int)sizeof(_Py_M__importlib__bootstrap), false},
     {"_frozen_importlib_external", _Py_M__importlib__bootstrap_external, (int)sizeof(_Py_M__importlib__bootstrap_external), false},
     {"zipimport", _Py_M__zipimport, (int)sizeof(_Py_M__zipimport), false},
+    {"importlib._bootstrap", _Py_M__importlib__bootstrap, (int)sizeof(_Py_M__importlib__bootstrap), false},
+    {"importlib._bootstrap_external", _Py_M__importlib__bootstrap_external, (int)sizeof(_Py_M__importlib__bootstrap_external), false},
+    {"", _Py_M__zipimport, (int)sizeof(_Py_M__zipimport), false},
     {0, 0, 0} /* bootstrap sentinel */
 };
 static const struct _frozen stdlib_modules[] = {
@@ -89,10 +766,752 @@ static const struct _frozen stdlib_modules[] = {
     {"site", _Py_M__site, (int)sizeof(_Py_M__site), false},
     {"stat", _Py_M__stat, (int)sizeof(_Py_M__stat), false},
 
-    /* runpy - run module with -m */
+    /* runpy - run, module with -m */
     {"importlib.util", _Py_M__importlib_util, (int)sizeof(_Py_M__importlib_util), false},
     {"importlib.machinery", _Py_M__importlib_machinery, (int)sizeof(_Py_M__importlib_machinery), false},
     {"runpy", _Py_M__runpy, (int)sizeof(_Py_M__runpy), false},
+
+    /* new stdlib - full walk */
+    {"", _Py_M__abc, (int)sizeof(_Py_M__abc), false},
+    {"annotationlib", _Py_M__annotationlib, (int)sizeof(_Py_M__annotationlib), false},
+    {"antigravity", _Py_M__antigravity, (int)sizeof(_Py_M__antigravity), false},
+    {"argparse", _Py_M__argparse, (int)sizeof(_Py_M__argparse), false},
+    {"ast", _Py_M__ast, (int)sizeof(_Py_M__ast), false},
+    {"asyncio", _Py_M__asyncio, (int)sizeof(_Py_M__asyncio), true},
+    {"asyncio.__init__", _Py_M__asyncio, (int)sizeof(_Py_M__asyncio), false},
+    {"asyncio.__main__", _Py_M__asyncio___main__, (int)sizeof(_Py_M__asyncio___main__), false},
+    {"asyncio.base_events", _Py_M__asyncio_base_events, (int)sizeof(_Py_M__asyncio_base_events), false},
+    {"asyncio.base_futures", _Py_M__asyncio_base_futures, (int)sizeof(_Py_M__asyncio_base_futures), false},
+    {"asyncio.base_subprocess", _Py_M__asyncio_base_subprocess, (int)sizeof(_Py_M__asyncio_base_subprocess), false},
+    {"asyncio.base_tasks", _Py_M__asyncio_base_tasks, (int)sizeof(_Py_M__asyncio_base_tasks), false},
+    {"asyncio.constants", _Py_M__asyncio_constants, (int)sizeof(_Py_M__asyncio_constants), false},
+    {"asyncio.coroutines", _Py_M__asyncio_coroutines, (int)sizeof(_Py_M__asyncio_coroutines), false},
+    {"asyncio.events", _Py_M__asyncio_events, (int)sizeof(_Py_M__asyncio_events), false},
+    {"asyncio.exceptions", _Py_M__asyncio_exceptions, (int)sizeof(_Py_M__asyncio_exceptions), false},
+    {"asyncio.format_helpers", _Py_M__asyncio_format_helpers, (int)sizeof(_Py_M__asyncio_format_helpers), false},
+    {"asyncio.futures", _Py_M__asyncio_futures, (int)sizeof(_Py_M__asyncio_futures), false},
+    {"asyncio.locks", _Py_M__asyncio_locks, (int)sizeof(_Py_M__asyncio_locks), false},
+    {"asyncio.log", _Py_M__asyncio_log, (int)sizeof(_Py_M__asyncio_log), false},
+    {"asyncio.mixins", _Py_M__asyncio_mixins, (int)sizeof(_Py_M__asyncio_mixins), false},
+    {"asyncio.proactor_events", _Py_M__asyncio_proactor_events, (int)sizeof(_Py_M__asyncio_proactor_events), false},
+    {"asyncio.protocols", _Py_M__asyncio_protocols, (int)sizeof(_Py_M__asyncio_protocols), false},
+    {"asyncio.queues", _Py_M__asyncio_queues, (int)sizeof(_Py_M__asyncio_queues), false},
+    {"asyncio.runners", _Py_M__asyncio_runners, (int)sizeof(_Py_M__asyncio_runners), false},
+    {"asyncio.selector_events", _Py_M__asyncio_selector_events, (int)sizeof(_Py_M__asyncio_selector_events), false},
+    {"asyncio.sslproto", _Py_M__asyncio_sslproto, (int)sizeof(_Py_M__asyncio_sslproto), false},
+    {"asyncio.staggered", _Py_M__asyncio_staggered, (int)sizeof(_Py_M__asyncio_staggered), false},
+    {"asyncio.streams", _Py_M__asyncio_streams, (int)sizeof(_Py_M__asyncio_streams), false},
+    {"asyncio.subprocess", _Py_M__asyncio_subprocess, (int)sizeof(_Py_M__asyncio_subprocess), false},
+    {"asyncio.taskgroups", _Py_M__asyncio_taskgroups, (int)sizeof(_Py_M__asyncio_taskgroups), false},
+    {"asyncio.tasks", _Py_M__asyncio_tasks, (int)sizeof(_Py_M__asyncio_tasks), false},
+    {"asyncio.threads", _Py_M__asyncio_threads, (int)sizeof(_Py_M__asyncio_threads), false},
+    {"asyncio.timeouts", _Py_M__asyncio_timeouts, (int)sizeof(_Py_M__asyncio_timeouts), false},
+    {"asyncio.transports", _Py_M__asyncio_transports, (int)sizeof(_Py_M__asyncio_transports), false},
+    {"asyncio.trsock", _Py_M__asyncio_trsock, (int)sizeof(_Py_M__asyncio_trsock), false},
+    {"asyncio.unix_events", _Py_M__asyncio_unix_events, (int)sizeof(_Py_M__asyncio_unix_events), false},
+    {"asyncio.windows_events", _Py_M__asyncio_windows_events, (int)sizeof(_Py_M__asyncio_windows_events), false},
+    {"asyncio.windows_utils", _Py_M__asyncio_windows_utils, (int)sizeof(_Py_M__asyncio_windows_utils), false},
+    {"base64", _Py_M__base64, (int)sizeof(_Py_M__base64), false},
+    {"bdb", _Py_M__bdb, (int)sizeof(_Py_M__bdb), false},
+    {"bisect", _Py_M__bisect, (int)sizeof(_Py_M__bisect), false},
+    {"bz2", _Py_M__bz2, (int)sizeof(_Py_M__bz2), false},
+    {"calendar", _Py_M__calendar, (int)sizeof(_Py_M__calendar), false},
+    {"cmd", _Py_M__cmd, (int)sizeof(_Py_M__cmd), false},
+    {"code", _Py_M__code, (int)sizeof(_Py_M__code), false},
+    {"", _Py_M__codecs, (int)sizeof(_Py_M__codecs), false},
+    {"codeop", _Py_M__codeop, (int)sizeof(_Py_M__codeop), false},
+    {"collections", _Py_M__collections, (int)sizeof(_Py_M__collections), true},
+    {"collections.__init__", _Py_M__collections, (int)sizeof(_Py_M__collections), false},
+    {"collections.abc", _Py_M__collections_abc, (int)sizeof(_Py_M__collections_abc), false},
+    {"colorsys", _Py_M__colorsys, (int)sizeof(_Py_M__colorsys), false},
+    {"compileall", _Py_M__compileall, (int)sizeof(_Py_M__compileall), false},
+    {"concurrent", _Py_M__concurrent, (int)sizeof(_Py_M__concurrent), true},
+    {"concurrent.__init__", _Py_M__concurrent, (int)sizeof(_Py_M__concurrent), false},
+    {"concurrent.futures", _Py_M__concurrent_futures, (int)sizeof(_Py_M__concurrent_futures), true},
+    {"concurrent.futures.__init__", _Py_M__concurrent_futures, (int)sizeof(_Py_M__concurrent_futures), false},
+    {"concurrent.futures._base", _Py_M__concurrent_futures__base, (int)sizeof(_Py_M__concurrent_futures__base), false},
+    {"concurrent.futures.process", _Py_M__concurrent_futures_process, (int)sizeof(_Py_M__concurrent_futures_process), false},
+    {"concurrent.futures.thread", _Py_M__concurrent_futures_thread, (int)sizeof(_Py_M__concurrent_futures_thread), false},
+    {"configparser", _Py_M__configparser, (int)sizeof(_Py_M__configparser), false},
+    {"contextlib", _Py_M__contextlib, (int)sizeof(_Py_M__contextlib), false},
+    {"contextvars", _Py_M__contextvars, (int)sizeof(_Py_M__contextvars), false},
+    {"copy", _Py_M__copy, (int)sizeof(_Py_M__copy), false},
+    {"copyreg", _Py_M__copyreg, (int)sizeof(_Py_M__copyreg), false},
+    {"cProfile", _Py_M__cProfile, (int)sizeof(_Py_M__cProfile), false},
+    {"csv", _Py_M__csv, (int)sizeof(_Py_M__csv), false},
+    {"ctypes", _Py_M__ctypes, (int)sizeof(_Py_M__ctypes), true},
+    {"ctypes.__init__", _Py_M__ctypes, (int)sizeof(_Py_M__ctypes), false},
+    {"ctypes._aix", _Py_M__ctypes__aix, (int)sizeof(_Py_M__ctypes__aix), false},
+    {"ctypes._endian", _Py_M__ctypes__endian, (int)sizeof(_Py_M__ctypes__endian), false},
+    {"ctypes.macholib", _Py_M__ctypes_macholib, (int)sizeof(_Py_M__ctypes_macholib), true},
+    {"ctypes.macholib.__init__", _Py_M__ctypes_macholib, (int)sizeof(_Py_M__ctypes_macholib), false},
+    {"ctypes.macholib.dyld", _Py_M__ctypes_macholib_dyld, (int)sizeof(_Py_M__ctypes_macholib_dyld), false},
+    {"ctypes.macholib.dylib", _Py_M__ctypes_macholib_dylib, (int)sizeof(_Py_M__ctypes_macholib_dylib), false},
+    {"ctypes.macholib.framework", _Py_M__ctypes_macholib_framework, (int)sizeof(_Py_M__ctypes_macholib_framework), false},
+    {"ctypes.util", _Py_M__ctypes_util, (int)sizeof(_Py_M__ctypes_util), false},
+    {"ctypes.wintypes", _Py_M__ctypes_wintypes, (int)sizeof(_Py_M__ctypes_wintypes), false},
+    {"curses", _Py_M__curses, (int)sizeof(_Py_M__curses), true},
+    {"curses.__init__", _Py_M__curses, (int)sizeof(_Py_M__curses), false},
+    {"curses.ascii", _Py_M__curses_ascii, (int)sizeof(_Py_M__curses_ascii), false},
+    {"curses.has_key", _Py_M__curses_has_key, (int)sizeof(_Py_M__curses_has_key), false},
+    {"curses.panel", _Py_M__curses_panel, (int)sizeof(_Py_M__curses_panel), false},
+    {"curses.textpad", _Py_M__curses_textpad, (int)sizeof(_Py_M__curses_textpad), false},
+    {"dataclasses", _Py_M__dataclasses, (int)sizeof(_Py_M__dataclasses), false},
+    {"datetime", _Py_M__datetime, (int)sizeof(_Py_M__datetime), false},
+    {"dbm", _Py_M__dbm, (int)sizeof(_Py_M__dbm), true},
+    {"dbm.__init__", _Py_M__dbm, (int)sizeof(_Py_M__dbm), false},
+    {"dbm.dumb", _Py_M__dbm_dumb, (int)sizeof(_Py_M__dbm_dumb), false},
+    {"dbm.gnu", _Py_M__dbm_gnu, (int)sizeof(_Py_M__dbm_gnu), false},
+    {"dbm.ndbm", _Py_M__dbm_ndbm, (int)sizeof(_Py_M__dbm_ndbm), false},
+    {"dbm.sqlite3", _Py_M__dbm_sqlite3, (int)sizeof(_Py_M__dbm_sqlite3), false},
+    {"decimal", _Py_M__decimal, (int)sizeof(_Py_M__decimal), false},
+    {"difflib", _Py_M__difflib, (int)sizeof(_Py_M__difflib), false},
+    {"dis", _Py_M__dis, (int)sizeof(_Py_M__dis), false},
+    {"doctest", _Py_M__doctest, (int)sizeof(_Py_M__doctest), false},
+    {"email", _Py_M__email, (int)sizeof(_Py_M__email), true},
+    {"email.__init__", _Py_M__email, (int)sizeof(_Py_M__email), false},
+    {"email._encoded_words", _Py_M__email__encoded_words, (int)sizeof(_Py_M__email__encoded_words), false},
+    {"email._header_value_parser", _Py_M__email__header_value_parser, (int)sizeof(_Py_M__email__header_value_parser), false},
+    {"email._parseaddr", _Py_M__email__parseaddr, (int)sizeof(_Py_M__email__parseaddr), false},
+    {"email._policybase", _Py_M__email__policybase, (int)sizeof(_Py_M__email__policybase), false},
+    {"email.base64mime", _Py_M__email_base64mime, (int)sizeof(_Py_M__email_base64mime), false},
+    {"email.charset", _Py_M__email_charset, (int)sizeof(_Py_M__email_charset), false},
+    {"email.contentmanager", _Py_M__email_contentmanager, (int)sizeof(_Py_M__email_contentmanager), false},
+    {"email.encoders", _Py_M__email_encoders, (int)sizeof(_Py_M__email_encoders), false},
+    {"email.errors", _Py_M__email_errors, (int)sizeof(_Py_M__email_errors), false},
+    {"email.feedparser", _Py_M__email_feedparser, (int)sizeof(_Py_M__email_feedparser), false},
+    {"email.generator", _Py_M__email_generator, (int)sizeof(_Py_M__email_generator), false},
+    {"email.header", _Py_M__email_header, (int)sizeof(_Py_M__email_header), false},
+    {"email.headerregistry", _Py_M__email_headerregistry, (int)sizeof(_Py_M__email_headerregistry), false},
+    {"email.iterators", _Py_M__email_iterators, (int)sizeof(_Py_M__email_iterators), false},
+    {"email.message", _Py_M__email_message, (int)sizeof(_Py_M__email_message), false},
+    {"email.mime", _Py_M__email_mime, (int)sizeof(_Py_M__email_mime), true},
+    {"email.mime.__init__", _Py_M__email_mime, (int)sizeof(_Py_M__email_mime), false},
+    {"email.mime.application", _Py_M__email_mime_application, (int)sizeof(_Py_M__email_mime_application), false},
+    {"email.mime.audio", _Py_M__email_mime_audio, (int)sizeof(_Py_M__email_mime_audio), false},
+    {"email.mime.base", _Py_M__email_mime_base, (int)sizeof(_Py_M__email_mime_base), false},
+    {"email.mime.image", _Py_M__email_mime_image, (int)sizeof(_Py_M__email_mime_image), false},
+    {"email.mime.message", _Py_M__email_mime_message, (int)sizeof(_Py_M__email_mime_message), false},
+    {"email.mime.multipart", _Py_M__email_mime_multipart, (int)sizeof(_Py_M__email_mime_multipart), false},
+    {"email.mime.nonmultipart", _Py_M__email_mime_nonmultipart, (int)sizeof(_Py_M__email_mime_nonmultipart), false},
+    {"email.mime.text", _Py_M__email_mime_text, (int)sizeof(_Py_M__email_mime_text), false},
+    {"email.parser", _Py_M__email_parser, (int)sizeof(_Py_M__email_parser), false},
+    {"email.policy", _Py_M__email_policy, (int)sizeof(_Py_M__email_policy), false},
+    {"email.quoprimime", _Py_M__email_quoprimime, (int)sizeof(_Py_M__email_quoprimime), false},
+    {"email.utils", _Py_M__email_utils, (int)sizeof(_Py_M__email_utils), false},
+    {"encodings", _Py_M__encodings, (int)sizeof(_Py_M__encodings), true},
+    {"encodings.__init__", _Py_M__encodings, (int)sizeof(_Py_M__encodings), false},
+    {"encodings.aliases", _Py_M__encodings_aliases, (int)sizeof(_Py_M__encodings_aliases), false},
+    {"encodings.ascii", _Py_M__encodings_ascii, (int)sizeof(_Py_M__encodings_ascii), false},
+    {"encodings.base64_codec", _Py_M__encodings_base64_codec, (int)sizeof(_Py_M__encodings_base64_codec), false},
+    {"encodings.big5", _Py_M__encodings_big5, (int)sizeof(_Py_M__encodings_big5), false},
+    {"encodings.big5hkscs", _Py_M__encodings_big5hkscs, (int)sizeof(_Py_M__encodings_big5hkscs), false},
+    {"encodings.bz2_codec", _Py_M__encodings_bz2_codec, (int)sizeof(_Py_M__encodings_bz2_codec), false},
+    {"encodings.charmap", _Py_M__encodings_charmap, (int)sizeof(_Py_M__encodings_charmap), false},
+    {"encodings.cp037", _Py_M__encodings_cp037, (int)sizeof(_Py_M__encodings_cp037), false},
+    {"encodings.cp1006", _Py_M__encodings_cp1006, (int)sizeof(_Py_M__encodings_cp1006), false},
+    {"encodings.cp1026", _Py_M__encodings_cp1026, (int)sizeof(_Py_M__encodings_cp1026), false},
+    {"encodings.cp1125", _Py_M__encodings_cp1125, (int)sizeof(_Py_M__encodings_cp1125), false},
+    {"encodings.cp1140", _Py_M__encodings_cp1140, (int)sizeof(_Py_M__encodings_cp1140), false},
+    {"encodings.cp1250", _Py_M__encodings_cp1250, (int)sizeof(_Py_M__encodings_cp1250), false},
+    {"encodings.cp1251", _Py_M__encodings_cp1251, (int)sizeof(_Py_M__encodings_cp1251), false},
+    {"encodings.cp1252", _Py_M__encodings_cp1252, (int)sizeof(_Py_M__encodings_cp1252), false},
+    {"encodings.cp1253", _Py_M__encodings_cp1253, (int)sizeof(_Py_M__encodings_cp1253), false},
+    {"encodings.cp1254", _Py_M__encodings_cp1254, (int)sizeof(_Py_M__encodings_cp1254), false},
+    {"encodings.cp1255", _Py_M__encodings_cp1255, (int)sizeof(_Py_M__encodings_cp1255), false},
+    {"encodings.cp1256", _Py_M__encodings_cp1256, (int)sizeof(_Py_M__encodings_cp1256), false},
+    {"encodings.cp1257", _Py_M__encodings_cp1257, (int)sizeof(_Py_M__encodings_cp1257), false},
+    {"encodings.cp1258", _Py_M__encodings_cp1258, (int)sizeof(_Py_M__encodings_cp1258), false},
+    {"encodings.cp273", _Py_M__encodings_cp273, (int)sizeof(_Py_M__encodings_cp273), false},
+    {"encodings.cp424", _Py_M__encodings_cp424, (int)sizeof(_Py_M__encodings_cp424), false},
+    {"encodings.cp437", _Py_M__encodings_cp437, (int)sizeof(_Py_M__encodings_cp437), false},
+    {"encodings.cp500", _Py_M__encodings_cp500, (int)sizeof(_Py_M__encodings_cp500), false},
+    {"encodings.cp720", _Py_M__encodings_cp720, (int)sizeof(_Py_M__encodings_cp720), false},
+    {"encodings.cp737", _Py_M__encodings_cp737, (int)sizeof(_Py_M__encodings_cp737), false},
+    {"encodings.cp775", _Py_M__encodings_cp775, (int)sizeof(_Py_M__encodings_cp775), false},
+    {"encodings.cp850", _Py_M__encodings_cp850, (int)sizeof(_Py_M__encodings_cp850), false},
+    {"encodings.cp852", _Py_M__encodings_cp852, (int)sizeof(_Py_M__encodings_cp852), false},
+    {"encodings.cp855", _Py_M__encodings_cp855, (int)sizeof(_Py_M__encodings_cp855), false},
+    {"encodings.cp856", _Py_M__encodings_cp856, (int)sizeof(_Py_M__encodings_cp856), false},
+    {"encodings.cp857", _Py_M__encodings_cp857, (int)sizeof(_Py_M__encodings_cp857), false},
+    {"encodings.cp858", _Py_M__encodings_cp858, (int)sizeof(_Py_M__encodings_cp858), false},
+    {"encodings.cp860", _Py_M__encodings_cp860, (int)sizeof(_Py_M__encodings_cp860), false},
+    {"encodings.cp861", _Py_M__encodings_cp861, (int)sizeof(_Py_M__encodings_cp861), false},
+    {"encodings.cp862", _Py_M__encodings_cp862, (int)sizeof(_Py_M__encodings_cp862), false},
+    {"encodings.cp863", _Py_M__encodings_cp863, (int)sizeof(_Py_M__encodings_cp863), false},
+    {"encodings.cp864", _Py_M__encodings_cp864, (int)sizeof(_Py_M__encodings_cp864), false},
+    {"encodings.cp865", _Py_M__encodings_cp865, (int)sizeof(_Py_M__encodings_cp865), false},
+    {"encodings.cp866", _Py_M__encodings_cp866, (int)sizeof(_Py_M__encodings_cp866), false},
+    {"encodings.cp869", _Py_M__encodings_cp869, (int)sizeof(_Py_M__encodings_cp869), false},
+    {"encodings.cp874", _Py_M__encodings_cp874, (int)sizeof(_Py_M__encodings_cp874), false},
+    {"encodings.cp875", _Py_M__encodings_cp875, (int)sizeof(_Py_M__encodings_cp875), false},
+    {"encodings.cp932", _Py_M__encodings_cp932, (int)sizeof(_Py_M__encodings_cp932), false},
+    {"encodings.cp949", _Py_M__encodings_cp949, (int)sizeof(_Py_M__encodings_cp949), false},
+    {"encodings.cp950", _Py_M__encodings_cp950, (int)sizeof(_Py_M__encodings_cp950), false},
+    {"encodings.euc_jis_2004", _Py_M__encodings_euc_jis_2004, (int)sizeof(_Py_M__encodings_euc_jis_2004), false},
+    {"encodings.euc_jisx0213", _Py_M__encodings_euc_jisx0213, (int)sizeof(_Py_M__encodings_euc_jisx0213), false},
+    {"encodings.euc_jp", _Py_M__encodings_euc_jp, (int)sizeof(_Py_M__encodings_euc_jp), false},
+    {"encodings.euc_kr", _Py_M__encodings_euc_kr, (int)sizeof(_Py_M__encodings_euc_kr), false},
+    {"encodings.gb18030", _Py_M__encodings_gb18030, (int)sizeof(_Py_M__encodings_gb18030), false},
+    {"encodings.gb2312", _Py_M__encodings_gb2312, (int)sizeof(_Py_M__encodings_gb2312), false},
+    {"encodings.gbk", _Py_M__encodings_gbk, (int)sizeof(_Py_M__encodings_gbk), false},
+    {"encodings.hex_codec", _Py_M__encodings_hex_codec, (int)sizeof(_Py_M__encodings_hex_codec), false},
+    {"encodings.hp_roman8", _Py_M__encodings_hp_roman8, (int)sizeof(_Py_M__encodings_hp_roman8), false},
+    {"encodings.hz", _Py_M__encodings_hz, (int)sizeof(_Py_M__encodings_hz), false},
+    {"encodings.idna", _Py_M__encodings_idna, (int)sizeof(_Py_M__encodings_idna), false},
+    {"encodings.iso2022_jp", _Py_M__encodings_iso2022_jp, (int)sizeof(_Py_M__encodings_iso2022_jp), false},
+    {"encodings.iso2022_jp_1", _Py_M__encodings_iso2022_jp_1, (int)sizeof(_Py_M__encodings_iso2022_jp_1), false},
+    {"encodings.iso2022_jp_2", _Py_M__encodings_iso2022_jp_2, (int)sizeof(_Py_M__encodings_iso2022_jp_2), false},
+    {"encodings.iso2022_jp_2004", _Py_M__encodings_iso2022_jp_2004, (int)sizeof(_Py_M__encodings_iso2022_jp_2004), false},
+    {"encodings.iso2022_jp_3", _Py_M__encodings_iso2022_jp_3, (int)sizeof(_Py_M__encodings_iso2022_jp_3), false},
+    {"encodings.iso2022_jp_ext", _Py_M__encodings_iso2022_jp_ext, (int)sizeof(_Py_M__encodings_iso2022_jp_ext), false},
+    {"encodings.iso2022_kr", _Py_M__encodings_iso2022_kr, (int)sizeof(_Py_M__encodings_iso2022_kr), false},
+    {"encodings.iso8859_1", _Py_M__encodings_iso8859_1, (int)sizeof(_Py_M__encodings_iso8859_1), false},
+    {"encodings.iso8859_10", _Py_M__encodings_iso8859_10, (int)sizeof(_Py_M__encodings_iso8859_10), false},
+    {"encodings.iso8859_11", _Py_M__encodings_iso8859_11, (int)sizeof(_Py_M__encodings_iso8859_11), false},
+    {"encodings.iso8859_13", _Py_M__encodings_iso8859_13, (int)sizeof(_Py_M__encodings_iso8859_13), false},
+    {"encodings.iso8859_14", _Py_M__encodings_iso8859_14, (int)sizeof(_Py_M__encodings_iso8859_14), false},
+    {"encodings.iso8859_15", _Py_M__encodings_iso8859_15, (int)sizeof(_Py_M__encodings_iso8859_15), false},
+    {"encodings.iso8859_16", _Py_M__encodings_iso8859_16, (int)sizeof(_Py_M__encodings_iso8859_16), false},
+    {"encodings.iso8859_2", _Py_M__encodings_iso8859_2, (int)sizeof(_Py_M__encodings_iso8859_2), false},
+    {"encodings.iso8859_3", _Py_M__encodings_iso8859_3, (int)sizeof(_Py_M__encodings_iso8859_3), false},
+    {"encodings.iso8859_4", _Py_M__encodings_iso8859_4, (int)sizeof(_Py_M__encodings_iso8859_4), false},
+    {"encodings.iso8859_5", _Py_M__encodings_iso8859_5, (int)sizeof(_Py_M__encodings_iso8859_5), false},
+    {"encodings.iso8859_6", _Py_M__encodings_iso8859_6, (int)sizeof(_Py_M__encodings_iso8859_6), false},
+    {"encodings.iso8859_7", _Py_M__encodings_iso8859_7, (int)sizeof(_Py_M__encodings_iso8859_7), false},
+    {"encodings.iso8859_8", _Py_M__encodings_iso8859_8, (int)sizeof(_Py_M__encodings_iso8859_8), false},
+    {"encodings.iso8859_9", _Py_M__encodings_iso8859_9, (int)sizeof(_Py_M__encodings_iso8859_9), false},
+    {"encodings.johab", _Py_M__encodings_johab, (int)sizeof(_Py_M__encodings_johab), false},
+    {"encodings.koi8_r", _Py_M__encodings_koi8_r, (int)sizeof(_Py_M__encodings_koi8_r), false},
+    {"encodings.koi8_t", _Py_M__encodings_koi8_t, (int)sizeof(_Py_M__encodings_koi8_t), false},
+    {"encodings.koi8_u", _Py_M__encodings_koi8_u, (int)sizeof(_Py_M__encodings_koi8_u), false},
+    {"encodings.kz1048", _Py_M__encodings_kz1048, (int)sizeof(_Py_M__encodings_kz1048), false},
+    {"encodings.latin_1", _Py_M__encodings_latin_1, (int)sizeof(_Py_M__encodings_latin_1), false},
+    {"encodings.mac_arabic", _Py_M__encodings_mac_arabic, (int)sizeof(_Py_M__encodings_mac_arabic), false},
+    {"encodings.mac_croatian", _Py_M__encodings_mac_croatian, (int)sizeof(_Py_M__encodings_mac_croatian), false},
+    {"encodings.mac_cyrillic", _Py_M__encodings_mac_cyrillic, (int)sizeof(_Py_M__encodings_mac_cyrillic), false},
+    {"encodings.mac_farsi", _Py_M__encodings_mac_farsi, (int)sizeof(_Py_M__encodings_mac_farsi), false},
+    {"encodings.mac_greek", _Py_M__encodings_mac_greek, (int)sizeof(_Py_M__encodings_mac_greek), false},
+    {"encodings.mac_iceland", _Py_M__encodings_mac_iceland, (int)sizeof(_Py_M__encodings_mac_iceland), false},
+    {"encodings.mac_latin2", _Py_M__encodings_mac_latin2, (int)sizeof(_Py_M__encodings_mac_latin2), false},
+    {"encodings.mac_roman", _Py_M__encodings_mac_roman, (int)sizeof(_Py_M__encodings_mac_roman), false},
+    {"encodings.mac_romanian", _Py_M__encodings_mac_romanian, (int)sizeof(_Py_M__encodings_mac_romanian), false},
+    {"encodings.mac_turkish", _Py_M__encodings_mac_turkish, (int)sizeof(_Py_M__encodings_mac_turkish), false},
+    {"encodings.mbcs", _Py_M__encodings_mbcs, (int)sizeof(_Py_M__encodings_mbcs), false},
+    {"encodings.oem", _Py_M__encodings_oem, (int)sizeof(_Py_M__encodings_oem), false},
+    {"encodings.palmos", _Py_M__encodings_palmos, (int)sizeof(_Py_M__encodings_palmos), false},
+    {"encodings.ptcp154", _Py_M__encodings_ptcp154, (int)sizeof(_Py_M__encodings_ptcp154), false},
+    {"encodings.punycode", _Py_M__encodings_punycode, (int)sizeof(_Py_M__encodings_punycode), false},
+    {"encodings.quopri_codec", _Py_M__encodings_quopri_codec, (int)sizeof(_Py_M__encodings_quopri_codec), false},
+    {"encodings.raw_unicode_escape", _Py_M__encodings_raw_unicode_escape, (int)sizeof(_Py_M__encodings_raw_unicode_escape), false},
+    {"encodings.rot_13", _Py_M__encodings_rot_13, (int)sizeof(_Py_M__encodings_rot_13), false},
+    {"encodings.shift_jis", _Py_M__encodings_shift_jis, (int)sizeof(_Py_M__encodings_shift_jis), false},
+    {"encodings.shift_jis_2004", _Py_M__encodings_shift_jis_2004, (int)sizeof(_Py_M__encodings_shift_jis_2004), false},
+    {"encodings.shift_jisx0213", _Py_M__encodings_shift_jisx0213, (int)sizeof(_Py_M__encodings_shift_jisx0213), false},
+    {"encodings.tis_620", _Py_M__encodings_tis_620, (int)sizeof(_Py_M__encodings_tis_620), false},
+    {"encodings.undefined", _Py_M__encodings_undefined, (int)sizeof(_Py_M__encodings_undefined), false},
+    {"encodings.unicode_escape", _Py_M__encodings_unicode_escape, (int)sizeof(_Py_M__encodings_unicode_escape), false},
+    {"encodings.utf_16", _Py_M__encodings_utf_16, (int)sizeof(_Py_M__encodings_utf_16), false},
+    {"encodings.utf_16_be", _Py_M__encodings_utf_16_be, (int)sizeof(_Py_M__encodings_utf_16_be), false},
+    {"encodings.utf_16_le", _Py_M__encodings_utf_16_le, (int)sizeof(_Py_M__encodings_utf_16_le), false},
+    {"encodings.utf_32", _Py_M__encodings_utf_32, (int)sizeof(_Py_M__encodings_utf_32), false},
+    {"encodings.utf_32_be", _Py_M__encodings_utf_32_be, (int)sizeof(_Py_M__encodings_utf_32_be), false},
+    {"encodings.utf_32_le", _Py_M__encodings_utf_32_le, (int)sizeof(_Py_M__encodings_utf_32_le), false},
+    {"encodings.utf_7", _Py_M__encodings_utf_7, (int)sizeof(_Py_M__encodings_utf_7), false},
+    {"encodings.utf_8", _Py_M__encodings_utf_8, (int)sizeof(_Py_M__encodings_utf_8), false},
+    {"encodings.utf_8_sig", _Py_M__encodings_utf_8_sig, (int)sizeof(_Py_M__encodings_utf_8_sig), false},
+    {"encodings.uu_codec", _Py_M__encodings_uu_codec, (int)sizeof(_Py_M__encodings_uu_codec), false},
+    {"encodings.zlib_codec", _Py_M__encodings_zlib_codec, (int)sizeof(_Py_M__encodings_zlib_codec), false},
+    {"ensurepip", _Py_M__ensurepip, (int)sizeof(_Py_M__ensurepip), true},
+    {"ensurepip.__init__", _Py_M__ensurepip, (int)sizeof(_Py_M__ensurepip), false},
+    {"ensurepip.__main__", _Py_M__ensurepip___main__, (int)sizeof(_Py_M__ensurepip___main__), false},
+    {"ensurepip._uninstall", _Py_M__ensurepip__uninstall, (int)sizeof(_Py_M__ensurepip__uninstall), false},
+    {"enum", _Py_M__enum, (int)sizeof(_Py_M__enum), false},
+    {"filecmp", _Py_M__filecmp, (int)sizeof(_Py_M__filecmp), false},
+    {"fileinput", _Py_M__fileinput, (int)sizeof(_Py_M__fileinput), false},
+    {"fnmatch", _Py_M__fnmatch, (int)sizeof(_Py_M__fnmatch), false},
+    {"fractions", _Py_M__fractions, (int)sizeof(_Py_M__fractions), false},
+    {"ftplib", _Py_M__ftplib, (int)sizeof(_Py_M__ftplib), false},
+    {"functools", _Py_M__functools, (int)sizeof(_Py_M__functools), false},
+    {"", _Py_M__genericpath, (int)sizeof(_Py_M__genericpath), false},
+    {"getopt", _Py_M__getopt, (int)sizeof(_Py_M__getopt), false},
+    {"getpass", _Py_M__getpass, (int)sizeof(_Py_M__getpass), false},
+    {"gettext", _Py_M__gettext, (int)sizeof(_Py_M__gettext), false},
+    {"glob", _Py_M__glob, (int)sizeof(_Py_M__glob), false},
+    {"graphlib", _Py_M__graphlib, (int)sizeof(_Py_M__graphlib), false},
+    {"gzip", _Py_M__gzip, (int)sizeof(_Py_M__gzip), false},
+    {"hashlib", _Py_M__hashlib, (int)sizeof(_Py_M__hashlib), false},
+    {"heapq", _Py_M__heapq, (int)sizeof(_Py_M__heapq), false},
+    {"hmac", _Py_M__hmac, (int)sizeof(_Py_M__hmac), false},
+    {"html", _Py_M__html, (int)sizeof(_Py_M__html), true},
+    {"html.__init__", _Py_M__html, (int)sizeof(_Py_M__html), false},
+    {"html.entities", _Py_M__html_entities, (int)sizeof(_Py_M__html_entities), false},
+    {"html.parser", _Py_M__html_parser, (int)sizeof(_Py_M__html_parser), false},
+    {"http", _Py_M__http, (int)sizeof(_Py_M__http), true},
+    {"http.__init__", _Py_M__http, (int)sizeof(_Py_M__http), false},
+    {"http.client", _Py_M__http_client, (int)sizeof(_Py_M__http_client), false},
+    {"http.cookiejar", _Py_M__http_cookiejar, (int)sizeof(_Py_M__http_cookiejar), false},
+    {"http.cookies", _Py_M__http_cookies, (int)sizeof(_Py_M__http_cookies), false},
+    {"http.server", _Py_M__http_server, (int)sizeof(_Py_M__http_server), false},
+    {"idlelib", _Py_M__idlelib, (int)sizeof(_Py_M__idlelib), true},
+    {"idlelib.__init__", _Py_M__idlelib, (int)sizeof(_Py_M__idlelib), false},
+    {"idlelib.__main__", _Py_M__idlelib___main__, (int)sizeof(_Py_M__idlelib___main__), false},
+    {"idlelib.autocomplete", _Py_M__idlelib_autocomplete, (int)sizeof(_Py_M__idlelib_autocomplete), false},
+    {"idlelib.autocomplete_w", _Py_M__idlelib_autocomplete_w, (int)sizeof(_Py_M__idlelib_autocomplete_w), false},
+    {"idlelib.autoexpand", _Py_M__idlelib_autoexpand, (int)sizeof(_Py_M__idlelib_autoexpand), false},
+    {"idlelib.browser", _Py_M__idlelib_browser, (int)sizeof(_Py_M__idlelib_browser), false},
+    {"idlelib.calltip", _Py_M__idlelib_calltip, (int)sizeof(_Py_M__idlelib_calltip), false},
+    {"idlelib.calltip_w", _Py_M__idlelib_calltip_w, (int)sizeof(_Py_M__idlelib_calltip_w), false},
+    {"idlelib.codecontext", _Py_M__idlelib_codecontext, (int)sizeof(_Py_M__idlelib_codecontext), false},
+    {"idlelib.colorizer", _Py_M__idlelib_colorizer, (int)sizeof(_Py_M__idlelib_colorizer), false},
+    {"idlelib.config", _Py_M__idlelib_config, (int)sizeof(_Py_M__idlelib_config), false},
+    {"idlelib.config_key", _Py_M__idlelib_config_key, (int)sizeof(_Py_M__idlelib_config_key), false},
+    {"idlelib.configdialog", _Py_M__idlelib_configdialog, (int)sizeof(_Py_M__idlelib_configdialog), false},
+    {"idlelib.debugger", _Py_M__idlelib_debugger, (int)sizeof(_Py_M__idlelib_debugger), false},
+    {"idlelib.debugger_r", _Py_M__idlelib_debugger_r, (int)sizeof(_Py_M__idlelib_debugger_r), false},
+    {"idlelib.debugobj", _Py_M__idlelib_debugobj, (int)sizeof(_Py_M__idlelib_debugobj), false},
+    {"idlelib.debugobj_r", _Py_M__idlelib_debugobj_r, (int)sizeof(_Py_M__idlelib_debugobj_r), false},
+    {"idlelib.delegator", _Py_M__idlelib_delegator, (int)sizeof(_Py_M__idlelib_delegator), false},
+    {"idlelib.dynoption", _Py_M__idlelib_dynoption, (int)sizeof(_Py_M__idlelib_dynoption), false},
+    {"idlelib.editor", _Py_M__idlelib_editor, (int)sizeof(_Py_M__idlelib_editor), false},
+    {"idlelib.filelist", _Py_M__idlelib_filelist, (int)sizeof(_Py_M__idlelib_filelist), false},
+    {"idlelib.format", _Py_M__idlelib_format, (int)sizeof(_Py_M__idlelib_format), false},
+    {"idlelib.grep", _Py_M__idlelib_grep, (int)sizeof(_Py_M__idlelib_grep), false},
+    {"idlelib.help", _Py_M__idlelib_help, (int)sizeof(_Py_M__idlelib_help), false},
+    {"idlelib.help_about", _Py_M__idlelib_help_about, (int)sizeof(_Py_M__idlelib_help_about), false},
+    {"idlelib.history", _Py_M__idlelib_history, (int)sizeof(_Py_M__idlelib_history), false},
+    {"idlelib.hyperparser", _Py_M__idlelib_hyperparser, (int)sizeof(_Py_M__idlelib_hyperparser), false},
+    {"idlelib.idle", _Py_M__idlelib_idle, (int)sizeof(_Py_M__idlelib_idle), false},
+    {"idlelib.idle_test", _Py_M__idlelib_idle_test, (int)sizeof(_Py_M__idlelib_idle_test), true},
+    {"idlelib.idle_test.__init__", _Py_M__idlelib_idle_test, (int)sizeof(_Py_M__idlelib_idle_test), false},
+    {"idlelib.idle_test.htest", _Py_M__idlelib_idle_test_htest, (int)sizeof(_Py_M__idlelib_idle_test_htest), false},
+    {"idlelib.idle_test.mock_idle", _Py_M__idlelib_idle_test_mock_idle, (int)sizeof(_Py_M__idlelib_idle_test_mock_idle), false},
+    {"idlelib.idle_test.mock_tk", _Py_M__idlelib_idle_test_mock_tk, (int)sizeof(_Py_M__idlelib_idle_test_mock_tk), false},
+    {"idlelib.idle_test.template", _Py_M__idlelib_idle_test_template, (int)sizeof(_Py_M__idlelib_idle_test_template), false},
+    {"idlelib.idle_test.test_autocomplete", _Py_M__idlelib_idle_test_test_autocomplete, (int)sizeof(_Py_M__idlelib_idle_test_test_autocomplete), false},
+    {"idlelib.idle_test.test_autocomplete_w", _Py_M__idlelib_idle_test_test_autocomplete_w, (int)sizeof(_Py_M__idlelib_idle_test_test_autocomplete_w), false},
+    {"idlelib.idle_test.test_autoexpand", _Py_M__idlelib_idle_test_test_autoexpand, (int)sizeof(_Py_M__idlelib_idle_test_test_autoexpand), false},
+    {"idlelib.idle_test.test_browser", _Py_M__idlelib_idle_test_test_browser, (int)sizeof(_Py_M__idlelib_idle_test_test_browser), false},
+    {"idlelib.idle_test.test_calltip", _Py_M__idlelib_idle_test_test_calltip, (int)sizeof(_Py_M__idlelib_idle_test_test_calltip), false},
+    {"idlelib.idle_test.test_calltip_w", _Py_M__idlelib_idle_test_test_calltip_w, (int)sizeof(_Py_M__idlelib_idle_test_test_calltip_w), false},
+    {"idlelib.idle_test.test_codecontext", _Py_M__idlelib_idle_test_test_codecontext, (int)sizeof(_Py_M__idlelib_idle_test_test_codecontext), false},
+    {"idlelib.idle_test.test_colorizer", _Py_M__idlelib_idle_test_test_colorizer, (int)sizeof(_Py_M__idlelib_idle_test_test_colorizer), false},
+    {"idlelib.idle_test.test_config", _Py_M__idlelib_idle_test_test_config, (int)sizeof(_Py_M__idlelib_idle_test_test_config), false},
+    {"idlelib.idle_test.test_config_key", _Py_M__idlelib_idle_test_test_config_key, (int)sizeof(_Py_M__idlelib_idle_test_test_config_key), false},
+    {"idlelib.idle_test.test_configdialog", _Py_M__idlelib_idle_test_test_configdialog, (int)sizeof(_Py_M__idlelib_idle_test_test_configdialog), false},
+    {"idlelib.idle_test.test_debugger", _Py_M__idlelib_idle_test_test_debugger, (int)sizeof(_Py_M__idlelib_idle_test_test_debugger), false},
+    {"idlelib.idle_test.test_debugger_r", _Py_M__idlelib_idle_test_test_debugger_r, (int)sizeof(_Py_M__idlelib_idle_test_test_debugger_r), false},
+    {"idlelib.idle_test.test_debugobj", _Py_M__idlelib_idle_test_test_debugobj, (int)sizeof(_Py_M__idlelib_idle_test_test_debugobj), false},
+    {"idlelib.idle_test.test_debugobj_r", _Py_M__idlelib_idle_test_test_debugobj_r, (int)sizeof(_Py_M__idlelib_idle_test_test_debugobj_r), false},
+    {"idlelib.idle_test.test_delegator", _Py_M__idlelib_idle_test_test_delegator, (int)sizeof(_Py_M__idlelib_idle_test_test_delegator), false},
+    {"idlelib.idle_test.test_editmenu", _Py_M__idlelib_idle_test_test_editmenu, (int)sizeof(_Py_M__idlelib_idle_test_test_editmenu), false},
+    {"idlelib.idle_test.test_editor", _Py_M__idlelib_idle_test_test_editor, (int)sizeof(_Py_M__idlelib_idle_test_test_editor), false},
+    {"idlelib.idle_test.test_filelist", _Py_M__idlelib_idle_test_test_filelist, (int)sizeof(_Py_M__idlelib_idle_test_test_filelist), false},
+    {"idlelib.idle_test.test_format", _Py_M__idlelib_idle_test_test_format, (int)sizeof(_Py_M__idlelib_idle_test_test_format), false},
+    {"idlelib.idle_test.test_grep", _Py_M__idlelib_idle_test_test_grep, (int)sizeof(_Py_M__idlelib_idle_test_test_grep), false},
+    {"idlelib.idle_test.test_help", _Py_M__idlelib_idle_test_test_help, (int)sizeof(_Py_M__idlelib_idle_test_test_help), false},
+    {"idlelib.idle_test.test_help_about", _Py_M__idlelib_idle_test_test_help_about, (int)sizeof(_Py_M__idlelib_idle_test_test_help_about), false},
+    {"idlelib.idle_test.test_history", _Py_M__idlelib_idle_test_test_history, (int)sizeof(_Py_M__idlelib_idle_test_test_history), false},
+    {"idlelib.idle_test.test_hyperparser", _Py_M__idlelib_idle_test_test_hyperparser, (int)sizeof(_Py_M__idlelib_idle_test_test_hyperparser), false},
+    {"idlelib.idle_test.test_iomenu", _Py_M__idlelib_idle_test_test_iomenu, (int)sizeof(_Py_M__idlelib_idle_test_test_iomenu), false},
+    {"idlelib.idle_test.test_macosx", _Py_M__idlelib_idle_test_test_macosx, (int)sizeof(_Py_M__idlelib_idle_test_test_macosx), false},
+    {"idlelib.idle_test.test_mainmenu", _Py_M__idlelib_idle_test_test_mainmenu, (int)sizeof(_Py_M__idlelib_idle_test_test_mainmenu), false},
+    {"idlelib.idle_test.test_multicall", _Py_M__idlelib_idle_test_test_multicall, (int)sizeof(_Py_M__idlelib_idle_test_test_multicall), false},
+    {"idlelib.idle_test.test_outwin", _Py_M__idlelib_idle_test_test_outwin, (int)sizeof(_Py_M__idlelib_idle_test_test_outwin), false},
+    {"idlelib.idle_test.test_parenmatch", _Py_M__idlelib_idle_test_test_parenmatch, (int)sizeof(_Py_M__idlelib_idle_test_test_parenmatch), false},
+    {"idlelib.idle_test.test_pathbrowser", _Py_M__idlelib_idle_test_test_pathbrowser, (int)sizeof(_Py_M__idlelib_idle_test_test_pathbrowser), false},
+    {"idlelib.idle_test.test_percolator", _Py_M__idlelib_idle_test_test_percolator, (int)sizeof(_Py_M__idlelib_idle_test_test_percolator), false},
+    {"idlelib.idle_test.test_pyparse", _Py_M__idlelib_idle_test_test_pyparse, (int)sizeof(_Py_M__idlelib_idle_test_test_pyparse), false},
+    {"idlelib.idle_test.test_pyshell", _Py_M__idlelib_idle_test_test_pyshell, (int)sizeof(_Py_M__idlelib_idle_test_test_pyshell), false},
+    {"idlelib.idle_test.test_query", _Py_M__idlelib_idle_test_test_query, (int)sizeof(_Py_M__idlelib_idle_test_test_query), false},
+    {"idlelib.idle_test.test_redirector", _Py_M__idlelib_idle_test_test_redirector, (int)sizeof(_Py_M__idlelib_idle_test_test_redirector), false},
+    {"idlelib.idle_test.test_replace", _Py_M__idlelib_idle_test_test_replace, (int)sizeof(_Py_M__idlelib_idle_test_test_replace), false},
+    {"idlelib.idle_test.test_rpc", _Py_M__idlelib_idle_test_test_rpc, (int)sizeof(_Py_M__idlelib_idle_test_test_rpc), false},
+    {"idlelib.idle_test.test_run", _Py_M__idlelib_idle_test_test_run, (int)sizeof(_Py_M__idlelib_idle_test_test_run), false},
+    {"idlelib.idle_test.test_runscript", _Py_M__idlelib_idle_test_test_runscript, (int)sizeof(_Py_M__idlelib_idle_test_test_runscript), false},
+    {"idlelib.idle_test.test_scrolledlist", _Py_M__idlelib_idle_test_test_scrolledlist, (int)sizeof(_Py_M__idlelib_idle_test_test_scrolledlist), false},
+    {"idlelib.idle_test.test_search", _Py_M__idlelib_idle_test_test_search, (int)sizeof(_Py_M__idlelib_idle_test_test_search), false},
+    {"idlelib.idle_test.test_searchbase", _Py_M__idlelib_idle_test_test_searchbase, (int)sizeof(_Py_M__idlelib_idle_test_test_searchbase), false},
+    {"idlelib.idle_test.test_searchengine", _Py_M__idlelib_idle_test_test_searchengine, (int)sizeof(_Py_M__idlelib_idle_test_test_searchengine), false},
+    {"idlelib.idle_test.test_sidebar", _Py_M__idlelib_idle_test_test_sidebar, (int)sizeof(_Py_M__idlelib_idle_test_test_sidebar), false},
+    {"idlelib.idle_test.test_squeezer", _Py_M__idlelib_idle_test_test_squeezer, (int)sizeof(_Py_M__idlelib_idle_test_test_squeezer), false},
+    {"idlelib.idle_test.test_stackviewer", _Py_M__idlelib_idle_test_test_stackviewer, (int)sizeof(_Py_M__idlelib_idle_test_test_stackviewer), false},
+    {"idlelib.idle_test.test_statusbar", _Py_M__idlelib_idle_test_test_statusbar, (int)sizeof(_Py_M__idlelib_idle_test_test_statusbar), false},
+    {"idlelib.idle_test.test_text", _Py_M__idlelib_idle_test_test_text, (int)sizeof(_Py_M__idlelib_idle_test_test_text), false},
+    {"idlelib.idle_test.test_textview", _Py_M__idlelib_idle_test_test_textview, (int)sizeof(_Py_M__idlelib_idle_test_test_textview), false},
+    {"idlelib.idle_test.test_tooltip", _Py_M__idlelib_idle_test_test_tooltip, (int)sizeof(_Py_M__idlelib_idle_test_test_tooltip), false},
+    {"idlelib.idle_test.test_tree", _Py_M__idlelib_idle_test_test_tree, (int)sizeof(_Py_M__idlelib_idle_test_test_tree), false},
+    {"idlelib.idle_test.test_undo", _Py_M__idlelib_idle_test_test_undo, (int)sizeof(_Py_M__idlelib_idle_test_test_undo), false},
+    {"idlelib.idle_test.test_util", _Py_M__idlelib_idle_test_test_util, (int)sizeof(_Py_M__idlelib_idle_test_test_util), false},
+    {"idlelib.idle_test.test_warning", _Py_M__idlelib_idle_test_test_warning, (int)sizeof(_Py_M__idlelib_idle_test_test_warning), false},
+    {"idlelib.idle_test.test_window", _Py_M__idlelib_idle_test_test_window, (int)sizeof(_Py_M__idlelib_idle_test_test_window), false},
+    {"idlelib.idle_test.test_zoomheight", _Py_M__idlelib_idle_test_test_zoomheight, (int)sizeof(_Py_M__idlelib_idle_test_test_zoomheight), false},
+    {"idlelib.idle_test.test_zzdummy", _Py_M__idlelib_idle_test_test_zzdummy, (int)sizeof(_Py_M__idlelib_idle_test_test_zzdummy), false},
+    {"idlelib.idle_test.tkinter_testing_utils", _Py_M__idlelib_idle_test_tkinter_testing_utils, (int)sizeof(_Py_M__idlelib_idle_test_tkinter_testing_utils), false},
+    {"idlelib.iomenu", _Py_M__idlelib_iomenu, (int)sizeof(_Py_M__idlelib_iomenu), false},
+    {"idlelib.macosx", _Py_M__idlelib_macosx, (int)sizeof(_Py_M__idlelib_macosx), false},
+    {"idlelib.mainmenu", _Py_M__idlelib_mainmenu, (int)sizeof(_Py_M__idlelib_mainmenu), false},
+    {"idlelib.multicall", _Py_M__idlelib_multicall, (int)sizeof(_Py_M__idlelib_multicall), false},
+    {"idlelib.outwin", _Py_M__idlelib_outwin, (int)sizeof(_Py_M__idlelib_outwin), false},
+    {"idlelib.parenmatch", _Py_M__idlelib_parenmatch, (int)sizeof(_Py_M__idlelib_parenmatch), false},
+    {"idlelib.pathbrowser", _Py_M__idlelib_pathbrowser, (int)sizeof(_Py_M__idlelib_pathbrowser), false},
+    {"idlelib.percolator", _Py_M__idlelib_percolator, (int)sizeof(_Py_M__idlelib_percolator), false},
+    {"idlelib.pyparse", _Py_M__idlelib_pyparse, (int)sizeof(_Py_M__idlelib_pyparse), false},
+    {"idlelib.pyshell", _Py_M__idlelib_pyshell, (int)sizeof(_Py_M__idlelib_pyshell), false},
+    {"idlelib.query", _Py_M__idlelib_query, (int)sizeof(_Py_M__idlelib_query), false},
+    {"idlelib.redirector", _Py_M__idlelib_redirector, (int)sizeof(_Py_M__idlelib_redirector), false},
+    {"idlelib.replace", _Py_M__idlelib_replace, (int)sizeof(_Py_M__idlelib_replace), false},
+    {"idlelib.rpc", _Py_M__idlelib_rpc, (int)sizeof(_Py_M__idlelib_rpc), false},
+    {"idlelib.run", _Py_M__idlelib_run, (int)sizeof(_Py_M__idlelib_run), false},
+    {"idlelib.runscript", _Py_M__idlelib_runscript, (int)sizeof(_Py_M__idlelib_runscript), false},
+    {"idlelib.scrolledlist", _Py_M__idlelib_scrolledlist, (int)sizeof(_Py_M__idlelib_scrolledlist), false},
+    {"idlelib.search", _Py_M__idlelib_search, (int)sizeof(_Py_M__idlelib_search), false},
+    {"idlelib.searchbase", _Py_M__idlelib_searchbase, (int)sizeof(_Py_M__idlelib_searchbase), false},
+    {"idlelib.searchengine", _Py_M__idlelib_searchengine, (int)sizeof(_Py_M__idlelib_searchengine), false},
+    {"idlelib.sidebar", _Py_M__idlelib_sidebar, (int)sizeof(_Py_M__idlelib_sidebar), false},
+    {"idlelib.squeezer", _Py_M__idlelib_squeezer, (int)sizeof(_Py_M__idlelib_squeezer), false},
+    {"idlelib.stackviewer", _Py_M__idlelib_stackviewer, (int)sizeof(_Py_M__idlelib_stackviewer), false},
+    {"idlelib.statusbar", _Py_M__idlelib_statusbar, (int)sizeof(_Py_M__idlelib_statusbar), false},
+    {"idlelib.textview", _Py_M__idlelib_textview, (int)sizeof(_Py_M__idlelib_textview), false},
+    {"idlelib.tooltip", _Py_M__idlelib_tooltip, (int)sizeof(_Py_M__idlelib_tooltip), false},
+    {"idlelib.tree", _Py_M__idlelib_tree, (int)sizeof(_Py_M__idlelib_tree), false},
+    {"idlelib.undo", _Py_M__idlelib_undo, (int)sizeof(_Py_M__idlelib_undo), false},
+    {"idlelib.util", _Py_M__idlelib_util, (int)sizeof(_Py_M__idlelib_util), false},
+    {"idlelib.window", _Py_M__idlelib_window, (int)sizeof(_Py_M__idlelib_window), false},
+    {"idlelib.zoomheight", _Py_M__idlelib_zoomheight, (int)sizeof(_Py_M__idlelib_zoomheight), false},
+    {"idlelib.zzdummy", _Py_M__idlelib_zzdummy, (int)sizeof(_Py_M__idlelib_zzdummy), false},
+    {"imaplib", _Py_M__imaplib, (int)sizeof(_Py_M__imaplib), false},
+    {"importlib", _Py_M__importlib, (int)sizeof(_Py_M__importlib), true},
+    {"importlib.__init__", _Py_M__importlib, (int)sizeof(_Py_M__importlib), false},
+    {"importlib._abc", _Py_M__importlib__abc, (int)sizeof(_Py_M__importlib__abc), false},
+    {"importlib.abc", _Py_M__importlib_abc, (int)sizeof(_Py_M__importlib_abc), false},
+    {"importlib.machinery", _Py_M__importlib_machinery, (int)sizeof(_Py_M__importlib_machinery), false},
+    {"importlib.metadata", _Py_M__importlib_metadata, (int)sizeof(_Py_M__importlib_metadata), true},
+    {"importlib.metadata.__init__", _Py_M__importlib_metadata, (int)sizeof(_Py_M__importlib_metadata), false},
+    {"importlib.metadata._adapters", _Py_M__importlib_metadata__adapters, (int)sizeof(_Py_M__importlib_metadata__adapters), false},
+    {"importlib.metadata._collections", _Py_M__importlib_metadata__collections, (int)sizeof(_Py_M__importlib_metadata__collections), false},
+    {"importlib.metadata._functools", _Py_M__importlib_metadata__functools, (int)sizeof(_Py_M__importlib_metadata__functools), false},
+    {"importlib.metadata._itertools", _Py_M__importlib_metadata__itertools, (int)sizeof(_Py_M__importlib_metadata__itertools), false},
+    {"importlib.metadata._meta", _Py_M__importlib_metadata__meta, (int)sizeof(_Py_M__importlib_metadata__meta), false},
+    {"importlib.metadata._text", _Py_M__importlib_metadata__text, (int)sizeof(_Py_M__importlib_metadata__text), false},
+    {"importlib.metadata.diagnose", _Py_M__importlib_metadata_diagnose, (int)sizeof(_Py_M__importlib_metadata_diagnose), false},
+    {"importlib.readers", _Py_M__importlib_readers, (int)sizeof(_Py_M__importlib_readers), false},
+    {"importlib.resources", _Py_M__importlib_resources, (int)sizeof(_Py_M__importlib_resources), true},
+    {"importlib.resources.__init__", _Py_M__importlib_resources, (int)sizeof(_Py_M__importlib_resources), false},
+    {"importlib.resources._adapters", _Py_M__importlib_resources__adapters, (int)sizeof(_Py_M__importlib_resources__adapters), false},
+    {"importlib.resources._common", _Py_M__importlib_resources__common, (int)sizeof(_Py_M__importlib_resources__common), false},
+    {"importlib.resources._functional", _Py_M__importlib_resources__functional, (int)sizeof(_Py_M__importlib_resources__functional), false},
+    {"importlib.resources._itertools", _Py_M__importlib_resources__itertools, (int)sizeof(_Py_M__importlib_resources__itertools), false},
+    {"importlib.resources.abc", _Py_M__importlib_resources_abc, (int)sizeof(_Py_M__importlib_resources_abc), false},
+    {"importlib.resources.readers", _Py_M__importlib_resources_readers, (int)sizeof(_Py_M__importlib_resources_readers), false},
+    {"importlib.resources.simple", _Py_M__importlib_resources_simple, (int)sizeof(_Py_M__importlib_resources_simple), false},
+    {"importlib.simple", _Py_M__importlib_simple, (int)sizeof(_Py_M__importlib_simple), false},
+    {"importlib.util", _Py_M__importlib_util, (int)sizeof(_Py_M__importlib_util), false},
+    {"inspect", _Py_M__inspect, (int)sizeof(_Py_M__inspect), false},
+    {"", _Py_M__io, (int)sizeof(_Py_M__io), false},
+    {"ipaddress", _Py_M__ipaddress, (int)sizeof(_Py_M__ipaddress), false},
+    {"json", _Py_M__json, (int)sizeof(_Py_M__json), true},
+    {"json.__init__", _Py_M__json, (int)sizeof(_Py_M__json), false},
+    {"json.decoder", _Py_M__json_decoder, (int)sizeof(_Py_M__json_decoder), false},
+    {"json.encoder", _Py_M__json_encoder, (int)sizeof(_Py_M__json_encoder), false},
+    {"json.scanner", _Py_M__json_scanner, (int)sizeof(_Py_M__json_scanner), false},
+    {"json.tool", _Py_M__json_tool, (int)sizeof(_Py_M__json_tool), false},
+    {"keyword", _Py_M__keyword, (int)sizeof(_Py_M__keyword), false},
+    {"linecache", _Py_M__linecache, (int)sizeof(_Py_M__linecache), false},
+    {"locale", _Py_M__locale, (int)sizeof(_Py_M__locale), false},
+    {"logging", _Py_M__logging, (int)sizeof(_Py_M__logging), true},
+    {"logging.__init__", _Py_M__logging, (int)sizeof(_Py_M__logging), false},
+    {"logging.config", _Py_M__logging_config, (int)sizeof(_Py_M__logging_config), false},
+    {"logging.handlers", _Py_M__logging_handlers, (int)sizeof(_Py_M__logging_handlers), false},
+    {"lzma", _Py_M__lzma, (int)sizeof(_Py_M__lzma), false},
+    {"mailbox", _Py_M__mailbox, (int)sizeof(_Py_M__mailbox), false},
+    {"mimetypes", _Py_M__mimetypes, (int)sizeof(_Py_M__mimetypes), false},
+    {"modulefinder", _Py_M__modulefinder, (int)sizeof(_Py_M__modulefinder), false},
+    {"multiprocessing", _Py_M__multiprocessing, (int)sizeof(_Py_M__multiprocessing), true},
+    {"multiprocessing.__init__", _Py_M__multiprocessing, (int)sizeof(_Py_M__multiprocessing), false},
+    {"multiprocessing.connection", _Py_M__multiprocessing_connection, (int)sizeof(_Py_M__multiprocessing_connection), false},
+    {"multiprocessing.context", _Py_M__multiprocessing_context, (int)sizeof(_Py_M__multiprocessing_context), false},
+    {"multiprocessing.dummy", _Py_M__multiprocessing_dummy, (int)sizeof(_Py_M__multiprocessing_dummy), true},
+    {"multiprocessing.dummy.__init__", _Py_M__multiprocessing_dummy, (int)sizeof(_Py_M__multiprocessing_dummy), false},
+    {"multiprocessing.dummy.connection", _Py_M__multiprocessing_dummy_connection, (int)sizeof(_Py_M__multiprocessing_dummy_connection), false},
+    {"multiprocessing.forkserver", _Py_M__multiprocessing_forkserver, (int)sizeof(_Py_M__multiprocessing_forkserver), false},
+    {"multiprocessing.heap", _Py_M__multiprocessing_heap, (int)sizeof(_Py_M__multiprocessing_heap), false},
+    {"multiprocessing.managers", _Py_M__multiprocessing_managers, (int)sizeof(_Py_M__multiprocessing_managers), false},
+    {"multiprocessing.pool", _Py_M__multiprocessing_pool, (int)sizeof(_Py_M__multiprocessing_pool), false},
+    {"multiprocessing.popen_fork", _Py_M__multiprocessing_popen_fork, (int)sizeof(_Py_M__multiprocessing_popen_fork), false},
+    {"multiprocessing.popen_forkserver", _Py_M__multiprocessing_popen_forkserver, (int)sizeof(_Py_M__multiprocessing_popen_forkserver), false},
+    {"multiprocessing.popen_spawn_posix", _Py_M__multiprocessing_popen_spawn_posix, (int)sizeof(_Py_M__multiprocessing_popen_spawn_posix), false},
+    {"multiprocessing.popen_spawn_win32", _Py_M__multiprocessing_popen_spawn_win32, (int)sizeof(_Py_M__multiprocessing_popen_spawn_win32), false},
+    {"multiprocessing.process", _Py_M__multiprocessing_process, (int)sizeof(_Py_M__multiprocessing_process), false},
+    {"multiprocessing.queues", _Py_M__multiprocessing_queues, (int)sizeof(_Py_M__multiprocessing_queues), false},
+    {"multiprocessing.reduction", _Py_M__multiprocessing_reduction, (int)sizeof(_Py_M__multiprocessing_reduction), false},
+    {"multiprocessing.resource_sharer", _Py_M__multiprocessing_resource_sharer, (int)sizeof(_Py_M__multiprocessing_resource_sharer), false},
+    {"multiprocessing.resource_tracker", _Py_M__multiprocessing_resource_tracker, (int)sizeof(_Py_M__multiprocessing_resource_tracker), false},
+    {"multiprocessing.shared_memory", _Py_M__multiprocessing_shared_memory, (int)sizeof(_Py_M__multiprocessing_shared_memory), false},
+    {"multiprocessing.sharedctypes", _Py_M__multiprocessing_sharedctypes, (int)sizeof(_Py_M__multiprocessing_sharedctypes), false},
+    {"multiprocessing.spawn", _Py_M__multiprocessing_spawn, (int)sizeof(_Py_M__multiprocessing_spawn), false},
+    {"multiprocessing.synchronize", _Py_M__multiprocessing_synchronize, (int)sizeof(_Py_M__multiprocessing_synchronize), false},
+    {"multiprocessing.util", _Py_M__multiprocessing_util, (int)sizeof(_Py_M__multiprocessing_util), false},
+    {"netrc", _Py_M__netrc, (int)sizeof(_Py_M__netrc), false},
+    {"", _Py_M__ntpath, (int)sizeof(_Py_M__ntpath), false},
+    {"nturl2path", _Py_M__nturl2path, (int)sizeof(_Py_M__nturl2path), false},
+    {"numbers", _Py_M__numbers, (int)sizeof(_Py_M__numbers), false},
+    {"opcode", _Py_M__opcode, (int)sizeof(_Py_M__opcode), false},
+    {"operator", _Py_M__operator, (int)sizeof(_Py_M__operator), false},
+    {"optparse", _Py_M__optparse, (int)sizeof(_Py_M__optparse), false},
+    {"", _Py_M__os, (int)sizeof(_Py_M__os), false},
+    {"pathlib", _Py_M__pathlib, (int)sizeof(_Py_M__pathlib), true},
+    {"pathlib.__init__", _Py_M__pathlib, (int)sizeof(_Py_M__pathlib), false},
+    {"pathlib._abc", _Py_M__pathlib__abc, (int)sizeof(_Py_M__pathlib__abc), false},
+    {"pathlib._local", _Py_M__pathlib__local, (int)sizeof(_Py_M__pathlib__local), false},
+    {"pathlib._os", _Py_M__pathlib__os, (int)sizeof(_Py_M__pathlib__os), false},
+    {"pdb", _Py_M__pdb, (int)sizeof(_Py_M__pdb), false},
+    {"pickle", _Py_M__pickle, (int)sizeof(_Py_M__pickle), false},
+    {"pickletools", _Py_M__pickletools, (int)sizeof(_Py_M__pickletools), false},
+    {"pkgutil", _Py_M__pkgutil, (int)sizeof(_Py_M__pkgutil), false},
+    {"platform", _Py_M__platform, (int)sizeof(_Py_M__platform), false},
+    {"plistlib", _Py_M__plistlib, (int)sizeof(_Py_M__plistlib), false},
+    {"poplib", _Py_M__poplib, (int)sizeof(_Py_M__poplib), false},
+    {"", _Py_M__posixpath, (int)sizeof(_Py_M__posixpath), false},
+    {"pprint", _Py_M__pprint, (int)sizeof(_Py_M__pprint), false},
+    {"profile", _Py_M__profile, (int)sizeof(_Py_M__profile), false},
+    {"pstats", _Py_M__pstats, (int)sizeof(_Py_M__pstats), false},
+    {"pty", _Py_M__pty, (int)sizeof(_Py_M__pty), false},
+    {"pyclbr", _Py_M__pyclbr, (int)sizeof(_Py_M__pyclbr), false},
+    {"pydoc", _Py_M__pydoc, (int)sizeof(_Py_M__pydoc), false},
+    {"pydoc_data", _Py_M__pydoc_data, (int)sizeof(_Py_M__pydoc_data), true},
+    {"pydoc_data.__init__", _Py_M__pydoc_data, (int)sizeof(_Py_M__pydoc_data), false},
+    {"pydoc_data.topics", _Py_M__pydoc_data_topics, (int)sizeof(_Py_M__pydoc_data_topics), false},
+    {"py_compile", _Py_M__py_compile, (int)sizeof(_Py_M__py_compile), false},
+    {"queue", _Py_M__queue, (int)sizeof(_Py_M__queue), false},
+    {"quopri", _Py_M__quopri, (int)sizeof(_Py_M__quopri), false},
+    {"random", _Py_M__random, (int)sizeof(_Py_M__random), false},
+    {"re", _Py_M__re, (int)sizeof(_Py_M__re), true},
+    {"re.__init__", _Py_M__re, (int)sizeof(_Py_M__re), false},
+    {"re._casefix", _Py_M__re__casefix, (int)sizeof(_Py_M__re__casefix), false},
+    {"re._compiler", _Py_M__re__compiler, (int)sizeof(_Py_M__re__compiler), false},
+    {"re._constants", _Py_M__re__constants, (int)sizeof(_Py_M__re__constants), false},
+    {"re._parser", _Py_M__re__parser, (int)sizeof(_Py_M__re__parser), false},
+    {"reprlib", _Py_M__reprlib, (int)sizeof(_Py_M__reprlib), false},
+    {"rlcompleter", _Py_M__rlcompleter, (int)sizeof(_Py_M__rlcompleter), false},
+    {"", _Py_M__runpy, (int)sizeof(_Py_M__runpy), false},
+    {"sched", _Py_M__sched, (int)sizeof(_Py_M__sched), false},
+    {"secrets", _Py_M__secrets, (int)sizeof(_Py_M__secrets), false},
+    {"selectors", _Py_M__selectors, (int)sizeof(_Py_M__selectors), false},
+    {"shelve", _Py_M__shelve, (int)sizeof(_Py_M__shelve), false},
+    {"shlex", _Py_M__shlex, (int)sizeof(_Py_M__shlex), false},
+    {"shutil", _Py_M__shutil, (int)sizeof(_Py_M__shutil), false},
+    {"signal", _Py_M__signal, (int)sizeof(_Py_M__signal), false},
+    {"", _Py_M__site, (int)sizeof(_Py_M__site), false},
+    {"smtplib", _Py_M__smtplib, (int)sizeof(_Py_M__smtplib), false},
+    {"socket", _Py_M__socket, (int)sizeof(_Py_M__socket), false},
+    {"socketserver", _Py_M__socketserver, (int)sizeof(_Py_M__socketserver), false},
+    {"sqlite3", _Py_M__sqlite3, (int)sizeof(_Py_M__sqlite3), true},
+    {"sqlite3.__init__", _Py_M__sqlite3, (int)sizeof(_Py_M__sqlite3), false},
+    {"sqlite3.__main__", _Py_M__sqlite3___main__, (int)sizeof(_Py_M__sqlite3___main__), false},
+    {"sqlite3.dbapi2", _Py_M__sqlite3_dbapi2, (int)sizeof(_Py_M__sqlite3_dbapi2), false},
+    {"sqlite3.dump", _Py_M__sqlite3_dump, (int)sizeof(_Py_M__sqlite3_dump), false},
+    {"sre_compile", _Py_M__sre_compile, (int)sizeof(_Py_M__sre_compile), false},
+    {"sre_constants", _Py_M__sre_constants, (int)sizeof(_Py_M__sre_constants), false},
+    {"sre_parse", _Py_M__sre_parse, (int)sizeof(_Py_M__sre_parse), false},
+    {"ssl", _Py_M__ssl, (int)sizeof(_Py_M__ssl), false},
+    {"", _Py_M__stat, (int)sizeof(_Py_M__stat), false},
+    {"statistics", _Py_M__statistics, (int)sizeof(_Py_M__statistics), false},
+    {"string", _Py_M__string, (int)sizeof(_Py_M__string), false},
+    {"stringprep", _Py_M__stringprep, (int)sizeof(_Py_M__stringprep), false},
+    {"struct", _Py_M__struct, (int)sizeof(_Py_M__struct), false},
+    {"subprocess", _Py_M__subprocess, (int)sizeof(_Py_M__subprocess), false},
+    {"symtable", _Py_M__symtable, (int)sizeof(_Py_M__symtable), false},
+    {"sysconfig", _Py_M__sysconfig, (int)sizeof(_Py_M__sysconfig), true},
+    {"sysconfig.__init__", _Py_M__sysconfig, (int)sizeof(_Py_M__sysconfig), false},
+    {"sysconfig.__main__", _Py_M__sysconfig___main__, (int)sizeof(_Py_M__sysconfig___main__), false},
+    {"tabnanny", _Py_M__tabnanny, (int)sizeof(_Py_M__tabnanny), false},
+    {"tarfile", _Py_M__tarfile, (int)sizeof(_Py_M__tarfile), false},
+    {"tempfile", _Py_M__tempfile, (int)sizeof(_Py_M__tempfile), false},
+    {"textwrap", _Py_M__textwrap, (int)sizeof(_Py_M__textwrap), false},
+    {"this", _Py_M__this, (int)sizeof(_Py_M__this), false},
+    {"threading", _Py_M__threading, (int)sizeof(_Py_M__threading), false},
+    {"timeit", _Py_M__timeit, (int)sizeof(_Py_M__timeit), false},
+    {"tkinter", _Py_M__tkinter, (int)sizeof(_Py_M__tkinter), true},
+    {"tkinter.__init__", _Py_M__tkinter, (int)sizeof(_Py_M__tkinter), false},
+    {"tkinter.__main__", _Py_M__tkinter___main__, (int)sizeof(_Py_M__tkinter___main__), false},
+    {"tkinter.colorchooser", _Py_M__tkinter_colorchooser, (int)sizeof(_Py_M__tkinter_colorchooser), false},
+    {"tkinter.commondialog", _Py_M__tkinter_commondialog, (int)sizeof(_Py_M__tkinter_commondialog), false},
+    {"tkinter.constants", _Py_M__tkinter_constants, (int)sizeof(_Py_M__tkinter_constants), false},
+    {"tkinter.dialog", _Py_M__tkinter_dialog, (int)sizeof(_Py_M__tkinter_dialog), false},
+    {"tkinter.dnd", _Py_M__tkinter_dnd, (int)sizeof(_Py_M__tkinter_dnd), false},
+    {"tkinter.filedialog", _Py_M__tkinter_filedialog, (int)sizeof(_Py_M__tkinter_filedialog), false},
+    {"tkinter.font", _Py_M__tkinter_font, (int)sizeof(_Py_M__tkinter_font), false},
+    {"tkinter.messagebox", _Py_M__tkinter_messagebox, (int)sizeof(_Py_M__tkinter_messagebox), false},
+    {"tkinter.scrolledtext", _Py_M__tkinter_scrolledtext, (int)sizeof(_Py_M__tkinter_scrolledtext), false},
+    {"tkinter.simpledialog", _Py_M__tkinter_simpledialog, (int)sizeof(_Py_M__tkinter_simpledialog), false},
+    {"tkinter.ttk", _Py_M__tkinter_ttk, (int)sizeof(_Py_M__tkinter_ttk), false},
+    {"token", _Py_M__token, (int)sizeof(_Py_M__token), false},
+    {"tokenize", _Py_M__tokenize, (int)sizeof(_Py_M__tokenize), false},
+    {"tomllib", _Py_M__tomllib, (int)sizeof(_Py_M__tomllib), true},
+    {"tomllib.__init__", _Py_M__tomllib, (int)sizeof(_Py_M__tomllib), false},
+    {"tomllib._parser", _Py_M__tomllib__parser, (int)sizeof(_Py_M__tomllib__parser), false},
+    {"tomllib._re", _Py_M__tomllib__re, (int)sizeof(_Py_M__tomllib__re), false},
+    {"tomllib._types", _Py_M__tomllib__types, (int)sizeof(_Py_M__tomllib__types), false},
+    {"trace", _Py_M__trace, (int)sizeof(_Py_M__trace), false},
+    {"traceback", _Py_M__traceback, (int)sizeof(_Py_M__traceback), false},
+    {"tracemalloc", _Py_M__tracemalloc, (int)sizeof(_Py_M__tracemalloc), false},
+    {"tty", _Py_M__tty, (int)sizeof(_Py_M__tty), false},
+    {"turtle", _Py_M__turtle, (int)sizeof(_Py_M__turtle), false},
+    {"turtledemo", _Py_M__turtledemo, (int)sizeof(_Py_M__turtledemo), true},
+    {"turtledemo.__init__", _Py_M__turtledemo, (int)sizeof(_Py_M__turtledemo), false},
+    {"turtledemo.__main__", _Py_M__turtledemo___main__, (int)sizeof(_Py_M__turtledemo___main__), false},
+    {"turtledemo.bytedesign", _Py_M__turtledemo_bytedesign, (int)sizeof(_Py_M__turtledemo_bytedesign), false},
+    {"turtledemo.chaos", _Py_M__turtledemo_chaos, (int)sizeof(_Py_M__turtledemo_chaos), false},
+    {"turtledemo.clock", _Py_M__turtledemo_clock, (int)sizeof(_Py_M__turtledemo_clock), false},
+    {"turtledemo.colormixer", _Py_M__turtledemo_colormixer, (int)sizeof(_Py_M__turtledemo_colormixer), false},
+    {"turtledemo.forest", _Py_M__turtledemo_forest, (int)sizeof(_Py_M__turtledemo_forest), false},
+    {"turtledemo.fractalcurves", _Py_M__turtledemo_fractalcurves, (int)sizeof(_Py_M__turtledemo_fractalcurves), false},
+    {"turtledemo.lindenmayer", _Py_M__turtledemo_lindenmayer, (int)sizeof(_Py_M__turtledemo_lindenmayer), false},
+    {"turtledemo.minimal_hanoi", _Py_M__turtledemo_minimal_hanoi, (int)sizeof(_Py_M__turtledemo_minimal_hanoi), false},
+    {"turtledemo.nim", _Py_M__turtledemo_nim, (int)sizeof(_Py_M__turtledemo_nim), false},
+    {"turtledemo.paint", _Py_M__turtledemo_paint, (int)sizeof(_Py_M__turtledemo_paint), false},
+    {"turtledemo.peace", _Py_M__turtledemo_peace, (int)sizeof(_Py_M__turtledemo_peace), false},
+    {"turtledemo.penrose", _Py_M__turtledemo_penrose, (int)sizeof(_Py_M__turtledemo_penrose), false},
+    {"turtledemo.planet_and_moon", _Py_M__turtledemo_planet_and_moon, (int)sizeof(_Py_M__turtledemo_planet_and_moon), false},
+    {"turtledemo.rosette", _Py_M__turtledemo_rosette, (int)sizeof(_Py_M__turtledemo_rosette), false},
+    {"turtledemo.round_dance", _Py_M__turtledemo_round_dance, (int)sizeof(_Py_M__turtledemo_round_dance), false},
+    {"turtledemo.sorting_animate", _Py_M__turtledemo_sorting_animate, (int)sizeof(_Py_M__turtledemo_sorting_animate), false},
+    {"turtledemo.tree", _Py_M__turtledemo_tree, (int)sizeof(_Py_M__turtledemo_tree), false},
+    {"turtledemo.two_canvases", _Py_M__turtledemo_two_canvases, (int)sizeof(_Py_M__turtledemo_two_canvases), false},
+    {"turtledemo.yinyang", _Py_M__turtledemo_yinyang, (int)sizeof(_Py_M__turtledemo_yinyang), false},
+    {"types", _Py_M__types, (int)sizeof(_Py_M__types), false},
+    {"typing", _Py_M__typing, (int)sizeof(_Py_M__typing), false},
+    {"unittest", _Py_M__unittest, (int)sizeof(_Py_M__unittest), true},
+    {"unittest.__init__", _Py_M__unittest, (int)sizeof(_Py_M__unittest), false},
+    {"unittest.__main__", _Py_M__unittest___main__, (int)sizeof(_Py_M__unittest___main__), false},
+    {"unittest._log", _Py_M__unittest__log, (int)sizeof(_Py_M__unittest__log), false},
+    {"unittest.async_case", _Py_M__unittest_async_case, (int)sizeof(_Py_M__unittest_async_case), false},
+    {"unittest.case", _Py_M__unittest_case, (int)sizeof(_Py_M__unittest_case), false},
+    {"unittest.loader", _Py_M__unittest_loader, (int)sizeof(_Py_M__unittest_loader), false},
+    {"unittest.main", _Py_M__unittest_main, (int)sizeof(_Py_M__unittest_main), false},
+    {"unittest.mock", _Py_M__unittest_mock, (int)sizeof(_Py_M__unittest_mock), false},
+    {"unittest.result", _Py_M__unittest_result, (int)sizeof(_Py_M__unittest_result), false},
+    {"unittest.runner", _Py_M__unittest_runner, (int)sizeof(_Py_M__unittest_runner), false},
+    {"unittest.signals", _Py_M__unittest_signals, (int)sizeof(_Py_M__unittest_signals), false},
+    {"unittest.suite", _Py_M__unittest_suite, (int)sizeof(_Py_M__unittest_suite), false},
+    {"unittest.util", _Py_M__unittest_util, (int)sizeof(_Py_M__unittest_util), false},
+    {"urllib", _Py_M__urllib, (int)sizeof(_Py_M__urllib), true},
+    {"urllib.__init__", _Py_M__urllib, (int)sizeof(_Py_M__urllib), false},
+    {"urllib.error", _Py_M__urllib_error, (int)sizeof(_Py_M__urllib_error), false},
+    {"urllib.parse", _Py_M__urllib_parse, (int)sizeof(_Py_M__urllib_parse), false},
+    {"urllib.request", _Py_M__urllib_request, (int)sizeof(_Py_M__urllib_request), false},
+    {"urllib.response", _Py_M__urllib_response, (int)sizeof(_Py_M__urllib_response), false},
+    {"urllib.robotparser", _Py_M__urllib_robotparser, (int)sizeof(_Py_M__urllib_robotparser), false},
+    {"uuid", _Py_M__uuid, (int)sizeof(_Py_M__uuid), false},
+    {"venv", _Py_M__venv, (int)sizeof(_Py_M__venv), true},
+    {"venv.__init__", _Py_M__venv, (int)sizeof(_Py_M__venv), false},
+    {"venv.__main__", _Py_M__venv___main__, (int)sizeof(_Py_M__venv___main__), false},
+    {"warnings", _Py_M__warnings, (int)sizeof(_Py_M__warnings), false},
+    {"wave", _Py_M__wave, (int)sizeof(_Py_M__wave), false},
+    {"weakref", _Py_M__weakref, (int)sizeof(_Py_M__weakref), false},
+    {"webbrowser", _Py_M__webbrowser, (int)sizeof(_Py_M__webbrowser), false},
+    {"wsgiref", _Py_M__wsgiref, (int)sizeof(_Py_M__wsgiref), true},
+    {"wsgiref.__init__", _Py_M__wsgiref, (int)sizeof(_Py_M__wsgiref), false},
+    {"wsgiref.handlers", _Py_M__wsgiref_handlers, (int)sizeof(_Py_M__wsgiref_handlers), false},
+    {"wsgiref.headers", _Py_M__wsgiref_headers, (int)sizeof(_Py_M__wsgiref_headers), false},
+    {"wsgiref.simple_server", _Py_M__wsgiref_simple_server, (int)sizeof(_Py_M__wsgiref_simple_server), false},
+    {"wsgiref.types", _Py_M__wsgiref_types, (int)sizeof(_Py_M__wsgiref_types), false},
+    {"wsgiref.util", _Py_M__wsgiref_util, (int)sizeof(_Py_M__wsgiref_util), false},
+    {"wsgiref.validate", _Py_M__wsgiref_validate, (int)sizeof(_Py_M__wsgiref_validate), false},
+    {"xml", _Py_M__xml, (int)sizeof(_Py_M__xml), true},
+    {"xml.__init__", _Py_M__xml, (int)sizeof(_Py_M__xml), false},
+    {"xml.dom", _Py_M__xml_dom, (int)sizeof(_Py_M__xml_dom), true},
+    {"xml.dom.NodeFilter", _Py_M__xml_dom_NodeFilter, (int)sizeof(_Py_M__xml_dom_NodeFilter), false},
+    {"xml.dom.__init__", _Py_M__xml_dom, (int)sizeof(_Py_M__xml_dom), false},
+    {"xml.dom.domreg", _Py_M__xml_dom_domreg, (int)sizeof(_Py_M__xml_dom_domreg), false},
+    {"xml.dom.expatbuilder", _Py_M__xml_dom_expatbuilder, (int)sizeof(_Py_M__xml_dom_expatbuilder), false},
+    {"xml.dom.minicompat", _Py_M__xml_dom_minicompat, (int)sizeof(_Py_M__xml_dom_minicompat), false},
+    {"xml.dom.minidom", _Py_M__xml_dom_minidom, (int)sizeof(_Py_M__xml_dom_minidom), false},
+    {"xml.dom.pulldom", _Py_M__xml_dom_pulldom, (int)sizeof(_Py_M__xml_dom_pulldom), false},
+    {"xml.dom.xmlbuilder", _Py_M__xml_dom_xmlbuilder, (int)sizeof(_Py_M__xml_dom_xmlbuilder), false},
+    {"xml.etree", _Py_M__xml_etree, (int)sizeof(_Py_M__xml_etree), true},
+    {"xml.etree.ElementInclude", _Py_M__xml_etree_ElementInclude, (int)sizeof(_Py_M__xml_etree_ElementInclude), false},
+    {"xml.etree.ElementPath", _Py_M__xml_etree_ElementPath, (int)sizeof(_Py_M__xml_etree_ElementPath), false},
+    {"xml.etree.ElementTree", _Py_M__xml_etree_ElementTree, (int)sizeof(_Py_M__xml_etree_ElementTree), false},
+    {"xml.etree.__init__", _Py_M__xml_etree, (int)sizeof(_Py_M__xml_etree), false},
+    {"xml.etree.cElementTree", _Py_M__xml_etree_cElementTree, (int)sizeof(_Py_M__xml_etree_cElementTree), false},
+    {"xml.parsers", _Py_M__xml_parsers, (int)sizeof(_Py_M__xml_parsers), true},
+    {"xml.parsers.__init__", _Py_M__xml_parsers, (int)sizeof(_Py_M__xml_parsers), false},
+    {"xml.parsers.expat", _Py_M__xml_parsers_expat, (int)sizeof(_Py_M__xml_parsers_expat), false},
+    {"xml.sax", _Py_M__xml_sax, (int)sizeof(_Py_M__xml_sax), true},
+    {"xml.sax.__init__", _Py_M__xml_sax, (int)sizeof(_Py_M__xml_sax), false},
+    {"xml.sax._exceptions", _Py_M__xml_sax__exceptions, (int)sizeof(_Py_M__xml_sax__exceptions), false},
+    {"xml.sax.expatreader", _Py_M__xml_sax_expatreader, (int)sizeof(_Py_M__xml_sax_expatreader), false},
+    {"xml.sax.handler", _Py_M__xml_sax_handler, (int)sizeof(_Py_M__xml_sax_handler), false},
+    {"xml.sax.saxutils", _Py_M__xml_sax_saxutils, (int)sizeof(_Py_M__xml_sax_saxutils), false},
+    {"xml.sax.xmlreader", _Py_M__xml_sax_xmlreader, (int)sizeof(_Py_M__xml_sax_xmlreader), false},
+    {"xmlrpc", _Py_M__xmlrpc, (int)sizeof(_Py_M__xmlrpc), true},
+    {"xmlrpc.__init__", _Py_M__xmlrpc, (int)sizeof(_Py_M__xmlrpc), false},
+    {"xmlrpc.client", _Py_M__xmlrpc_client, (int)sizeof(_Py_M__xmlrpc_client), false},
+    {"xmlrpc.server", _Py_M__xmlrpc_server, (int)sizeof(_Py_M__xmlrpc_server), false},
+    {"zipapp", _Py_M__zipapp, (int)sizeof(_Py_M__zipapp), false},
+    {"zipfile", _Py_M__zipfile, (int)sizeof(_Py_M__zipfile), true},
+    {"zipfile.__init__", _Py_M__zipfile, (int)sizeof(_Py_M__zipfile), false},
+    {"zipfile.__main__", _Py_M__zipfile___main__, (int)sizeof(_Py_M__zipfile___main__), false},
+    {"zipfile._path", _Py_M__zipfile__path, (int)sizeof(_Py_M__zipfile__path), true},
+    {"zipfile._path.__init__", _Py_M__zipfile__path, (int)sizeof(_Py_M__zipfile__path), false},
+    {"zipfile._path.glob", _Py_M__zipfile__path_glob, (int)sizeof(_Py_M__zipfile__path_glob), false},
+    {"zoneinfo", _Py_M__zoneinfo, (int)sizeof(_Py_M__zoneinfo), true},
+    {"zoneinfo.__init__", _Py_M__zoneinfo, (int)sizeof(_Py_M__zoneinfo), false},
+    {"zoneinfo._common", _Py_M__zoneinfo__common, (int)sizeof(_Py_M__zoneinfo__common), false},
+    {"zoneinfo._tzpath", _Py_M__zoneinfo__tzpath, (int)sizeof(_Py_M__zoneinfo__tzpath), false},
+    {"zoneinfo._zoneinfo", _Py_M__zoneinfo__zoneinfo, (int)sizeof(_Py_M__zoneinfo__zoneinfo), false},
+    {"_aix_support", _Py_M___aix_support, (int)sizeof(_Py_M___aix_support), false},
+    {"_android_support", _Py_M___android_support, (int)sizeof(_Py_M___android_support), false},
+    {"", _Py_M___collections_abc, (int)sizeof(_Py_M___collections_abc), false},
+    {"_colorize", _Py_M___colorize, (int)sizeof(_Py_M___colorize), false},
+    {"_compat_pickle", _Py_M___compat_pickle, (int)sizeof(_Py_M___compat_pickle), false},
+    {"_compression", _Py_M___compression, (int)sizeof(_Py_M___compression), false},
+    {"_ios_support", _Py_M___ios_support, (int)sizeof(_Py_M___ios_support), false},
+    {"_markupbase", _Py_M___markupbase, (int)sizeof(_Py_M___markupbase), false},
+    {"_opcode_metadata", _Py_M___opcode_metadata, (int)sizeof(_Py_M___opcode_metadata), false},
+    {"_osx_support", _Py_M___osx_support, (int)sizeof(_Py_M___osx_support), false},
+    {"_pydatetime", _Py_M___pydatetime, (int)sizeof(_Py_M___pydatetime), false},
+    {"_pydecimal", _Py_M___pydecimal, (int)sizeof(_Py_M___pydecimal), false},
+    {"_pyio", _Py_M___pyio, (int)sizeof(_Py_M___pyio), false},
+    {"_pylong", _Py_M___pylong, (int)sizeof(_Py_M___pylong), false},
+    {"_pyrepl", _Py_M___pyrepl, (int)sizeof(_Py_M___pyrepl), true},
+    {"_pyrepl.__init__", _Py_M___pyrepl, (int)sizeof(_Py_M___pyrepl), false},
+    {"_pyrepl.__main__", _Py_M___pyrepl___main__, (int)sizeof(_Py_M___pyrepl___main__), false},
+    {"_pyrepl._minimal_curses", _Py_M___pyrepl__minimal_curses, (int)sizeof(_Py_M___pyrepl__minimal_curses), false},
+    {"_pyrepl.commands", _Py_M___pyrepl_commands, (int)sizeof(_Py_M___pyrepl_commands), false},
+    {"_pyrepl.completing_reader", _Py_M___pyrepl_completing_reader, (int)sizeof(_Py_M___pyrepl_completing_reader), false},
+    {"_pyrepl.console", _Py_M___pyrepl_console, (int)sizeof(_Py_M___pyrepl_console), false},
+    {"_pyrepl.curses", _Py_M___pyrepl_curses, (int)sizeof(_Py_M___pyrepl_curses), false},
+    {"_pyrepl.fancy_termios", _Py_M___pyrepl_fancy_termios, (int)sizeof(_Py_M___pyrepl_fancy_termios), false},
+    {"_pyrepl.historical_reader", _Py_M___pyrepl_historical_reader, (int)sizeof(_Py_M___pyrepl_historical_reader), false},
+    {"_pyrepl.input", _Py_M___pyrepl_input, (int)sizeof(_Py_M___pyrepl_input), false},
+    {"_pyrepl.keymap", _Py_M___pyrepl_keymap, (int)sizeof(_Py_M___pyrepl_keymap), false},
+    {"_pyrepl.main", _Py_M___pyrepl_main, (int)sizeof(_Py_M___pyrepl_main), false},
+    {"_pyrepl.pager", _Py_M___pyrepl_pager, (int)sizeof(_Py_M___pyrepl_pager), false},
+    {"_pyrepl.reader", _Py_M___pyrepl_reader, (int)sizeof(_Py_M___pyrepl_reader), false},
+    {"_pyrepl.readline", _Py_M___pyrepl_readline, (int)sizeof(_Py_M___pyrepl_readline), false},
+    {"_pyrepl.simple_interact", _Py_M___pyrepl_simple_interact, (int)sizeof(_Py_M___pyrepl_simple_interact), false},
+    {"_pyrepl.trace", _Py_M___pyrepl_trace, (int)sizeof(_Py_M___pyrepl_trace), false},
+    {"_pyrepl.types", _Py_M___pyrepl_types, (int)sizeof(_Py_M___pyrepl_types), false},
+    {"_pyrepl.unix_console", _Py_M___pyrepl_unix_console, (int)sizeof(_Py_M___pyrepl_unix_console), false},
+    {"_pyrepl.unix_eventqueue", _Py_M___pyrepl_unix_eventqueue, (int)sizeof(_Py_M___pyrepl_unix_eventqueue), false},
+    {"_pyrepl.utils", _Py_M___pyrepl_utils, (int)sizeof(_Py_M___pyrepl_utils), false},
+    {"_pyrepl.windows_console", _Py_M___pyrepl_windows_console, (int)sizeof(_Py_M___pyrepl_windows_console), false},
+    {"_py_abc", _Py_M___py_abc, (int)sizeof(_Py_M___py_abc), false},
+    {"", _Py_M___sitebuiltins, (int)sizeof(_Py_M___sitebuiltins), false},
+    {"_strptime", _Py_M___strptime, (int)sizeof(_Py_M___strptime), false},
+    {"_threading_local", _Py_M___threading_local, (int)sizeof(_Py_M___threading_local), false},
+    {"_weakrefset", _Py_M___weakrefset, (int)sizeof(_Py_M___weakrefset), false},
+    {"__future__", _Py_M____future__, (int)sizeof(_Py_M____future__), false},
+    {"", _Py_M____hello__, (int)sizeof(_Py_M____hello__), false},
+    {"__phello__", _Py_M____phello__, (int)sizeof(_Py_M____phello__), true},
+    {"__phello__.__init__", _Py_M____phello__, (int)sizeof(_Py_M____phello__), false},
+    {"__phello__.ham", _Py_M____phello___ham, (int)sizeof(_Py_M____phello___ham), true},
+    {"__phello__.ham.__init__", _Py_M____phello___ham, (int)sizeof(_Py_M____phello___ham), false},
+    {"__phello__.ham.eggs", _Py_M____phello___ham_eggs, (int)sizeof(_Py_M____phello___ham_eggs), false},
+    {"__phello__.spam", _Py_M____phello___spam, (int)sizeof(_Py_M____phello___spam), false},
     {0, 0, 0} /* stdlib sentinel */
 };
 static const struct _frozen test_modules[] = {
@@ -123,6 +1542,67 @@ static const struct _module_alias aliases[] = {
     {"__phello__.__init__", "<__phello__"},
     {"__phello__.ham.__init__", "<__phello__.ham"},
     {"__hello_only__", NULL},
+    {"", "abc"},
+    {"asyncio.__init__", "<asyncio"},
+    {"", "codecs"},
+    {"collections.__init__", "<collections"},
+    {"concurrent.__init__", "<concurrent"},
+    {"concurrent.futures.__init__", "<concurrent.futures"},
+    {"ctypes.__init__", "<ctypes"},
+    {"ctypes.macholib.__init__", "<ctypes.macholib"},
+    {"curses.__init__", "<curses"},
+    {"dbm.__init__", "<dbm"},
+    {"email.__init__", "<email"},
+    {"email.mime.__init__", "<email.mime"},
+    {"encodings.__init__", "<encodings"},
+    {"ensurepip.__init__", "<ensurepip"},
+    {"", "genericpath"},
+    {"html.__init__", "<html"},
+    {"http.__init__", "<http"},
+    {"idlelib.__init__", "<idlelib"},
+    {"idlelib.idle_test.__init__", "<idlelib.idle_test"},
+    {"importlib.__init__", "<importlib"},
+    {"importlib.metadata.__init__", "<importlib.metadata"},
+    {"importlib.resources.__init__", "<importlib.resources"},
+    {"", "io"},
+    {"json.__init__", "<json"},
+    {"logging.__init__", "<logging"},
+    {"multiprocessing.__init__", "<multiprocessing"},
+    {"multiprocessing.dummy.__init__", "<multiprocessing.dummy"},
+    {"", "ntpath"},
+    {"", "os"},
+    {"pathlib.__init__", "<pathlib"},
+    {"", "posixpath"},
+    {"pydoc_data.__init__", "<pydoc_data"},
+    {"re.__init__", "<re"},
+    {"", "runpy"},
+    {"", "site"},
+    {"sqlite3.__init__", "<sqlite3"},
+    {"", "stat"},
+    {"sysconfig.__init__", "<sysconfig"},
+    {"tkinter.__init__", "<tkinter"},
+    {"tomllib.__init__", "<tomllib"},
+    {"turtledemo.__init__", "<turtledemo"},
+    {"unittest.__init__", "<unittest"},
+    {"urllib.__init__", "<urllib"},
+    {"venv.__init__", "<venv"},
+    {"wsgiref.__init__", "<wsgiref"},
+    {"xml.__init__", "<xml"},
+    {"xml.dom.__init__", "<xml.dom"},
+    {"xml.etree.__init__", "<xml.etree"},
+    {"xml.parsers.__init__", "<xml.parsers"},
+    {"xml.sax.__init__", "<xml.sax"},
+    {"xmlrpc.__init__", "<xmlrpc"},
+    {"zipfile.__init__", "<zipfile"},
+    {"zipfile._path.__init__", "<zipfile._path"},
+    {"", "zipimport"},
+    {"zoneinfo.__init__", "<zoneinfo"},
+    {"", "_collections_abc"},
+    {"_pyrepl.__init__", "<_pyrepl"},
+    {"", "_sitebuiltins"},
+    {"", "__hello__"},
+    {"__phello__.__init__", "<__phello__"},
+    {"__phello__.ham.__init__", "<__phello__.ham"},
     {0, 0} /* aliases sentinel */
 };
 const struct _module_alias *_PyImport_FrozenAliases = aliases;
